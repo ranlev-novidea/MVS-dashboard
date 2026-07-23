@@ -1,4 +1,6 @@
 name: Refresh Dashboard Daily
+permissions:
+  contents: write
 
 on:
   schedule:
