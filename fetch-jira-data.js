@@ -41,12 +41,17 @@ async function fetchJiraData() {
   console.log('Fetching Jira data...');
   
   try {
+    // Build JQL query with proper encoding
+    const jql = `project = MVS AND sprint in (openSprints()) AND status in ("Queue", "In Development", "Failed QA", "Pause")`;
+    const params = new URLSearchParams({
+      jql: jql,
+      fields: 'summary,status,timeoriginalestimate,assignee,parent,priority',
+      maxResults: '100'
+    });
+
     // Fetch sprint tickets
     const ticketsResponse = await makeRequest(
-      `/ex/jira/${JIRA_CLOUD_ID}/rest/api/3/search?` +
-      `jql=project=MVS AND sprint in (openSprints()) AND status in ("Queue", "In Development", "Failed QA", "Pause")` +
-      `&fields=summary,status,timeoriginalestimate,assignee,parent,priority` +
-      `&maxResults=100`
+      `/ex/jira/${JIRA_CLOUD_ID}/rest/api/3/search?${params.toString()}`
     );
 
     // Fetch parent epic names
