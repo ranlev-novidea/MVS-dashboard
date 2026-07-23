@@ -33,13 +33,9 @@ function makeRequest(hostname, path, method = 'GET', body = null) {
       let data = '';
       res.on('data', (chunk) => { data += chunk; });
       res.on('end', () => {
-        console.log(`API Response Status: ${res.statusCode}`);
         if (res.statusCode === 200) {
           try {
-            const parsed = JSON.parse(data);
-            console.log('Raw response keys:', Object.keys(parsed));
-            console.log('Full response:', JSON.stringify(parsed, null, 2));
-            resolve(parsed);
+            resolve(JSON.parse(data));
           } catch (e) {
             reject(new Error(`Failed to parse JSON: ${e.message}`));
           }
@@ -59,14 +55,12 @@ async function fetchJiraData() {
   console.log('Fetching Jira data...');
   
   try {
-    //const jql = `project = MVS AND sprint in (openSprints())`;
+   // const jql = `project = MVS AND sprint in (openSprints())`;
     const jql = `project = MVS AND sprint in (openSprints()) AND status in ("Queue", "In Development", "Failed QA", "Pause")`;
-    console.log(`Using JQL: ${jql}`);
-    
     const searchBody = JSON.stringify({
       jql: jql,
       fields: ['summary', 'status', 'timeoriginalestimate', 'assignee', 'parent', 'priority'],
-      maxResults: 50
+      maxResults: 100
     });
 
     console.log('Making API request...');
@@ -77,8 +71,43 @@ async function fetchJiraData() {
       searchBody
     );
 
+    console.log(`API returned ${response.issues ? response.issues.length : 0} issues`);
+
+    // Process tickets
+    let tickets = [];
+    if (response.issues && Array.isArray(response.issues)) {
+      tickets = response.issues.map(issue => {
+        const parent = issue.fields.parent;
+        const parentKey = parent && parent.key ? parent.key : null;
+        const effort = (issue.fields.timeoriginalestimate || 0) / 3600;
+        const assignee = issue.fields.assignee;
+        const priority = issue.fields.priority;
+        const status = issue.fields.status;
+
+        return {
+          key: issue.key,
+          parent: parentKey,
+          parentName: parentKey || null,
+          priority: priority ? priority.name : 'None',
+          status: status ? status.name : 'Unknown',
+          effort: Math.round(effort * 100) / 100,
+          assignee: assignee ? assignee.displayName : null
+        };
+      });
+    }
+
+    console.log(`Processed ${tickets.length} tickets`);
+
+    fs.writeFileSync('data.json', JSON.stringify({
+      lastUpdated: new Date().toISOString(),
+      totalTickets: tickets.length,
+      tickets: tickets
+    }, null, 2));
+
+    console.log(`✓ Successfully fetched and saved ${tickets.length} tickets`);
+
   } catch (error) {
-    console.error('Error:', error.message);
+    console.error('Error fetching Jira data:', error.message);
     process.exit(1);
   }
 }
