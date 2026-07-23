@@ -9,7 +9,12 @@ if (!JIRA_CLOUD_ID || !JIRA_API_TOKEN) {
   process.exit(1);
 }
 
-const auth = Buffer.from(`${JIRA_API_TOKEN}`).toString('base64');
+const JIRA_EMAIL = process.env.JIRA_EMAIL;
+if (!JIRA_EMAIL || !JIRA_API_TOKEN) {
+  console.error('Error: JIRA_EMAIL and JIRA_API_TOKEN environment variables are required');
+  process.exit(1);
+}
+const auth = Buffer.from(`${JIRA_EMAIL}:${JIRA_API_TOKEN}`).toString('base64');
 
 function makeRequest(path) {
   return new Promise((resolve, reject) => {
