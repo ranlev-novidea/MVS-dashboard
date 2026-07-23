@@ -12,19 +12,24 @@ if (!JIRA_CLOUD_ID || !JIRA_EMAIL || !JIRA_API_TOKEN) {
 
 const auth = Buffer.from(`${JIRA_EMAIL}:${JIRA_API_TOKEN}`).toString('base64');
 
-function makeRequest(hostname, path) {
+function makeRequest(hostname, path, method = 'GET', body = null) {
   return new Promise((resolve, reject) => {
     const options = {
       hostname: hostname,
       path: path,
-      method: 'GET',
+      method: method,
       headers: {
         'Authorization': `Basic ${auth}`,
-        'Accept': 'application/json'
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
       }
     };
 
-    https.get(options, (res) => {
+    if (body) {
+      options.headers['Content-Length'] = Buffer.byteLength(body);
+    }
+
+    const req = https.request(options, (res) => {
       let data = '';
       res.on('data', (chunk) => { data += chunk; });
       res.on('end', () => {
@@ -34,7 +39,11 @@ function makeRequest(hostname, path) {
           reject(new Error(`HTTP ${res.statusCode}: ${data}`));
         }
       });
-    }).on('error', reject);
+    });
+
+    req.on('error', reject);
+    if (body) req.write(body);
+    req.end();
   });
 }
 
@@ -42,18 +51,19 @@ async function fetchJiraData() {
   console.log('Fetching Jira data...');
   
   try {
-    // Build JQL query with proper encoding
+    // Use new /rest/api/3/search/jql endpoint with POST
     const jql = `project = MVS AND sprint in (openSprints()) AND status in ("Queue", "In Development", "Failed QA", "Pause")`;
-    const params = new URLSearchParams({
+    const searchBody = JSON.stringify({
       jql: jql,
-      fields: 'summary,status,timeoriginalestimate,assignee,parent,priority',
-      maxResults: '100'
+      fields: ['summary', 'status', 'timeoriginalestimate', 'assignee', 'parent', 'priority'],
+      maxResults: 100
     });
 
-    // Fetch sprint tickets using new API endpoint
     const ticketsResponse = await makeRequest(
       'novidea.atlassian.net',
-      `/rest/api/3/search?${params.toString()}`
+      '/rest/api/3/search/jql',
+      'POST',
+      searchBody
     );
 
     // Fetch parent epic names
