@@ -1,27 +1,5 @@
 {
-  "lastUpdated": "2024-01-01T09:00:00Z",
-  "totalTickets": 21,
-  "tickets": [
-    { "key": "MVS-3775", "parent": "MVS-757", "parentName": "IFN תיוק קבצים", "priority": "3 - Medium", "status": "Queue", "effort": 2, "assignee": null },
-    { "key": "MVS-3756", "parent": "MVS-2990", "parentName": "החזרת צעד", "priority": "2 - High", "status": "In Development", "effort": 6, "assignee": "Ariel Ozer" },
-    { "key": "MVS-3753", "parent": "MVS-2990", "parentName": "החזרת צעד", "priority": "2 - High", "status": "Queue", "effort": 7.04, "assignee": null },
-    { "key": "MVS-3751", "parent": "MVS-2990", "parentName": "החזרת צעד", "priority": "2 - High", "status": "In Development", "effort": 7.04, "assignee": "Jonathan Ashkenazy" },
-    { "key": "MVS-3741", "parent": "MVS-50", "parentName": "תשתית", "priority": "3 - Medium", "status": "Queue", "effort": 16, "assignee": null },
-    { "key": "MVS-3739", "parent": null, "parentName": "No Parent", "priority": "3 - Medium", "status": "Queue", "effort": 4.96, "assignee": null },
-    { "key": "MVS-3738", "parent": "MVS-50", "parentName": "תשתית", "priority": "3 - Medium", "status": "Queue", "effort": 3.04, "assignee": null },
-    { "key": "MVS-3700", "parent": "MVS-1581", "parentName": "ERD תיקונים", "priority": "3 - Medium", "status": "Queue", "effort": 2.48, "assignee": null },
-    { "key": "MVS-3687", "parent": "MVS-110", "parentName": "תהליך תפעול הצעה", "priority": "3 - Medium", "status": "Queue", "effort": 5, "assignee": null },
-    { "key": "MVS-3684", "parent": "MVS-1725", "parentName": "הכנת כלים לאדמין", "priority": "4 - Low", "status": "Queue", "effort": 8, "assignee": "Shira Sapir Halili" },
-    { "key": "MVS-3680", "parent": "MVS-315", "parentName": "בקרה מול יצרן", "priority": "3 - Medium", "status": "In Development", "effort": 5.52, "assignee": "Idan Abutbul" },
-    { "key": "MVS-3452", "parent": "MVS-2222", "parentName": "שינוי סוג מבוטח", "priority": "2 - High", "status": "Failed QA", "effort": 38, "assignee": "Jonathan Ashkenazy" },
-    { "key": "MVS-3353", "parent": "MVS-315", "parentName": "בקרה מול יצרן", "priority": "3 - Medium", "status": "Queue", "effort": 6, "assignee": null },
-    { "key": "MVS-3352", "parent": "MVS-315", "parentName": "בקרה מול יצרן", "priority": "3 - Medium", "status": "Queue", "effort": 4, "assignee": null },
-    { "key": "MVS-3348", "parent": "MVS-315", "parentName": "בקרה מול יצרן", "priority": "3 - Medium", "status": "Queue", "effort": 12, "assignee": null },
-    { "key": "MVS-3304", "parent": "MVS-315", "parentName": "בקרה מול יצרן", "priority": "3 - Medium", "status": "In Development", "effort": 3.52, "assignee": "Idan Abutbul" },
-    { "key": "MVS-3180", "parent": "MVS-315", "parentName": "בקרה מול יצרן", "priority": "3 - Medium", "status": "Queue", "effort": 4.96, "assignee": null },
-    { "key": "MVS-3502", "parent": "MVS-50", "parentName": "תשתית", "priority": "4 - Low", "status": "Pause", "effort": 3.04, "assignee": "Dorin Nicola" },
-    { "key": "MVS-2897", "parent": "MVS-2990", "parentName": "החזרת צעד", "priority": "2 - High", "status": "Pause", "effort": 3, "assignee": "Shira Sapir Halili" },
-    { "key": "MVS-2714", "parent": "MVS-110", "parentName": "תהליך תפעול הצעה", "priority": "3 - Medium", "status": "Queue", "effort": 1.52, "assignee": "Shira Sapir Halili" },
-    { "key": "MVS-1698", "parent": "MVS-1725", "parentName": "הכנת כלים לאדמין", "priority": "4 - Low", "status": "In Development", "effort": 8, "assignee": "Idan Abutbul" }
-  ]
+  "lastUpdated": "2026-07-23T19:19:15.628Z",
+  "totalTickets": 0,
+  "tickets": []
 }
