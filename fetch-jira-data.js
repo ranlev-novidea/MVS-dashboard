@@ -55,8 +55,8 @@ async function fetchJiraData() {
   console.log('Fetching Jira data...');
   
   try {
-   // const jql = `project = MVS AND sprint in (openSprints())`;
     const jql = `project = MVS AND sprint in (openSprints()) AND status in ("Queue", "In Development", "Failed QA", "Pause")`;
+    
     const searchBody = JSON.stringify({
       jql: jql,
       fields: ['summary', 'status', 'timeoriginalestimate', 'assignee', 'parent', 'priority'],
@@ -73,6 +73,34 @@ async function fetchJiraData() {
 
     console.log(`API returned ${response.issues ? response.issues.length : 0} issues`);
 
+    // Fetch parent epic names
+    const parentIds = new Set();
+    if (response.issues && Array.isArray(response.issues)) {
+      response.issues.forEach(issue => {
+        const parent = issue.fields.parent;
+        if (parent && parent.key) {
+          parentIds.add(parent.key);
+        }
+      });
+    }
+
+    console.log(`Found ${parentIds.size} unique parent epics`);
+
+    const parentNames = {};
+    for (const parentId of parentIds) {
+      try {
+        const parentResponse = await makeRequest(
+          'novidea.atlassian.net',
+          `/rest/api/3/issue/${parentId}?fields=summary`
+        );
+        parentNames[parentId] = parentResponse.fields.summary;
+        console.log(`Fetched name for ${parentId}: ${parentResponse.fields.summary}`);
+      } catch (e) {
+        console.warn(`Could not fetch parent ${parentId}: ${e.message}`);
+        parentNames[parentId] = parentId;
+      }
+    }
+
     // Process tickets
     let tickets = [];
     if (response.issues && Array.isArray(response.issues)) {
@@ -87,7 +115,7 @@ async function fetchJiraData() {
         return {
           key: issue.key,
           parent: parentKey,
-          parentName: parentKey || null,
+          parentName: parentKey ? (parentNames[parentKey] || parentKey) : null,
           priority: priority ? priority.name : 'None',
           status: status ? status.name : 'Unknown',
           effort: Math.round(effort * 100) / 100,
