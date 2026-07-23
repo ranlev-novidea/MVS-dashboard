@@ -1,5 +1,168 @@
 {
-  "lastUpdated": "2026-07-23T19:31:59.855Z",
-  "totalTickets": 0,
-  "tickets": []
+  "lastUpdated": "2026-07-23T19:51:57.878Z",
+  "totalTickets": 18,
+  "tickets": [
+    {
+      "key": "MVS-3775",
+      "parent": "MVS-757",
+      "parentName": "MVS-757",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3753",
+      "parent": "MVS-2990",
+      "parentName": "MVS-2990",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 7.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3751",
+      "parent": "MVS-2990",
+      "parentName": "MVS-2990",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 7.04,
+      "assignee": "Jonathan Ashkenazy"
+    },
+    {
+      "key": "MVS-3741",
+      "parent": "MVS-50",
+      "parentName": "MVS-50",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 16,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3739",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3738",
+      "parent": "MVS-50",
+      "parentName": "MVS-50",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 3.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3700",
+      "parent": "MVS-1581",
+      "parentName": "MVS-1581",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3687",
+      "parent": "MVS-110",
+      "parentName": "MVS-110",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 5,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3684",
+      "parent": "MVS-1725",
+      "parentName": "MVS-1725",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 16,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3502",
+      "parent": "MVS-50",
+      "parentName": "MVS-50",
+      "priority": "4 - Low",
+      "status": "Pause",
+      "effort": 3.04,
+      "assignee": "Dorin Nicola"
+    },
+    {
+      "key": "MVS-3452",
+      "parent": "MVS-2222",
+      "parentName": "MVS-2222",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 38,
+      "assignee": "Jonathan Ashkenazy"
+    },
+    {
+      "key": "MVS-3353",
+      "parent": "MVS-315",
+      "parentName": "MVS-315",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 6,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3352",
+      "parent": "MVS-315",
+      "parentName": "MVS-315",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3348",
+      "parent": "MVS-315",
+      "parentName": "MVS-315",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 12,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3180",
+      "parent": "MVS-315",
+      "parentName": "MVS-315",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-2897",
+      "parent": "MVS-2990",
+      "parentName": "MVS-2990",
+      "priority": "2 - High",
+      "status": "Pause",
+      "effort": 6,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-2714",
+      "parent": "MVS-110",
+      "parentName": "MVS-110",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 3.04,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-1698",
+      "parent": "MVS-1725",
+      "parentName": "MVS-1725",
+      "priority": "4 - Low",
+      "status": "In Development",
+      "effort": 8,
+      "assignee": "Idan Abutbul"
+    }
+  ]
 }
