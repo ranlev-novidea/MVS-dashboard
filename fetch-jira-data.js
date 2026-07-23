@@ -33,8 +33,13 @@ function makeRequest(hostname, path, method = 'GET', body = null) {
       let data = '';
       res.on('data', (chunk) => { data += chunk; });
       res.on('end', () => {
+        console.log(`API Response Status: ${res.statusCode}`);
         if (res.statusCode === 200) {
-          resolve(JSON.parse(data));
+          try {
+            resolve(JSON.parse(data));
+          } catch (e) {
+            reject(new Error(`Failed to parse JSON: ${e.message}`));
+          }
         } else {
           reject(new Error(`HTTP ${res.statusCode}: ${data}`));
         }
@@ -51,15 +56,17 @@ async function fetchJiraData() {
   console.log('Fetching Jira data...');
   
   try {
-    // Use new /rest/api/3/search/jql endpoint with POST
-    //const jql = `project = MVS AND sprint in (openSprints()) AND status in ("Queue", "In Development", "Failed QA", "Pause")`;
-    const jql = `project = MVS AND updated >= -7d ORDER BY updated DESC`;
+    // Simple test query
+    const jql = `project = MVS`;
+    console.log(`Using JQL: ${jql}`);
+    
     const searchBody = JSON.stringify({
       jql: jql,
       fields: ['summary', 'status', 'timeoriginalestimate', 'assignee', 'parent', 'priority'],
-      maxResults: 100
+      maxResults: 50
     });
 
+    console.log('Making API request...');
     const ticketsResponse = await makeRequest(
       'novidea.atlassian.net',
       '/rest/api/3/search/jql',
@@ -67,30 +74,20 @@ async function fetchJiraData() {
       searchBody
     );
 
-    // Fetch parent epic names
-    const parentIds = new Set();
-    ticketsResponse.issues.forEach(issue => {
-      const parent = issue.fields.parent;
-      if (parent && parent.key) {
-        parentIds.add(parent.key);
-      }
-    });
+    console.log(`Total issues found: ${ticketsResponse.total}`);
+    console.log(`Issues in response: ${ticketsResponse.issues ? ticketsResponse.issues.length : 0}`);
 
-    const parentNames = {};
-    for (const parentId of parentIds) {
-      try {
-        const parentResponse = await makeRequest(
-          'novidea.atlassian.net',
-          `/rest/api/3/issue/${parentId}?fields=summary`
-        );
-        parentNames[parentId] = parentResponse.fields.summary;
-      } catch (e) {
-        console.warn(`Could not fetch parent ${parentId}: ${e.message}`);
-        parentNames[parentId] = parentId;
-      }
+    if (!ticketsResponse.issues || ticketsResponse.issues.length === 0) {
+      console.log('No issues found!');
+      fs.writeFileSync('data.json', JSON.stringify({
+        lastUpdated: new Date().toISOString(),
+        totalTickets: 0,
+        tickets: []
+      }, null, 2));
+      return;
     }
 
-    // Process and transform data
+    // Rest of the code...
     const tickets = ticketsResponse.issues.map(issue => {
       const parent = issue.fields.parent;
       const parentKey = parent && parent.key ? parent.key : null;
@@ -101,7 +98,7 @@ async function fetchJiraData() {
       return {
         key: issue.key,
         parent: parentKey,
-        parentName: parentKey ? (parentNames[parentKey] || parentKey) : null,
+        parentName: parentKey || null,
         priority: priority ? priority.name : 'None',
         status: issue.fields.status.name,
         effort: Math.round(effort * 100) / 100,
@@ -109,16 +106,13 @@ async function fetchJiraData() {
       };
     });
 
-    // Save data to file
-    const data = {
+    fs.writeFileSync('data.json', JSON.stringify({
       lastUpdated: new Date().toISOString(),
       totalTickets: tickets.length,
       tickets: tickets
-    };
+    }, null, 2));
 
-    fs.writeFileSync('data.json', JSON.stringify(data, null, 2));
     console.log(`✓ Successfully fetched and saved ${tickets.length} tickets`);
-    console.log(`✓ Last updated: ${data.lastUpdated}`);
 
   } catch (error) {
     console.error('Error fetching Jira data:', error.message);
