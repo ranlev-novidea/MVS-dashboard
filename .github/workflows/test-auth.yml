@@ -1,0 +1,23 @@
+name: Test Jira Auth
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4.1.7
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v4.0.3
+      with:
+        node-version: '24'
+    
+    - name: Test Jira authentication
+      env:
+        JIRA_CLOUD_ID: ${{ secrets.JIRA_CLOUD_ID }}
+        JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+        JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+      run: node test-jira-auth.js
