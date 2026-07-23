@@ -12,10 +12,10 @@ if (!JIRA_CLOUD_ID || !JIRA_EMAIL || !JIRA_API_TOKEN) {
 
 const auth = Buffer.from(`${JIRA_EMAIL}:${JIRA_API_TOKEN}`).toString('base64');
 
-function makeRequest(path) {
+function makeRequest(hostname, path) {
   return new Promise((resolve, reject) => {
     const options = {
-      hostname: 'api.atlassian.com',
+      hostname: hostname,
       path: path,
       method: 'GET',
       headers: {
@@ -50,9 +50,10 @@ async function fetchJiraData() {
       maxResults: '100'
     });
 
-    // Fetch sprint tickets
+    // Fetch sprint tickets using new API endpoint
     const ticketsResponse = await makeRequest(
-      `/ex/jira/${JIRA_CLOUD_ID}/rest/api/3/search?${params.toString()}`
+      'novidea.atlassian.net',
+      `/rest/api/3/search?${params.toString()}`
     );
 
     // Fetch parent epic names
@@ -68,7 +69,8 @@ async function fetchJiraData() {
     for (const parentId of parentIds) {
       try {
         const parentResponse = await makeRequest(
-          `/ex/jira/${JIRA_CLOUD_ID}/rest/api/3/issue/${parentId}?fields=summary`
+          'novidea.atlassian.net',
+          `/rest/api/3/issue/${parentId}?fields=summary`
         );
         parentNames[parentId] = parentResponse.fields.summary;
       } catch (e) {
