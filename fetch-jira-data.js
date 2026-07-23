@@ -73,33 +73,44 @@ async function fetchJiraData() {
 
     console.log(`API returned ${response.issues ? response.issues.length : 0} issues`);
 
+    // Check what parent data looks like
+    if (response.issues && response.issues.length > 0) {
+      console.log('First issue parent:', JSON.stringify(response.issues[0].fields.parent));
+    }
+
     // Fetch parent epic names
     const parentIds = new Set();
     if (response.issues && Array.isArray(response.issues)) {
       response.issues.forEach(issue => {
         const parent = issue.fields.parent;
-        if (parent && parent.key) {
-          parentIds.add(parent.key);
+        if (parent) {
+          console.log(`Issue ${issue.key} has parent:`, JSON.stringify(parent));
+          if (parent.key) {
+            parentIds.add(parent.key);
+          }
         }
       });
     }
 
-    console.log(`Found ${parentIds.size} unique parent epics`);
+    console.log(`Found ${parentIds.size} unique parent epics:`, Array.from(parentIds));
 
     const parentNames = {};
     for (const parentId of parentIds) {
       try {
+        console.log(`Fetching details for ${parentId}...`);
         const parentResponse = await makeRequest(
           'novidea.atlassian.net',
           `/rest/api/3/issue/${parentId}?fields=summary`
         );
         parentNames[parentId] = parentResponse.fields.summary;
-        console.log(`Fetched name for ${parentId}: ${parentResponse.fields.summary}`);
+        console.log(`✓ ${parentId}: ${parentResponse.fields.summary}`);
       } catch (e) {
-        console.warn(`Could not fetch parent ${parentId}: ${e.message}`);
+        console.warn(`✗ Could not fetch parent ${parentId}: ${e.message}`);
         parentNames[parentId] = parentId;
       }
     }
+
+    console.log('Parent names map:', parentNames);
 
     // Process tickets
     let tickets = [];
