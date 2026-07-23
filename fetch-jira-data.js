@@ -2,18 +2,14 @@ const fs = require('fs');
 const https = require('https');
 
 const JIRA_CLOUD_ID = process.env.JIRA_CLOUD_ID;
+const JIRA_EMAIL = process.env.JIRA_EMAIL;
 const JIRA_API_TOKEN = process.env.JIRA_API_TOKEN;
 
-if (!JIRA_CLOUD_ID || !JIRA_API_TOKEN) {
-  console.error('Error: JIRA_CLOUD_ID and JIRA_API_TOKEN environment variables are required');
+if (!JIRA_CLOUD_ID || !JIRA_EMAIL || !JIRA_API_TOKEN) {
+  console.error('Error: JIRA_CLOUD_ID, JIRA_EMAIL and JIRA_API_TOKEN environment variables are required');
   process.exit(1);
 }
 
-const JIRA_EMAIL = process.env.JIRA_EMAIL;
-if (!JIRA_EMAIL || !JIRA_API_TOKEN) {
-  console.error('Error: JIRA_EMAIL and JIRA_API_TOKEN environment variables are required');
-  process.exit(1);
-}
 const auth = Buffer.from(`${JIRA_EMAIL}:${JIRA_API_TOKEN}`).toString('base64');
 
 function makeRequest(path) {
