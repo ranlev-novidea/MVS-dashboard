@@ -1,0 +1,16 @@
+{
+  "name": "mvs-sprint-dashboard",
+  "version": "1.0.0",
+  "description": "MVS Sprint Effort Dashboard with daily Jira updates",
+  "main": "fetch-jira-data.js",
+  "scripts": {
+    "fetch": "node fetch-jira-data.js"
+  },
+  "keywords": [
+    "jira",
+    "sprint",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "MIT"
+}
