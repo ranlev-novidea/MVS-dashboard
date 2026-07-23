@@ -36,7 +36,10 @@ function makeRequest(hostname, path, method = 'GET', body = null) {
         console.log(`API Response Status: ${res.statusCode}`);
         if (res.statusCode === 200) {
           try {
-            resolve(JSON.parse(data));
+            const parsed = JSON.parse(data);
+            console.log('Raw response keys:', Object.keys(parsed));
+            console.log('Full response:', JSON.stringify(parsed, null, 2));
+            resolve(parsed);
           } catch (e) {
             reject(new Error(`Failed to parse JSON: ${e.message}`));
           }
@@ -56,7 +59,6 @@ async function fetchJiraData() {
   console.log('Fetching Jira data...');
   
   try {
-    // Simple test query
     const jql = `project = MVS`;
     console.log(`Using JQL: ${jql}`);
     
@@ -67,55 +69,15 @@ async function fetchJiraData() {
     });
 
     console.log('Making API request...');
-    const ticketsResponse = await makeRequest(
+    const response = await makeRequest(
       'novidea.atlassian.net',
       '/rest/api/3/search/jql',
       'POST',
       searchBody
     );
 
-    console.log(`Total issues found: ${ticketsResponse.total}`);
-    console.log(`Issues in response: ${ticketsResponse.issues ? ticketsResponse.issues.length : 0}`);
-
-    if (!ticketsResponse.issues || ticketsResponse.issues.length === 0) {
-      console.log('No issues found!');
-      fs.writeFileSync('data.json', JSON.stringify({
-        lastUpdated: new Date().toISOString(),
-        totalTickets: 0,
-        tickets: []
-      }, null, 2));
-      return;
-    }
-
-    // Rest of the code...
-    const tickets = ticketsResponse.issues.map(issue => {
-      const parent = issue.fields.parent;
-      const parentKey = parent && parent.key ? parent.key : null;
-      const effort = (issue.fields.timeoriginalestimate || 0) / 3600;
-      const assignee = issue.fields.assignee;
-      const priority = issue.fields.priority;
-
-      return {
-        key: issue.key,
-        parent: parentKey,
-        parentName: parentKey || null,
-        priority: priority ? priority.name : 'None',
-        status: issue.fields.status.name,
-        effort: Math.round(effort * 100) / 100,
-        assignee: assignee ? assignee.displayName : null
-      };
-    });
-
-    fs.writeFileSync('data.json', JSON.stringify({
-      lastUpdated: new Date().toISOString(),
-      totalTickets: tickets.length,
-      tickets: tickets
-    }, null, 2));
-
-    console.log(`✓ Successfully fetched and saved ${tickets.length} tickets`);
-
   } catch (error) {
-    console.error('Error fetching Jira data:', error.message);
+    console.error('Error:', error.message);
     process.exit(1);
   }
 }
