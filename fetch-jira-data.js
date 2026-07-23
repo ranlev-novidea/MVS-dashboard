@@ -59,7 +59,8 @@ async function fetchJiraData() {
   console.log('Fetching Jira data...');
   
   try {
-    const jql = `project = MVS AND sprint in (openSprints())`;
+    //const jql = `project = MVS AND sprint in (openSprints())`;
+    const jql = `project = MVS AND sprint in (openSprints()) AND status in ("Queue", "In Development", "Failed QA", "Pause")`;
     console.log(`Using JQL: ${jql}`);
     
     const searchBody = JSON.stringify({
