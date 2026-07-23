@@ -52,7 +52,8 @@ async function fetchJiraData() {
   
   try {
     // Use new /rest/api/3/search/jql endpoint with POST
-    const jql = `project = MVS AND sprint in (openSprints()) AND status in ("Queue", "In Development", "Failed QA", "Pause")`;
+    //const jql = `project = MVS AND sprint in (openSprints()) AND status in ("Queue", "In Development", "Failed QA", "Pause")`;
+    const jql = `project = MVS AND updated >= -7d ORDER BY updated DESC`;
     const searchBody = JSON.stringify({
       jql: jql,
       fields: ['summary', 'status', 'timeoriginalestimate', 'assignee', 'parent', 'priority'],
