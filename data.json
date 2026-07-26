@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-26T16:30:56.120Z",
-  "totalTickets": 15,
+  "lastUpdated": "2026-07-26T20:32:53.034Z",
+  "totalTickets": 13,
   "tickets": [
     {
       "key": "MVS-3775",
@@ -11,16 +11,6 @@
       "effort": 2,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-3753",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 7.04,
-      "remaining": 0,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3741",
@@ -97,18 +87,8 @@
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 6,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-3352",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "3 - Medium",
       "status": "In Development",
-      "effort": 4,
+      "effort": 6,
       "remaining": 0,
       "assignee": "Idan Abutbul"
     },
