@@ -77,7 +77,10 @@ async function fetchJiraData() {
     if (response.issues && response.issues.length > 0) {
       console.log('First issue parent:', JSON.stringify(response.issues[0].fields.parent));
     }
-
+// Debug: Log all fields from first issue
+if (response.issues && response.issues.length > 0) {
+  console.log('First issue fields:', JSON.stringify(response.issues[0].fields, null, 2));
+}
     // Fetch parent epic names
     const parentIds = new Set();
     if (response.issues && Array.isArray(response.issues)) {
