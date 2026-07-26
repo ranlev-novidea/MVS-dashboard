@@ -72,7 +72,11 @@ async function fetchJiraData() {
     );
 
     console.log(`API returned ${response.issues ? response.issues.length : 0} issues`);
-
+// Debug remaining estimate
+if (response.issues && response.issues.length > 0) {
+  console.log('First issue timeoriginalestimate:', response.issues[0].fields.timeoriginalestimate);
+  console.log('First issue remainingestimate:', response.issues[0].fields.remainingestimate);
+}
     // Check what parent data looks like
     if (response.issues && response.issues.length > 0) {
       console.log('First issue parent:', JSON.stringify(response.issues[0].fields.parent));
