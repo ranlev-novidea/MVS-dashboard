@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-26T12:44:19.855Z",
-  "totalTickets": 16,
+  "lastUpdated": "2026-07-26T16:30:56.120Z",
+  "totalTickets": 15,
   "tickets": [
     {
       "key": "MVS-3775",
@@ -59,16 +59,6 @@
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 2.48,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-3687",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 5,
       "remaining": 0,
       "assignee": null
     },
