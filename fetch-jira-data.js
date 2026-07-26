@@ -59,7 +59,7 @@ async function fetchJiraData() {
     
     const searchBody = JSON.stringify({
       jql: jql,
-      fields: ['summary', 'status', 'timeoriginalestimate', 'assignee', 'parent', 'priority'],
+      fields: ['summary', 'status', 'timeoriginalestimate','remainingestimate', 'assignee', 'parent', 'priority'],
       maxResults: 100
     });
 
