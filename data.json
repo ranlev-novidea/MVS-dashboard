@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T11:53:00.953Z",
+  "lastUpdated": "2026-07-26T07:45:13.000Z",
   "totalTickets": 18,
   "tickets": [
     {
@@ -115,9 +115,9 @@
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3348",
