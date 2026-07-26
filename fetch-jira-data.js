@@ -110,8 +110,7 @@ async function fetchJiraData() {
       }
     }
 
-    console.log('Parent names map:', parentNames);
-
+   console.log('Parent names map:', parentNames);
     // Process tickets
     let tickets = [];
     if (response.issues && Array.isArray(response.issues)) {
@@ -119,10 +118,10 @@ async function fetchJiraData() {
         const parent = issue.fields.parent;
         const parentKey = parent && parent.key ? parent.key : null;
         const effort = (issue.fields.timeoriginalestimate || 0) / 3600;
+        const remaining = (issue.fields.remainingestimate || 0) / 3600;
         const assignee = issue.fields.assignee;
         const priority = issue.fields.priority;
         const status = issue.fields.status;
-
         return {
           key: issue.key,
           parent: parentKey,
@@ -130,6 +129,7 @@ async function fetchJiraData() {
           priority: priority ? priority.name : 'None',
           status: status ? status.name : 'Unknown',
           effort: Math.round(effort * 100) / 100,
+          remaining: Math.round(remaining * 100) / 100,
           assignee: assignee ? assignee.displayName : null
         };
       });
