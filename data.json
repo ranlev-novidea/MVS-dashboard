@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-26T10:49:45.570Z",
-  "totalTickets": 17,
+  "lastUpdated": "2026-07-26T11:57:52.326Z",
+  "totalTickets": 16,
   "tickets": [
     {
       "key": "MVS-3775",
@@ -161,16 +161,6 @@
       "effort": 3.04,
       "remaining": 0,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-1698",
-      "parent": "MVS-1725",
-      "parentName": "הכנת כלים לאדמין",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 8,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
     }
   ]
 }
