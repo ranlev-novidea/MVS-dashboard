@@ -1,17 +1,7 @@
 {
-  "lastUpdated": "2026-07-27T10:51:37.242Z",
-  "totalTickets": 13,
+  "lastUpdated": "2026-07-27T17:20:50.485Z",
+  "totalTickets": 8,
   "tickets": [
-    {
-      "key": "MVS-3775",
-      "parent": "MVS-757",
-      "parentName": "IFN - תיוק קבצים",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 2,
-      "remaining": 0,
-      "assignee": null
-    },
     {
       "key": "MVS-3741",
       "parent": "MVS-50",
@@ -33,24 +23,14 @@
       "assignee": null
     },
     {
-      "key": "MVS-3738",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 3.04,
-      "remaining": 0,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-3700",
       "parent": "MVS-1581",
       "parentName": "ERD - תיקונים באובייקט מעסיק",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 2.48,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3684",
@@ -81,36 +61,6 @@
       "effort": 38,
       "remaining": 0,
       "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-3353",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-3348",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 12,
-      "remaining": 0,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3180",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 4.96,
-      "remaining": 0,
-      "assignee": null
     },
     {
       "key": "MVS-2897",
