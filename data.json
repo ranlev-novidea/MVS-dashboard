@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T20:32:53.034Z",
+  "lastUpdated": "2026-07-27T10:51:37.242Z",
   "totalTickets": 13,
   "tickets": [
     {
@@ -17,10 +17,10 @@
       "parent": "MVS-50",
       "parentName": "תשתית",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 16,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3739",
@@ -37,10 +37,10 @@
       "parent": "MVS-50",
       "parentName": "תשתית",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "Pause",
       "effort": 3.04,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3700",
@@ -56,7 +56,7 @@
       "key": "MVS-3684",
       "parent": "MVS-1725",
       "parentName": "הכנת כלים לאדמין",
-      "priority": "4 - Low",
+      "priority": "3 - Medium",
       "status": "Queue",
       "effort": 16,
       "remaining": 0,
@@ -106,7 +106,7 @@
       "key": "MVS-3180",
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
-      "priority": "3 - Medium",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 4.96,
       "remaining": 0,
