@@ -402,7 +402,14 @@
       document.getElementById('unassignedCount').textContent = unassignedTickets;
       document.getElementById('unassignedHours').textContent = unassignedHours + 'h';
 
-      // Group unassigned by parent
+      
+        const unassignedRemaining = Math.round(tickets.filter(t => !t.assignee).reduce((sum, t) => sum + (t.remaining || 0), 0) * 10) / 10;
+        const inProgressRemaining = Math.round(tickets.filter(t => t.assignee && t.status === 'In Development').reduce((sum, t) => sum + (t.remaining || 0), 0) * 10) / 10;
+
+        document.getElementById('unassignedRemaining').textContent = unassignedRemaining + 'h';
+        document.getElementById('inProgressRemaining').textContent = inProgressRemaining + 'h';
+        
+        // Group unassigned by parent
       const unassignedByParent = groupByParent(tickets.filter(t => !t.assignee));
       renderChart(unassignedByParent);
       
