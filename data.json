@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-07-28T07:48:10.689Z",
-  "totalTickets": 9,
+  "lastUpdated": "2026-07-28T15:55:14.988Z",
+  "totalTickets": 7,
   "tickets": [
+    {
+      "key": "MVS-3755",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 12,
+      "remaining": 12,
+      "assignee": "Boaz Bitran"
+    },
     {
       "key": "MVS-3753",
       "parent": "MVS-2990",
@@ -9,7 +19,7 @@
       "priority": "2 - High",
       "status": "Failed QA",
       "effort": 7.04,
-      "remaining": 2,
+      "remaining": 1.5,
       "assignee": "Ariel Ozer"
     },
     {
@@ -19,7 +29,7 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 16,
-      "remaining": 11,
+      "remaining": 7.5,
       "assignee": "Ariel Ozer"
     },
     {
@@ -27,19 +37,9 @@
       "parent": null,
       "parentName": null,
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.96,
       "remaining": 4.96,
-      "assignee": null
-    },
-    {
-      "key": "MVS-3700",
-      "parent": "MVS-1581",
-      "parentName": "ERD - תיקונים באובייקט מעסיק",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 2.23,
       "assignee": "Idan Abutbul"
     },
     {
@@ -63,34 +63,14 @@
       "assignee": "Dorin Nicola"
     },
     {
-      "key": "MVS-3452",
-      "parent": "MVS-2222",
-      "parentName": "שינוי סוג ומזהה מבוטח",
+      "key": "MVS-3180",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
       "priority": "2 - High",
       "status": "In Development",
-      "effort": 38,
-      "remaining": 38,
+      "effort": 4.96,
+      "remaining": 0.93,
       "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-2897",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 3.25,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-2714",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Shira Sapir Halili"
     }
   ]
 }
