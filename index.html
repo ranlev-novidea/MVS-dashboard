@@ -297,6 +297,12 @@
           <div class="metric-label">In Progress Remaining</div>
           <div class="metric-value" id="inProgressRemaining">-</div>
         </div>
+     
+        <div class="metric-card">
+          <div class="metric-label">Unassigned tickets</div>
+          <div class="metric-value" id="unassignedCount">-</div>
+      </div>
+      
       </div>
 
       <div class="chart-section">
@@ -394,6 +400,9 @@
       document.getElementById('unassignedRemaining').textContent = unassignedRemaining + 'h';
       document.getElementById('inProgressRemaining').textContent = inProgressRemaining + 'h';
 
+const unassignedCount = tickets.filter(t => !t.assignee).length;
+document.getElementById('unassignedCount').textContent = unassignedCount;
+      
       // Group unassigned by parent
       const unassignedByParent = groupByParent(tickets.filter(t => !t.assignee));
       renderChart(unassignedByParent);
