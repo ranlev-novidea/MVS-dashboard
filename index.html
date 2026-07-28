@@ -1,4 +1,4 @@
-    <!-- Rebuild trigger -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +29,7 @@
     }
     
     h1 {
-      font-size: 32px;
+      font-size: 28px;
       font-weight: 500;
       margin-bottom: 8px;
       color: #1a1a1a;
@@ -56,27 +56,27 @@
     }
     
     .metric-label {
-      font-size: 18px;
+      font-size: 12px;
       color: #666;
       margin-bottom: 8px;
     }
     
     .metric-value {
-      font-size: 32px;
+      font-size: 24px;
       font-weight: 500;
       color: #1a1a1a;
     }
     
     .chart-section {
       background: #f9f9f9;
-      border-radius: 16px;
+      border-radius: 12px;
       border: 0.5px solid #eee;
       padding: 20px;
       margin-bottom: 24px;
     }
     
     .chart-section h2 {
-      font-size: 24px;
+      font-size: 15px;
       font-weight: 500;
       margin-bottom: 16px;
       color: #1a1a1a;
@@ -282,7 +282,7 @@
     
     <div id="error" class="error" style="display: none;"></div>
     <div id="loading" class="loading">Loading dashboard data...</div>
-  <div id="content" style="display: none;">
+    <div id="content" style="display: none;">
       
       <div class="metrics">
         <div class="metric-card">
@@ -348,6 +348,8 @@
       </div>
 
     </div>
+  </div>
+
   <script>
     const priorityColors = {
       '1 - Highest': '#ef4444',
@@ -366,7 +368,6 @@
 
     async function loadDashboard() {
       try {
-      
         const response = await fetch('data.json?v=' + new Date().getTime());
         if (!response.ok) throw new Error('Failed to load data');
         
@@ -386,21 +387,14 @@
     function renderDashboard(tickets) {
       // Calculate metrics
       const totalEffort = Math.round(tickets.reduce((sum, t) => sum + t.effort, 0) * 10) / 10;
-      const unassignedTickets = tickets.filter(t => !t.assignee).length;
-      const unassignedHours = Math.round(tickets.filter(t => !t.assignee).reduce((sum, t) => sum + t.effort, 0) * 10) / 10;
+      const unassignedRemaining = Math.round(tickets.filter(t => !t.assignee).reduce((sum, t) => sum + (t.remaining || 0), 0) * 10) / 10;
+      const inProgressRemaining = Math.round(tickets.filter(t => t.assignee && t.status === 'In Development').reduce((sum, t) => sum + (t.remaining || 0), 0) * 10) / 10;
       
       document.getElementById('totalEffort').textContent = totalEffort + 'h';
-      document.getElementById('unassignedCount').textContent = unassignedTickets;
-      document.getElementById('unassignedHours').textContent = unassignedHours + 'h';
+      document.getElementById('unassignedRemaining').textContent = unassignedRemaining + 'h';
+      document.getElementById('inProgressRemaining').textContent = inProgressRemaining + 'h';
 
-      
-        const unassignedRemaining = Math.round(tickets.filter(t => !t.assignee).reduce((sum, t) => sum + (t.remaining || 0), 0) * 10) / 10;
-        const inProgressRemaining = Math.round(tickets.filter(t => t.assignee && t.status === 'In Development').reduce((sum, t) => sum + (t.remaining || 0), 0) * 10) / 10;
-
-        document.getElementById('unassignedRemaining').textContent = unassignedRemaining + 'h';
-        document.getElementById('inProgressRemaining').textContent = inProgressRemaining + 'h';
-        
-        // Group unassigned by parent
+      // Group unassigned by parent
       const unassignedByParent = groupByParent(tickets.filter(t => !t.assignee));
       renderChart(unassignedByParent);
       
