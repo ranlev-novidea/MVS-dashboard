@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-07-28T06:57:54.877Z",
-  "totalTickets": 8,
+  "lastUpdated": "2026-07-28T07:48:10.689Z",
+  "totalTickets": 9,
   "tickets": [
+    {
+      "key": "MVS-3753",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 7.04,
+      "remaining": 2,
+      "assignee": "Ariel Ozer"
+    },
     {
       "key": "MVS-3741",
       "parent": "MVS-50",
@@ -57,7 +67,7 @@
       "parent": "MVS-2222",
       "parentName": "שינוי סוג ומזהה מבוטח",
       "priority": "2 - High",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 38,
       "remaining": 38,
       "assignee": "Jonathan Ashkenazy"
