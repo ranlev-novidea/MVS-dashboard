@@ -125,10 +125,14 @@ if (response.issues && response.issues.length > 0) {
         const parent = issue.fields.parent;
         const parentKey = parent && parent.key ? parent.key : null;
         const effort = (issue.fields.timeoriginalestimate || 0) / 3600;
-        const remaining = (issue.fields.remainingestimate || 0) / 3600;
+        const timetracking = issue.fields.timetracking;
+        const remaining = timetracking && timetracking.remainingEstimateSeconds 
+          ? timetracking.remainingEstimateSeconds / 3600 
+          : effort;
         const assignee = issue.fields.assignee;
         const priority = issue.fields.priority;
         const status = issue.fields.status;
+        
         return {
           key: issue.key,
           parent: parentKey,
