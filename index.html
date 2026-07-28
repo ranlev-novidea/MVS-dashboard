@@ -282,7 +282,7 @@
     
     <div id="error" class="error" style="display: none;"></div>
     <div id="loading" class="loading">Loading dashboard data...</div>
-   <div id="content" style="display: none;">
+  <div id="content" style="display: none;">
       
       <div class="metrics">
         <div class="metric-card">
@@ -297,11 +297,6 @@
           <div class="metric-label">In Progress Remaining</div>
           <div class="metric-value" id="inProgressRemaining">-</div>
         </div>
-        <div class="metric-card">
-          <div class="metric-label">Unassigned tickets</div>
-          <div class="metric-value" id="unassignedCount">-</div>
-        </div>
-        
       </div>
 
       <div class="chart-section">
@@ -351,9 +346,8 @@
         <h2>Effort by implementer</h2>
         <div id="assigneeList"></div>
       </div>
-    </div>
-  </div>
 
+    </div>
   <script>
     const priorityColors = {
       '1 - Highest': '#ef4444',
