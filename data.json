@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T06:08:34.481Z",
+  "lastUpdated": "2026-07-28T06:57:54.877Z",
   "totalTickets": 8,
   "tickets": [
     {
@@ -39,7 +39,7 @@
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 16,
-      "remaining": 16,
+      "remaining": 15.25,
       "assignee": "Shira Sapir Halili"
     },
     {
@@ -67,7 +67,7 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Pause",
+      "status": "In Development",
       "effort": 6,
       "remaining": 3.25,
       "assignee": "Shira Sapir Halili"
