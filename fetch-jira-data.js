@@ -59,7 +59,7 @@ async function fetchJiraData() {
     
     const searchBody = JSON.stringify({
       jql: jql,
- fields: ['summary', 'status', 'timeoriginalestimate', 'timetracking', 'timeestimate', 'timespent', 'assignee', 'parent', 'priority'],
+        fields: ['summary', 'status', 'timeoriginalestimate', 'timetracking', 'assignee', 'parent', 'priority'],
       maxResults: 100
     });
 
@@ -117,7 +117,7 @@ if (response.issues && response.issues.length > 0) {
       }
     }
 
-   console.log('Parent names map:', parentNames);
+  console.log('Parent names map:', parentNames);
     // Process tickets
     let tickets = [];
     if (response.issues && Array.isArray(response.issues)) {
@@ -126,12 +126,26 @@ if (response.issues && response.issues.length > 0) {
         const parentKey = parent && parent.key ? parent.key : null;
         const effort = (issue.fields.timeoriginalestimate || 0) / 3600;
         const timetracking = issue.fields.timetracking;
-        const remaining = timetracking && timetracking.remainingEstimateSeconds 
-          ? timetracking.remainingEstimateSeconds / 3600 
-          : effort;
+        const status = issue.fields.status;
         const assignee = issue.fields.assignee;
         const priority = issue.fields.priority;
-        const status = issue.fields.status;
+        
+        // Calculate remaining effort
+        let remaining;
+        if (!assignee) {
+          // Unassigned (Queue) - remaining = original effort
+          remaining = effort;
+        } else if (status.name === 'In Development') {
+          // In Development - use remaining from timetracking
+          remaining = timetracking && timetracking.remainingEstimateSeconds 
+            ? timetracking.remainingEstimateSeconds / 3600 
+            : effort;
+        } else {
+          // Other statuses - use remaining from timetracking or fallback to effort
+          remaining = timetracking && timetracking.remainingEstimateSeconds 
+            ? timetracking.remainingEstimateSeconds / 3600 
+            : effort;
+        }
         
         return {
           key: issue.key,
