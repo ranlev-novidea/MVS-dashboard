@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-29T10:49:25.753Z",
-  "totalTickets": 7,
+  "lastUpdated": "2026-07-29T16:12:20.352Z",
+  "totalTickets": 4,
   "tickets": [
     {
       "key": "MVS-3860",
@@ -27,30 +27,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Failed QA",
+      "status": "Pause",
       "effort": 7.04,
       "remaining": 1.5,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-3741",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 16,
-      "remaining": 3.25,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-3739",
-      "parent": null,
-      "parentName": null,
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 4.96,
-      "remaining": 2.46,
-      "assignee": "Idan Abutbul"
+      "assignee": "Boaz Bitran"
     },
     {
       "key": "MVS-3684",
@@ -61,16 +41,6 @@
       "effort": 16,
       "remaining": 15.25,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3180",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4.96,
-      "remaining": 0.93,
-      "assignee": "Jonathan Ashkenazy"
     }
   ]
 }
