@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-07-29T00:12:08.886Z",
+  "lastUpdated": "2026-07-29T10:49:25.753Z",
   "totalTickets": 7,
   "tickets": [
+    {
+      "key": "MVS-3860",
+      "parent": "MVS-757",
+      "parentName": "IFN - תיוק קבצים",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Dorin Nicola"
+    },
     {
       "key": "MVS-3755",
       "parent": "MVS-2990",
@@ -29,7 +39,7 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 16,
-      "remaining": 7.5,
+      "remaining": 3.25,
       "assignee": "Ariel Ozer"
     },
     {
@@ -39,7 +49,7 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 4.96,
-      "remaining": 4.96,
+      "remaining": 2.46,
       "assignee": "Idan Abutbul"
     },
     {
@@ -51,16 +61,6 @@
       "effort": 16,
       "remaining": 15.25,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3502",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "4 - Low",
-      "status": "Pause",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Dorin Nicola"
     },
     {
       "key": "MVS-3180",
