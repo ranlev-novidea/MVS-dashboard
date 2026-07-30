@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-30T00:14:30.229Z",
-  "totalTickets": 4,
+  "lastUpdated": "2026-07-30T10:03:11.493Z",
+  "totalTickets": 6,
   "tickets": [
     {
       "key": "MVS-3860",
@@ -33,6 +33,16 @@
       "assignee": "Boaz Bitran"
     },
     {
+      "key": "MVS-3751",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 7.04,
+      "remaining": 7.04,
+      "assignee": "Jonathan Ashkenazy"
+    },
+    {
       "key": "MVS-3684",
       "parent": "MVS-1725",
       "parentName": "הכנת כלים לאדמין",
@@ -41,6 +51,16 @@
       "effort": 16,
       "remaining": 15.25,
       "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3452",
+      "parent": "MVS-2222",
+      "parentName": "שינוי סוג ומזהה מבוטח",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 38,
+      "remaining": 38,
+      "assignee": "Jonathan Ashkenazy"
     }
   ]
 }
