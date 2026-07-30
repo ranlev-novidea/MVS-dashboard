@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T10:03:11.493Z",
+  "lastUpdated": "2026-07-30T16:17:50.152Z",
   "totalTickets": 6,
   "tickets": [
     {
@@ -49,7 +49,7 @@
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 16,
-      "remaining": 15.25,
+      "remaining": 10.25,
       "assignee": "Shira Sapir Halili"
     },
     {
