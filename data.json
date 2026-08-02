@@ -1,7 +1,37 @@
 {
-  "lastUpdated": "2026-08-02T11:38:18.235Z",
-  "totalTickets": 6,
+  "lastUpdated": "2026-08-02T15:47:14.528Z",
+  "totalTickets": 37,
   "tickets": [
+    {
+      "key": "MVS-3878",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3877",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3864",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
     {
       "key": "MVS-3860",
       "parent": "MVS-757",
@@ -13,14 +43,174 @@
       "assignee": "Dorin Nicola"
     },
     {
-      "key": "MVS-3755",
+      "key": "MVS-3854",
+      "parent": null,
+      "parentName": null,
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3842",
+      "parent": "MVS-3051",
+      "parentName": "פניות למסלקה",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3839",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 12,
-      "remaining": 12,
-      "assignee": "Boaz Bitran"
+      "status": "Queue",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3837",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 16,
+      "remaining": 16,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3824",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 1.52,
+      "remaining": 1.52,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3823",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 1.52,
+      "remaining": 1.52,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3822",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4.48,
+      "remaining": 4.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3821",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 6,
+      "remaining": 6,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3799",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 5.52,
+      "remaining": 5.52,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3798",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3797",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3795",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3784",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3763",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 5.52,
+      "remaining": 5.52,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3762",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3761",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3759",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4.48,
+      "remaining": 4.48,
+      "assignee": null
     },
     {
       "key": "MVS-3753",
@@ -28,8 +218,8 @@
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
       "status": "Pause",
-      "effort": 7.04,
-      "remaining": 1.5,
+      "effort": 10,
+      "remaining": 1,
       "assignee": "Boaz Bitran"
     },
     {
@@ -38,9 +228,19 @@
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
       "status": "Failed QA",
-      "effort": 7.04,
-      "remaining": 7.04,
+      "effort": 15.03,
+      "remaining": 0.88,
       "assignee": "Jonathan Ashkenazy"
+    },
+    {
+      "key": "MVS-3728",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": null
     },
     {
       "key": "MVS-3684",
@@ -48,9 +248,29 @@
       "parentName": "הכנת כלים לאדמין",
       "priority": "3 - Medium",
       "status": "Queue",
-      "effort": 16,
-      "remaining": 10.25,
+      "effort": 22,
+      "remaining": 16.25,
       "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3657",
+      "parent": "MVS-2210",
+      "parentName": "העברת עובדים ממעסיק למעסיק",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3575",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": null
     },
     {
       "key": "MVS-3452",
@@ -58,9 +278,99 @@
       "parentName": "שינוי סוג ומזהה מבוטח",
       "priority": "2 - High",
       "status": "Failed QA",
-      "effort": 38,
-      "remaining": 38,
+      "effort": 52.95,
+      "remaining": 2.73,
       "assignee": "Jonathan Ashkenazy"
+    },
+    {
+      "key": "MVS-3409",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 16,
+      "remaining": 16,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3408",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 2,
+      "remaining": 1.75,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3018",
+      "parent": "MVS-2400",
+      "parentName": "דמו להנהלת מבטח",
+      "priority": "3 - Medium",
+      "status": "Pause",
+      "effort": 12,
+      "remaining": 10.25,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-2997",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": null
+    },
+    {
+      "key": "MVS-2996",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-2989",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-2986",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-2844",
+      "parent": "MVS-1288",
+      "parentName": "נושאים רוחביים",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 6,
+      "remaining": 5.75,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-424",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": null
     }
   ]
 }
