@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-03T17:17:30.818Z",
-  "totalTickets": 41,
+  "lastUpdated": "2026-08-03T21:51:49.535Z",
+  "totalTickets": 38,
   "tickets": [
     {
       "key": "MVS-3896",
@@ -233,16 +233,6 @@
       "assignee": "Jonathan Ashkenazy"
     },
     {
-      "key": "MVS-3748",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 4.47,
-      "remaining": 0.23,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-3728",
       "parent": "MVS-3003",
       "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
@@ -261,16 +251,6 @@
       "effort": 22,
       "remaining": 16.25,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3680",
-      "parent": "MVS-3500",
-      "parentName": "פוליסה - לאחר פיצול",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 5.52,
-      "remaining": 0.02,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3657",
@@ -321,16 +301,6 @@
       "effort": 2,
       "remaining": 1.75,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3352",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "3 - Medium",
-      "status": "Failed QA",
-      "effort": 4,
-      "remaining": 1,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3336",
