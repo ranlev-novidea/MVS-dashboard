@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-03T08:51:54.374Z",
-  "totalTickets": 38,
+  "lastUpdated": "2026-08-03T17:17:30.818Z",
+  "totalTickets": 41,
   "tickets": [
+    {
+      "key": "MVS-3896",
+      "parent": null,
+      "parentName": null,
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-3878",
       "parent": "MVS-110",
@@ -223,13 +233,13 @@
       "assignee": "Jonathan Ashkenazy"
     },
     {
-      "key": "MVS-3744",
+      "key": "MVS-3748",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
       "status": "Failed QA",
-      "effort": 8.47,
-      "remaining": 0.98,
+      "effort": 4.47,
+      "remaining": 0.23,
       "assignee": "Idan Abutbul"
     },
     {
@@ -313,6 +323,36 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-3352",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 4,
+      "remaining": 1,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-3336",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "4 - Low",
+      "status": "In Development",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-3285",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 4,
+      "remaining": 3,
+      "assignee": "Ariel Ozer"
+    },
+    {
       "key": "MVS-3018",
       "parent": "MVS-2400",
       "parentName": "דמו להנהלת מבטח",
@@ -340,16 +380,6 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-2989",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 4,
-      "remaining": 4,
       "assignee": null
     },
     {
