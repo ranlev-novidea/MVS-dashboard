@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-03T21:51:49.535Z",
-  "totalTickets": 38,
+  "lastUpdated": "2026-08-04T07:48:18.155Z",
+  "totalTickets": 39,
   "tickets": [
     {
       "key": "MVS-3896",
@@ -110,7 +110,7 @@
       "status": "Queue",
       "effort": 4.48,
       "remaining": 4.48,
-      "assignee": null
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-3821",
@@ -120,7 +120,7 @@
       "status": "Queue",
       "effort": 6,
       "remaining": 6,
-      "assignee": null
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-3799",
@@ -253,6 +253,16 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-3680",
+      "parent": "MVS-3500",
+      "parentName": "פוליסה - לאחר פיצול",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 5.52,
+      "remaining": 5.52,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-3657",
       "parent": "MVS-2210",
       "parentName": "העברת עובדים ממעסיק למעסיק",
@@ -299,8 +309,8 @@
       "priority": "4 - Low",
       "status": "Queue",
       "effort": 2,
-      "remaining": 1.75,
-      "assignee": "Shira Sapir Halili"
+      "remaining": 2,
+      "assignee": null
     },
     {
       "key": "MVS-3336",
@@ -347,10 +357,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 2.23,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-2986",
