@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-04T16:21:23.422Z",
-  "totalTickets": 35,
+  "lastUpdated": "2026-08-04T21:03:48.102Z",
+  "totalTickets": 34,
   "tickets": [
     {
       "key": "MVS-3896",
@@ -21,16 +21,6 @@
       "effort": 4.96,
       "remaining": 4.96,
       "assignee": null
-    },
-    {
-      "key": "MVS-3877",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 4,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3864",
@@ -199,7 +189,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 4.48,
-      "remaining": 2.98,
+      "remaining": 1.78,
       "assignee": "Jonathan Ashkenazy"
     },
     {
