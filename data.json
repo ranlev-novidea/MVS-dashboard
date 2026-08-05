@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-05T06:14:52.714Z",
-  "totalTickets": 35,
+  "lastUpdated": "2026-08-05T13:19:04.922Z",
+  "totalTickets": 27,
   "tickets": [
+    {
+      "key": "MVS-3905",
+      "parent": "MVS-4",
+      "parentName": "שימור המידור וצורת העבודה המתקיימים באמצעות אירגונים נפרדים ומחיצות נפרדות במערכות הקיימות",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-3896",
       "parent": "MVS-110",
@@ -43,16 +53,6 @@
       "assignee": "Dorin Nicola"
     },
     {
-      "key": "MVS-3842",
-      "parent": "MVS-3051",
-      "parentName": "פניות למסלקה",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": "Boaz Bitran"
-    },
-    {
       "key": "MVS-3839",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
@@ -80,17 +80,17 @@
       "status": "Queue",
       "effort": 1.52,
       "remaining": 1.52,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3823",
       "parent": "MVS-3310",
       "parentName": "ביטול ניוד משימור",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 1.52,
       "remaining": 1.52,
-      "assignee": null
+      "assignee": "Yossi Gueta"
     },
     {
       "key": "MVS-3822",
@@ -147,10 +147,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 5.52,
-      "remaining": 5.52,
-      "assignee": null
+      "remaining": 4.77,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3762",
@@ -161,26 +161,6 @@
       "effort": 4.96,
       "remaining": 4.96,
       "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-3761",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 3.5,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-3754",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 2,
-      "remaining": 0.25,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3753",
@@ -203,16 +183,6 @@
       "assignee": "Jonathan Ashkenazy"
     },
     {
-      "key": "MVS-3748",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 4.47,
-      "remaining": 4.47,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-3728",
       "parent": "MVS-3003",
       "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
@@ -223,16 +193,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-3701",
-      "parent": "MVS-2844",
-      "parentName": "אובייקטי HPC",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 8,
-      "remaining": 3.25,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-3684",
       "parent": "MVS-1725",
       "parentName": "הכנת כלים לאדמין",
@@ -241,16 +201,6 @@
       "effort": 22,
       "remaining": 16.25,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3680",
-      "parent": "MVS-3500",
-      "parentName": "פוליסה - לאחר פיצול",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 5.52,
-      "remaining": 5.52,
-      "assignee": "Simona Shifrin"
     },
     {
       "key": "MVS-3657",
@@ -297,10 +247,10 @@
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
       "priority": "3 - Medium",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 4,
       "remaining": 0.5,
-      "assignee": "Boaz Bitran"
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3018",
@@ -311,36 +261,6 @@
       "effort": 12,
       "remaining": 10.25,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-2997",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 2,
-      "remaining": 0.5,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-2986",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 0.5,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-2844",
-      "parent": "MVS-1288",
-      "parentName": "נושאים רוחביים",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 6,
-      "remaining": 5.75,
-      "assignee": "Yossi Gueta"
     },
     {
       "key": "MVS-424",
