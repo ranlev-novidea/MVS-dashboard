@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-04T21:03:48.102Z",
-  "totalTickets": 34,
+  "lastUpdated": "2026-08-05T06:14:52.714Z",
+  "totalTickets": 35,
   "tickets": [
     {
       "key": "MVS-3896",
@@ -103,16 +103,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-3821",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 2.75,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
       "key": "MVS-3799",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
@@ -167,10 +157,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.96,
       "remaining": 4.96,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3761",
@@ -183,14 +173,14 @@
       "assignee": "Ariel Ozer"
     },
     {
-      "key": "MVS-3759",
+      "key": "MVS-3754",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4.48,
-      "remaining": 1.78,
-      "assignee": "Jonathan Ashkenazy"
+      "status": "Failed QA",
+      "effort": 2,
+      "remaining": 0.25,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3753",
@@ -211,6 +201,16 @@
       "effort": 15.03,
       "remaining": 0.88,
       "assignee": "Jonathan Ashkenazy"
+    },
+    {
+      "key": "MVS-3748",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 4.47,
+      "remaining": 4.47,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3728",
@@ -261,6 +261,16 @@
       "effort": 2.48,
       "remaining": 2.48,
       "assignee": null
+    },
+    {
+      "key": "MVS-3596",
+      "parent": "MVS-3250",
+      "parentName": "קשרי העסקה",
+      "priority": "2 - High",
+      "status": "Pause",
+      "effort": 5.52,
+      "remaining": 1.02,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-3409",
