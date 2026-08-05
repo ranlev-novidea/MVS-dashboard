@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T13:19:04.922Z",
+  "lastUpdated": "2026-08-05T19:05:32.132Z",
   "totalTickets": 27,
   "tickets": [
     {
@@ -8,8 +8,8 @@
       "parentName": "שימור המידור וצורת העבודה המתקיימים באמצעות אירגונים נפרדים ומחיצות נפרדות במערכות הקיימות",
       "priority": "2 - High",
       "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
+      "effort": 4.48,
+      "remaining": 4.48,
       "assignee": null
     },
     {
@@ -97,9 +97,19 @@
       "parent": "MVS-3310",
       "parentName": "ביטול ניוד משימור",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.48,
-      "remaining": 4.48,
+      "remaining": 1.98,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3821",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 6,
+      "remaining": 1.75,
       "assignee": "Shira Sapir Halili"
     },
     {
@@ -120,7 +130,7 @@
       "status": "Queue",
       "effort": 2,
       "remaining": 2,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3797",
@@ -130,7 +140,7 @@
       "status": "Queue",
       "effort": 3.04,
       "remaining": 3.04,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3784",
@@ -149,7 +159,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 5.52,
-      "remaining": 4.77,
+      "remaining": 3.02,
       "assignee": "Ariel Ozer"
     },
     {
@@ -159,7 +169,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 4.96,
-      "remaining": 4.96,
+      "remaining": 3.48,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -241,16 +251,6 @@
       "effort": 2,
       "remaining": 2,
       "assignee": null
-    },
-    {
-      "key": "MVS-3352",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 0.5,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3018",
