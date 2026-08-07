@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-06T10:14:43.314Z",
-  "totalTickets": 25,
+  "lastUpdated": "2026-08-07T01:53:03.706Z",
+  "totalTickets": 22,
   "tickets": [
+    {
+      "key": "MVS-3926",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-3905",
       "parent": "MVS-4",
@@ -9,8 +19,8 @@
       "priority": "2 - High",
       "status": "Queue",
       "effort": 4.48,
-      "remaining": 4.48,
-      "assignee": "Ariel Ozer"
+      "remaining": 3.98,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-3878",
@@ -63,46 +73,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-3824",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 1.52,
-      "remaining": 1.52,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-3823",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 1.52,
-      "remaining": 1.52,
-      "assignee": "Yossi Gueta"
-    },
-    {
-      "key": "MVS-3822",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4.48,
-      "remaining": 1.98,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3821",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 6,
-      "remaining": 1.25,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
       "key": "MVS-3799",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
@@ -117,19 +87,9 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 2,
       "remaining": 2,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-3797",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 3.04,
-      "remaining": 3.04,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -141,16 +101,6 @@
       "effort": 2.48,
       "remaining": 2.48,
       "assignee": null
-    },
-    {
-      "key": "MVS-3763",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 5.52,
-      "remaining": 3.02,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3753",
@@ -173,6 +123,16 @@
       "assignee": "Jonathan Ashkenazy"
     },
     {
+      "key": "MVS-3748",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 4.47,
+      "remaining": 4.47,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-3728",
       "parent": "MVS-3003",
       "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
@@ -191,6 +151,16 @@
       "effort": 22,
       "remaining": 16.25,
       "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3680",
+      "parent": "MVS-3500",
+      "parentName": "פוליסה - לאחר פיצול",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 5.52,
+      "remaining": 5.52,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3657",
