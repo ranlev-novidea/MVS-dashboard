@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-09T04:47:02.983Z",
-  "totalTickets": 22,
+  "lastUpdated": "2026-08-09T07:58:02.989Z",
+  "totalTickets": 21,
   "tickets": [
     {
       "key": "MVS-3926",
@@ -10,7 +10,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-3905",
@@ -19,8 +19,8 @@
       "priority": "2 - High",
       "status": "Queue",
       "effort": 4.48,
-      "remaining": 3.98,
-      "assignee": "Shira Sapir Halili"
+      "remaining": 3.73,
+      "assignee": "Yossi Gueta"
     },
     {
       "key": "MVS-3878",
@@ -60,13 +60,13 @@
       "status": "Queue",
       "effort": 2,
       "remaining": 2,
-      "assignee": null
+      "assignee": "Yossi Gueta"
     },
     {
       "key": "MVS-3837",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 16,
       "remaining": 16,
@@ -87,10 +87,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "In Development",
+      "status": "Queue",
       "effort": 2,
       "remaining": 2,
-      "assignee": "Jonathan Ashkenazy"
+      "assignee": null
     },
     {
       "key": "MVS-3784",
@@ -100,7 +100,7 @@
       "status": "Queue",
       "effort": 2.48,
       "remaining": 2.48,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3753",
@@ -120,7 +120,7 @@
       "status": "Failed QA",
       "effort": 15.03,
       "remaining": 0.88,
-      "assignee": "Jonathan Ashkenazy"
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3748",
@@ -151,16 +151,6 @@
       "effort": 22,
       "remaining": 16.25,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3680",
-      "parent": "MVS-3500",
-      "parentName": "פוליסה - לאחר פיצול",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 5.52,
-      "remaining": 5.52,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3657",
