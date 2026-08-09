@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-09T10:05:00.025Z",
-  "totalTickets": 21,
+  "lastUpdated": "2026-08-09T12:01:09.334Z",
+  "totalTickets": 18,
   "tickets": [
     {
       "key": "MVS-3926",
@@ -17,7 +17,7 @@
       "parent": "MVS-4",
       "parentName": "שימור המידור וצורת העבודה המתקיימים באמצעות אירגונים נפרדים ומחיצות נפרדות במערכות הקיימות",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.48,
       "remaining": 1.73,
       "assignee": "Yossi Gueta"
@@ -93,26 +93,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-3798",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-3784",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-3753",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
@@ -121,16 +101,6 @@
       "effort": 10,
       "remaining": 1,
       "assignee": "Boaz Bitran"
-    },
-    {
-      "key": "MVS-3748",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4.47,
-      "remaining": 4.47,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3728",
