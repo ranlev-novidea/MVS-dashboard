@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T14:56:34.258Z",
+  "lastUpdated": "2026-08-09T16:03:34.232Z",
   "totalTickets": 18,
   "tickets": [
     {
@@ -31,16 +31,6 @@
       "effort": 4.96,
       "remaining": 4.96,
       "assignee": null
-    },
-    {
-      "key": "MVS-3864",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 4.96,
-      "remaining": 2.71,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3860",
@@ -91,6 +81,16 @@
       "effort": 5.52,
       "remaining": 5.52,
       "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-3798",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 2,
+      "remaining": 0.5,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3753",
@@ -170,7 +170,7 @@
       "status": "Pause",
       "effort": 12,
       "remaining": 10.25,
-      "assignee": "Shira Sapir Halili"
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-424",
