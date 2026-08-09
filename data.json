@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T07:58:02.989Z",
+  "lastUpdated": "2026-08-09T10:05:00.025Z",
   "totalTickets": 21,
   "tickets": [
     {
@@ -19,7 +19,7 @@
       "priority": "2 - High",
       "status": "Queue",
       "effort": 4.48,
-      "remaining": 3.73,
+      "remaining": 1.73,
       "assignee": "Yossi Gueta"
     },
     {
@@ -73,6 +73,16 @@
       "assignee": null
     },
     {
+      "key": "MVS-3822",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 4.48,
+      "remaining": 1.73,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
       "key": "MVS-3799",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
@@ -90,14 +100,14 @@
       "status": "Queue",
       "effort": 2,
       "remaining": 2,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3784",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 2.48,
       "remaining": 2.48,
       "assignee": "Ariel Ozer"
@@ -113,21 +123,11 @@
       "assignee": "Boaz Bitran"
     },
     {
-      "key": "MVS-3751",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 15.03,
-      "remaining": 0.88,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-3748",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 4.47,
       "remaining": 4.47,
       "assignee": "Idan Abutbul"
