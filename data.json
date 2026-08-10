@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-10T06:00:30.113Z",
-  "totalTickets": 17,
+  "lastUpdated": "2026-08-10T10:47:44.385Z",
+  "totalTickets": 13,
   "tickets": [
+    {
+      "key": "MVS-3958",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 3.52,
+      "remaining": 3.52,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3935",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4.48,
+      "remaining": 4.48,
+      "assignee": null
+    },
     {
       "key": "MVS-3926",
       "parent": "MVS-50",
@@ -43,16 +63,6 @@
       "assignee": "Dorin Nicola"
     },
     {
-      "key": "MVS-3839",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": "Yossi Gueta"
-    },
-    {
       "key": "MVS-3837",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
@@ -61,26 +71,6 @@
       "effort": 16,
       "remaining": 16,
       "assignee": null
-    },
-    {
-      "key": "MVS-3799",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 5.52,
-      "remaining": 0.52,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-3798",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 2,
-      "remaining": 0.5,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3753",
@@ -113,16 +103,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-3657",
-      "parent": "MVS-2210",
-      "parentName": "העברת עובדים ממעסיק למעסיק",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": null
-    },
-    {
       "key": "MVS-3596",
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
@@ -133,44 +113,24 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-3409",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 16,
-      "remaining": 16,
-      "assignee": null
-    },
-    {
       "key": "MVS-3408",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "4 - Low",
       "status": "Queue",
       "effort": 2,
-      "remaining": 2,
-      "assignee": null
+      "remaining": 1.75,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3018",
       "parent": "MVS-2400",
       "parentName": "דמו להנהלת מבטח",
       "priority": "3 - Medium",
-      "status": "Pause",
+      "status": "In Development",
       "effort": 12,
       "remaining": 10.25,
       "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-424",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": null
     }
   ]
 }
