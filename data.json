@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-10T00:04:05.316Z",
-  "totalTickets": 18,
+  "lastUpdated": "2026-08-10T06:00:30.113Z",
+  "totalTickets": 17,
   "tickets": [
     {
       "key": "MVS-3926",
@@ -63,16 +63,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-3822",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 4.48,
-      "remaining": 1.73,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
       "key": "MVS-3799",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
@@ -117,7 +107,7 @@
       "parent": "MVS-1725",
       "parentName": "הכנת כלים לאדמין",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 22,
       "remaining": 16.25,
       "assignee": "Shira Sapir Halili"
