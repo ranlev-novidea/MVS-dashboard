@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-10T10:47:44.385Z",
-  "totalTickets": 13,
+  "lastUpdated": "2026-08-10T14:41:45.839Z",
+  "totalTickets": 12,
   "tickets": [
     {
       "key": "MVS-3958",
@@ -11,16 +11,6 @@
       "effort": 3.52,
       "remaining": 3.52,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3935",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 4.48,
-      "remaining": 4.48,
-      "assignee": null
     },
     {
       "key": "MVS-3926",
@@ -77,10 +67,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Pause",
+      "status": "Failed QA",
       "effort": 10,
       "remaining": 0.75,
-      "assignee": "Boaz Bitran"
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3728",
@@ -119,8 +109,8 @@
       "priority": "4 - Low",
       "status": "Queue",
       "effort": 2,
-      "remaining": 1.75,
-      "assignee": "Idan Abutbul"
+      "remaining": 2,
+      "assignee": null
     },
     {
       "key": "MVS-3018",
@@ -129,7 +119,7 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 12,
-      "remaining": 10.25,
+      "remaining": 6.25,
       "assignee": "Ariel Ozer"
     }
   ]
