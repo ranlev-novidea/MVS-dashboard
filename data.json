@@ -1,16 +1,36 @@
 {
-  "lastUpdated": "2026-08-11T08:31:52.121Z",
-  "totalTickets": 12,
+  "lastUpdated": "2026-08-11T11:32:41.186Z",
+  "totalTickets": 14,
   "tickets": [
+    {
+      "key": "MVS-3966",
+      "parent": "MVS-3684",
+      "parentName": "תיעוד מידע הנדרש להעביר למנהל מערכת מבטח",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 3.52,
+      "remaining": 3.52,
+      "assignee": "Idan Abutbul"
+    },
     {
       "key": "MVS-3958",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 3.52,
-      "remaining": 3.52,
+      "remaining": 2.52,
       "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3935",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 4.48,
+      "remaining": 1.23,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3926",
@@ -63,6 +83,16 @@
       "assignee": null
     },
     {
+      "key": "MVS-3762",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 4.96,
+      "remaining": 0.57,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
       "key": "MVS-3753",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
@@ -88,8 +118,8 @@
       "parentName": "הכנת כלים לאדמין",
       "priority": "3 - Medium",
       "status": "In Development",
-      "effort": 22,
-      "remaining": 16.25,
+      "effort": 18.47,
+      "remaining": 12.73,
       "assignee": "Shira Sapir Halili"
     },
     {
@@ -111,16 +141,6 @@
       "effort": 2,
       "remaining": 2,
       "assignee": null
-    },
-    {
-      "key": "MVS-3018",
-      "parent": "MVS-2400",
-      "parentName": "דמו להנהלת מבטח",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 12,
-      "remaining": 2,
-      "assignee": "Ariel Ozer"
     }
   ]
 }
