@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-12T12:35:29.470Z",
-  "totalTickets": 12,
+  "lastUpdated": "2026-08-12T16:11:47.611Z",
+  "totalTickets": 16,
   "tickets": [
     {
       "key": "MVS-3968",
@@ -47,20 +47,10 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 4.96,
-      "remaining": 3.46,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-3864",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
-      "status": "Failed QA",
-      "effort": 4.96,
-      "remaining": 1.21,
-      "assignee": "Ariel Ozer"
+      "remaining": 3.71,
+      "assignee": "Liat Gershgoren"
     },
     {
       "key": "MVS-3860",
@@ -81,6 +71,46 @@
       "effort": 16,
       "remaining": 16,
       "assignee": null
+    },
+    {
+      "key": "MVS-3799",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 5.52,
+      "remaining": 0.27,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-3798",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 2,
+      "remaining": 0.5,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-3784",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-3763",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 5.52,
+      "remaining": 0.25,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3728",
@@ -121,6 +151,16 @@
       "effort": 2,
       "remaining": 2,
       "assignee": null
+    },
+    {
+      "key": "MVS-3350",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 2,
+      "remaining": 0.25,
+      "assignee": "Idan Abutbul"
     }
   ]
 }
