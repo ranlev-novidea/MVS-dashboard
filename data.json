@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-12T09:46:51.984Z",
+  "lastUpdated": "2026-08-12T12:35:29.470Z",
   "totalTickets": 12,
   "tickets": [
+    {
+      "key": "MVS-3968",
+      "parent": "MVS-1100",
+      "parentName": "ניהול פוליסות",
+      "priority": "1 - Critical",
+      "status": "Pause",
+      "effort": 3.04,
+      "remaining": 0.79,
+      "assignee": "Sebastian Yeshurun"
+    },
     {
       "key": "MVS-3966",
       "parent": "MVS-3684",
@@ -39,7 +49,17 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 4.96,
-      "remaining": 4.96,
+      "remaining": 3.46,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-3864",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 4.96,
+      "remaining": 1.21,
       "assignee": "Ariel Ozer"
     },
     {
@@ -61,26 +81,6 @@
       "effort": 16,
       "remaining": 16,
       "assignee": null
-    },
-    {
-      "key": "MVS-3784",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-3763",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 5.52,
-      "remaining": 0.25,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3728",
