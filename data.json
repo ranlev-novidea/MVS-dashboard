@@ -1,17 +1,7 @@
 {
-  "lastUpdated": "2026-08-12T05:16:55.312Z",
-  "totalTickets": 17,
+  "lastUpdated": "2026-08-12T09:46:51.984Z",
+  "totalTickets": 12,
   "tickets": [
-    {
-      "key": "MVS-3968",
-      "parent": "MVS-1100",
-      "parentName": "ניהול פוליסות",
-      "priority": "1 - Critical",
-      "status": "Queue",
-      "effort": 3.04,
-      "remaining": 2.29,
-      "assignee": "Sebastian Yeshurun"
-    },
     {
       "key": "MVS-3966",
       "parent": "MVS-3684",
@@ -21,26 +11,6 @@
       "effort": 3.52,
       "remaining": 3.02,
       "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-3958",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 3.52,
-      "remaining": 2.52,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3935",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "Failed QA",
-      "effort": 4.48,
-      "remaining": 0.63,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3926",
@@ -59,7 +29,7 @@
       "priority": "2 - High",
       "status": "Pause",
       "effort": 4.48,
-      "remaining": 1.48,
+      "remaining": 2.75,
       "assignee": "Yossi Gueta"
     },
     {
@@ -67,10 +37,10 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.96,
       "remaining": 4.96,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3860",
@@ -99,7 +69,7 @@
       "priority": "2 - High",
       "status": "Failed QA",
       "effort": 2.48,
-      "remaining": 0.5,
+      "remaining": 2.48,
       "assignee": "Ariel Ozer"
     },
     {
@@ -110,26 +80,6 @@
       "status": "Failed QA",
       "effort": 5.52,
       "remaining": 0.25,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-3762",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4.96,
-      "remaining": 0.57,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3753",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 10,
-      "remaining": 0.75,
       "assignee": "Ariel Ozer"
     },
     {
