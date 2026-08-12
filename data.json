@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T20:04:09.368Z",
+  "lastUpdated": "2026-08-12T23:21:30.845Z",
   "totalTickets": 16,
   "tickets": [
     {
@@ -9,7 +9,7 @@
       "priority": "1 - Critical",
       "status": "Pause",
       "effort": 3.04,
-      "remaining": 0.79,
+      "remaining": 3.04,
       "assignee": "Sebastian Yeshurun"
     },
     {
