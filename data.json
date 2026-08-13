@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-13T05:50:09.775Z",
-  "totalTickets": 16,
+  "lastUpdated": "2026-08-13T09:47:01.063Z",
+  "totalTickets": 15,
   "tickets": [
     {
       "key": "MVS-3968",
@@ -73,16 +73,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-3799",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 5.52,
-      "remaining": 0.27,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-3798",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
@@ -107,7 +97,7 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 5.52,
       "remaining": 0.25,
       "assignee": "Ariel Ozer"
