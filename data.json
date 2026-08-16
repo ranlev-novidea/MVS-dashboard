@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T11:42:36.162Z",
+  "lastUpdated": "2026-08-16T13:44:09.467Z",
   "totalTickets": 13,
   "tickets": [
     {
@@ -78,8 +78,8 @@
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
       "status": "Failed QA",
-      "effort": 2,
-      "remaining": 0.5,
+      "effort": 3.03,
+      "remaining": 1.28,
       "assignee": "Ariel Ozer"
     },
     {
