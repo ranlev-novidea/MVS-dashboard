@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-16T13:44:09.467Z",
-  "totalTickets": 13,
+  "lastUpdated": "2026-08-16T14:52:58.223Z",
+  "totalTickets": 34,
   "tickets": [
+    {
+      "key": "MVS-3978",
+      "parent": "MVS-1468",
+      "parentName": "שחלוף",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3975",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-3968",
       "parent": "MVS-1100",
@@ -23,6 +43,26 @@
       "assignee": "Idan Abutbul"
     },
     {
+      "key": "MVS-3965",
+      "parent": "MVS-226",
+      "parentName": "ממשק תוצרים",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3962",
+      "parent": "MVS-1468",
+      "parentName": "שחלוף",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
+    },
+    {
       "key": "MVS-3926",
       "parent": "MVS-50",
       "parentName": "תשתית",
@@ -33,6 +73,26 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-3921",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-3919",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": "Ariel Ozer"
+    },
+    {
       "key": "MVS-3905",
       "parent": "MVS-4",
       "parentName": "שימור המידור וצורת העבודה המתקיימים באמצעות אירגונים נפרדים ומחיצות נפרדות במערכות הקיימות",
@@ -41,6 +101,26 @@
       "effort": 4.48,
       "remaining": 2.75,
       "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3890",
+      "parent": "MVS-1752",
+      "parentName": "עדכון שדות באובייקט תיוק+פריסת מסך",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3889",
+      "parent": "MVS-3250",
+      "parentName": "קשרי העסקה",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": null
     },
     {
       "key": "MVS-3878",
@@ -70,6 +150,56 @@
       "status": "Queue",
       "effort": 16,
       "remaining": 16,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3829",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 3.52,
+      "remaining": 3.52,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3828",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 6,
+      "remaining": 6,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3827",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 3.52,
+      "remaining": 3.52,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3826",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 7.04,
+      "remaining": 7.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3825",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 7.04,
+      "remaining": 7.04,
       "assignee": null
     },
     {
@@ -103,6 +233,16 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-3657",
+      "parent": "MVS-2210",
+      "parentName": "העברת עובדים ממעסיק למעסיק",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
+    },
+    {
       "key": "MVS-3596",
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
@@ -131,6 +271,76 @@
       "effort": 2,
       "remaining": 0.25,
       "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-3297",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3296",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 7.04,
+      "remaining": 7.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3294",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 6,
+      "remaining": 6,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3293",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-1608",
+      "parent": "MVS-1468",
+      "parentName": "שחלוף",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-1473",
+      "parent": "MVS-1468",
+      "parentName": "שחלוף",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-1471",
+      "parent": "MVS-1500",
+      "parentName": "בקרת גביה/פרמיה ראשונה",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": null
     }
   ]
 }
