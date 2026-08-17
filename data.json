@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-17T08:07:33.522Z",
-  "totalTickets": 34,
+  "lastUpdated": "2026-08-17T10:17:39.714Z",
+  "totalTickets": 35,
   "tickets": [
     {
       "key": "MVS-3978",
@@ -79,7 +79,7 @@
       "priority": "1 - Critical",
       "status": "In Development",
       "effort": 8,
-      "remaining": 8,
+      "remaining": 7.75,
       "assignee": "Ariel Ozer"
     },
     {
@@ -203,6 +203,16 @@
       "assignee": null
     },
     {
+      "key": "MVS-3799",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 5.52,
+      "remaining": 0.27,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-3798",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
@@ -319,7 +329,7 @@
       "priority": "2 - High",
       "status": "Queue",
       "effort": 3.04,
-      "remaining": 3.04,
+      "remaining": 2.54,
       "assignee": "Haim Hatuka"
     },
     {
