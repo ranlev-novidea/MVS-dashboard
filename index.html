@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -297,12 +296,22 @@
           <div class="metric-label">In Progress Remaining</div>
           <div class="metric-value" id="inProgressRemaining">-</div>
         </div>
-     
         <div class="metric-card">
           <div class="metric-label">Unassigned tickets</div>
           <div class="metric-value" id="unassignedCount">-</div>
-      </div>
-      
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">In Development</div>
+          <div class="metric-value" id="inDevCount">-</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Pause</div>
+          <div class="metric-value" id="pauseCount">-</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Failed QA</div>
+          <div class="metric-value" id="failedQACount">-</div>
+        </div>
       </div>
 
       <div class="chart-section">
@@ -322,6 +331,44 @@
           </div>
         </div>
         <div class="labels-row" id="labelsRow"></div>
+        <div class="axis-label">PARENT EPIC</div>
+        <div class="legend">
+          <div class="legend-item">
+            <div class="legend-color" style="background: #ef4444;"></div>
+            <span class="legend-text">1 - Highest</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background: #f97316;"></div>
+            <span class="legend-text">2 - High</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background: #eab308;"></div>
+            <span class="legend-text">3 - Medium</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background: #22c55e;"></div>
+            <span class="legend-text">4 - Low</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chart-section">
+        <h2>Effort by status (Dev Finished, Test, Pause QA) - stacked by priority</h2>
+        <div class="chart-container">
+          <div class="y-axis">
+            <span>27</span>
+            <span>21</span>
+            <span>15</span>
+            <span>9</span>
+            <span>3</span>
+            <span>0</span>
+          </div>
+          <div class="chart-area">
+            <div class="grid-lines" id="gridLines2"></div>
+            <div class="bars-container" id="chartBars2"></div>
+          </div>
+        </div>
+        <div class="labels-row" id="labelsRow2"></div>
         <div class="axis-label">PARENT EPIC</div>
         <div class="legend">
           <div class="legend-item">
@@ -395,17 +442,28 @@
       const totalEffort = Math.round(tickets.reduce((sum, t) => sum + t.effort, 0) * 10) / 10;
       const unassignedRemaining = Math.round(tickets.filter(t => !t.assignee).reduce((sum, t) => sum + (t.remaining || 0), 0) * 10) / 10;
       const inProgressRemaining = Math.round(tickets.filter(t => t.assignee && t.status === 'In Development').reduce((sum, t) => sum + (t.remaining || 0), 0) * 10) / 10;
+      const unassignedCount = tickets.filter(t => !t.assignee).length;
+      const inDevCount = tickets.filter(t => t.status === 'In Development').length;
+      const pauseCount = tickets.filter(t => t.status === 'Pause').length;
+      const failedQACount = tickets.filter(t => t.status === 'Failed QA').length;
       
       document.getElementById('totalEffort').textContent = totalEffort + 'h';
       document.getElementById('unassignedRemaining').textContent = unassignedRemaining + 'h';
       document.getElementById('inProgressRemaining').textContent = inProgressRemaining + 'h';
+      document.getElementById('unassignedCount').textContent = unassignedCount;
+      document.getElementById('inDevCount').textContent = inDevCount;
+      document.getElementById('pauseCount').textContent = pauseCount;
+      document.getElementById('failedQACount').textContent = failedQACount;
 
-const unassignedCount = tickets.filter(t => !t.assignee).length;
-document.getElementById('unassignedCount').textContent = unassignedCount;
-      
       // Group unassigned by parent
       const unassignedByParent = groupByParent(tickets.filter(t => !t.assignee));
       renderChart(unassignedByParent);
+      
+      // Group tickets in Dev Finished, Test, Pause QA by parent
+      const otherStatusTickets = groupByParent(tickets.filter(t => 
+        ['Dev Finished', 'Test', 'Pause QA'].includes(t.status)
+      ));
+      renderChart2(otherStatusTickets);
       
       // Status breakdown
       const statuses = ['Queue', 'In Development', 'Failed QA', 'Pause'];
@@ -415,9 +473,9 @@ document.getElementById('unassignedCount').textContent = unassignedCount;
       renderAssigneeList(tickets);
     }
 
-    function groupByParent(unassignedTickets) {
+    function groupByParent(filteredTickets) {
       const parents = {};
-      unassignedTickets.forEach(ticket => {
+      filteredTickets.forEach(ticket => {
         const parent = ticket.parent || null;
         if (!parents[parent]) {
           parents[parent] = {
@@ -476,7 +534,6 @@ document.getElementById('unassignedCount').textContent = unassignedCount;
 
         barsContainer.appendChild(bar);
 
-        // Add label
         const labelCol = document.createElement('div');
         labelCol.className = 'label-col';
         
@@ -493,8 +550,66 @@ document.getElementById('unassignedCount').textContent = unassignedCount;
         labelsContainer.appendChild(labelCol);
       });
 
-      // Add grid lines
       const gridLines = document.getElementById('gridLines');
+      gridLines.innerHTML = '';
+      for (let i = 0; i <= 6; i++) {
+        const line = document.createElement('div');
+        line.className = 'grid-line' + (i === 6 ? ' axis' : '');
+        line.style.top = (i * (100 / 6)) + '%';
+        gridLines.appendChild(line);
+      }
+    }
+
+    function renderChart2(data) {
+      const maxEffort = 27;
+      const maxHeight = 400;
+      const priorityOrder = ['1 - Highest', '2 - High', '3 - Medium', '4 - Low', '5 - Lowest'];
+
+      const barsContainer = document.getElementById('chartBars2');
+      const labelsContainer = document.getElementById('labelsRow2');
+      barsContainer.innerHTML = '';
+      labelsContainer.innerHTML = '';
+
+      data.forEach(({ parentName, priorities, total }) => {
+        const barHeightPx = (total / maxEffort) * maxHeight;
+        const bar = document.createElement('div');
+        bar.className = 'bar';
+        bar.style.height = barHeightPx + 'px';
+
+        priorityOrder.forEach(priority => {
+          const p = priorities[priority];
+          if (p && p.effort > 0) {
+            const segment = document.createElement('div');
+            segment.className = 'segment';
+            segment.style.background = priorityColors[priority];
+            segment.style.height = (p.effort / total) * 100 + '%';
+            segment.title = `${priority}: ${p.count} tickets, ${Math.round(p.effort * 10) / 10}h`;
+            if ((p.effort / total) * 100 > 15) {
+              segment.textContent = p.count;
+            }
+            bar.appendChild(segment);
+          }
+        });
+
+        barsContainer.appendChild(bar);
+
+        const labelCol = document.createElement('div');
+        labelCol.className = 'label-col';
+        
+        const valueLabel = document.createElement('div');
+        valueLabel.className = 'value-label';
+        valueLabel.textContent = Math.round(total * 10) / 10;
+        
+        const nameLabel = document.createElement('div');
+        nameLabel.className = 'name-label';
+        nameLabel.textContent = parentName;
+        
+        labelCol.appendChild(valueLabel);
+        labelCol.appendChild(nameLabel);
+        labelsContainer.appendChild(labelCol);
+      });
+
+      const gridLines = document.getElementById('gridLines2');
       gridLines.innerHTML = '';
       for (let i = 0; i <= 6; i++) {
         const line = document.createElement('div');
