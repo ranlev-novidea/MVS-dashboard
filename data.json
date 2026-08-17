@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T14:57:32.057Z",
+  "lastUpdated": "2026-08-17T15:54:17.833Z",
   "totalTickets": 34,
   "tickets": [
     {
@@ -327,7 +327,7 @@
       "parent": "MVS-1468",
       "parentName": "שחלוף",
       "priority": "2 - High",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 3.04,
       "remaining": 3.04,
       "assignee": "Haim Hatuka"
