@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-17T15:54:17.833Z",
-  "totalTickets": 34,
+  "lastUpdated": "2026-08-17T17:00:09.714Z",
+  "totalTickets": 33,
   "tickets": [
     {
       "key": "MVS-3978",
@@ -71,16 +71,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3921",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 8,
-      "remaining": 1.25,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3919",
