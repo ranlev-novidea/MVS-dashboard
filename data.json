@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-17T13:56:10.991Z",
-  "totalTickets": 35,
+  "lastUpdated": "2026-08-17T14:57:32.057Z",
+  "totalTickets": 34,
   "tickets": [
     {
       "key": "MVS-3978",
@@ -79,7 +79,7 @@
       "priority": "1 - Critical",
       "status": "In Development",
       "effort": 8,
-      "remaining": 3.25,
+      "remaining": 1.25,
       "assignee": "Ariel Ozer"
     },
     {
@@ -321,16 +321,6 @@
       "effort": 4,
       "remaining": 4,
       "assignee": null
-    },
-    {
-      "key": "MVS-1608",
-      "parent": "MVS-1468",
-      "parentName": "שחלוף",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 3.04,
-      "remaining": 2.54,
-      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-1473",
