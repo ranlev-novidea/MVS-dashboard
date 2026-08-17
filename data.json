@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T11:54:06.457Z",
+  "lastUpdated": "2026-08-17T13:56:10.991Z",
   "totalTickets": 35,
   "tickets": [
     {
@@ -106,7 +106,7 @@
       "key": "MVS-3890",
       "parent": "MVS-1752",
       "parentName": "עדכון שדות באובייקט תיוק+פריסת מסך",
-      "priority": "3 - Medium",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 4,
       "remaining": 4,
@@ -327,7 +327,7 @@
       "parent": "MVS-1468",
       "parentName": "שחלוף",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 3.04,
       "remaining": 2.54,
       "assignee": "Haim Hatuka"
@@ -337,7 +337,7 @@
       "parent": "MVS-1468",
       "parentName": "שחלוף",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 3.04,
       "remaining": 3.04,
       "assignee": "Haim Hatuka"
