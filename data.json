@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T05:54:18.356Z",
+  "lastUpdated": "2026-08-17T08:07:33.522Z",
   "totalTickets": 34,
   "tickets": [
     {
@@ -10,7 +10,7 @@
       "status": "Queue",
       "effort": 2.48,
       "remaining": 2.48,
-      "assignee": null
+      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-3975",
@@ -60,7 +60,7 @@
       "status": "Queue",
       "effort": 2.48,
       "remaining": 2.48,
-      "assignee": null
+      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-3926",
@@ -77,7 +77,7 @@
       "parent": "MVS-50",
       "parentName": "תשתית",
       "priority": "1 - Critical",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 8,
       "remaining": 8,
       "assignee": "Ariel Ozer"
@@ -99,8 +99,8 @@
       "priority": "2 - High",
       "status": "Pause",
       "effort": 4.48,
-      "remaining": 2.75,
-      "assignee": "Shira Sapir Halili"
+      "remaining": 0.5,
+      "assignee": "Dorin Nicola"
     },
     {
       "key": "MVS-3890",
@@ -108,8 +108,8 @@
       "parentName": "עדכון שדות באובייקט תיוק+פריסת מסך",
       "priority": "3 - Medium",
       "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
+      "effort": 4,
+      "remaining": 4,
       "assignee": null
     },
     {
@@ -320,7 +320,7 @@
       "status": "Queue",
       "effort": 3.04,
       "remaining": 3.04,
-      "assignee": null
+      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-1473",
@@ -330,7 +330,7 @@
       "status": "Queue",
       "effort": 3.04,
       "remaining": 3.04,
-      "assignee": null
+      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-1471",
