@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-18T05:16:17.733Z",
-  "totalTickets": 32,
+  "lastUpdated": "2026-08-18T07:58:07.869Z",
+  "totalTickets": 29,
   "tickets": [
     {
       "key": "MVS-3978",
       "parent": "MVS-1468",
       "parentName": "שחלוף",
-      "priority": "2 - High",
+      "priority": "3 - Medium",
       "status": "Queue",
       "effort": 2.48,
       "remaining": 2.48,
@@ -99,8 +99,8 @@
       "priority": "2 - High",
       "status": "Queue",
       "effort": 4,
-      "remaining": 4,
-      "assignee": null
+      "remaining": 3.25,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-3889",
@@ -193,16 +193,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-3799",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 5.52,
-      "remaining": 0.27,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-3798",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
@@ -233,16 +223,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-3657",
-      "parent": "MVS-2210",
-      "parentName": "העברת עובדים ממעסיק למעסיק",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": null
-    },
-    {
       "key": "MVS-3596",
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
@@ -251,16 +231,6 @@
       "effort": 5.52,
       "remaining": 1.02,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3408",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": null
     },
     {
       "key": "MVS-3297",
@@ -307,7 +277,7 @@
       "parent": "MVS-1468",
       "parentName": "שחלוף",
       "priority": "2 - High",
-      "status": "Pause",
+      "status": "In Development",
       "effort": 3.04,
       "remaining": 3.04,
       "assignee": "Haim Hatuka"
