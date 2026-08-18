@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-18T14:06:22.508Z",
-  "totalTickets": 23,
+  "lastUpdated": "2026-08-18T16:01:11.558Z",
+  "totalTickets": 24,
   "tickets": [
     {
       "key": "MVS-3978",
@@ -89,7 +89,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 16,
-      "remaining": 15.5,
+      "remaining": 12.5,
       "assignee": "Ariel Ozer"
     },
     {
@@ -143,6 +143,16 @@
       "assignee": null
     },
     {
+      "key": "MVS-3799",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 5.52,
+      "remaining": 0.25,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-3728",
       "parent": "MVS-3003",
       "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
@@ -189,7 +199,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 7.04,
-      "remaining": 7.04,
+      "remaining": 3.57,
       "assignee": "Jonathan Ashkenazy"
     },
     {
