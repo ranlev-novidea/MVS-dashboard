@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-18T11:56:56.280Z",
-  "totalTickets": 26,
+  "lastUpdated": "2026-08-18T14:06:22.508Z",
+  "totalTickets": 23,
   "tickets": [
     {
       "key": "MVS-3978",
@@ -23,33 +23,13 @@
       "assignee": null
     },
     {
-      "key": "MVS-3968",
-      "parent": "MVS-1100",
-      "parentName": "ניהול פוליסות",
-      "priority": "1 - Critical",
-      "status": "Pause",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Sebastian Yeshurun"
-    },
-    {
-      "key": "MVS-3966",
-      "parent": "MVS-3684",
-      "parentName": "תיעוד מידע הנדרש להעביר למנהל מערכת מבטח",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 3.52,
-      "remaining": 3.02,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-3965",
       "parent": "MVS-226",
       "parentName": "ממשק תוצרים",
       "priority": "1 - Critical",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 2.48,
-      "remaining": 2.06,
+      "remaining": 1.03,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -71,16 +51,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3919",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 8,
-      "remaining": 5.5,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3889",
@@ -117,10 +87,10 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 16,
-      "remaining": 16,
-      "assignee": null
+      "remaining": 15.5,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3829",
@@ -217,10 +187,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 7.04,
       "remaining": 7.04,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3294",
