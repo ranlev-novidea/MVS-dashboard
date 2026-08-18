@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-18T10:59:42.644Z",
-  "totalTickets": 25,
+  "lastUpdated": "2026-08-18T11:56:56.280Z",
+  "totalTickets": 26,
   "tickets": [
     {
       "key": "MVS-3978",
@@ -41,6 +41,16 @@
       "effort": 3.52,
       "remaining": 3.02,
       "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-3965",
+      "parent": "MVS-226",
+      "parentName": "ממשק תוצרים",
+      "priority": "1 - Critical",
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 2.06,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3962",
