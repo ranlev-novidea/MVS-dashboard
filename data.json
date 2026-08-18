@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T17:59:05.248Z",
+  "lastUpdated": "2026-08-18T19:35:50.443Z",
   "totalTickets": 24,
   "tickets": [
     {
@@ -147,9 +147,9 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 5.52,
-      "remaining": 0.25,
+      "remaining": 5.52,
       "assignee": "Idan Abutbul"
     },
     {
@@ -187,7 +187,7 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4,
       "remaining": 4,
       "assignee": "Idan Abutbul"
