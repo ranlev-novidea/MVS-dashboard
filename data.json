@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-18T07:58:07.869Z",
-  "totalTickets": 29,
+  "lastUpdated": "2026-08-18T09:18:28.978Z",
+  "totalTickets": 28,
   "tickets": [
     {
       "key": "MVS-3978",
@@ -77,7 +77,7 @@
       "parent": "MVS-50",
       "parentName": "תשתית",
       "priority": "1 - Critical",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 8,
       "remaining": 8,
       "assignee": "Ariel Ozer"
@@ -91,16 +91,6 @@
       "effort": 4.48,
       "remaining": 0.5,
       "assignee": "Dorin Nicola"
-    },
-    {
-      "key": "MVS-3890",
-      "parent": "MVS-1752",
-      "parentName": "עדכון שדות באובייקט תיוק+פריסת מסך",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 4,
-      "remaining": 3.25,
-      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-3889",
