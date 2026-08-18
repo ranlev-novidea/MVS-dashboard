@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T16:01:11.558Z",
+  "lastUpdated": "2026-08-18T17:59:05.248Z",
   "totalTickets": 24,
   "tickets": [
     {
@@ -190,7 +190,7 @@
       "status": "Queue",
       "effort": 4,
       "remaining": 4,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3296",
