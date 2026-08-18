@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T20:54:09.638Z",
+  "lastUpdated": "2026-08-18T21:49:54.069Z",
   "totalTickets": 24,
   "tickets": [
     {
@@ -189,7 +189,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 4,
-      "remaining": 4,
+      "remaining": 2,
       "assignee": "Idan Abutbul"
     },
     {
