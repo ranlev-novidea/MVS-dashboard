@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-19T09:52:48.368Z",
-  "totalTickets": 21,
+  "lastUpdated": "2026-08-19T10:59:23.774Z",
+  "totalTickets": 20,
   "tickets": [
     {
       "key": "MVS-3978",
@@ -53,16 +53,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-3878",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 4.96,
-      "remaining": 3.71,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-3860",
       "parent": "MVS-757",
       "parentName": "IFN - תיוק קבצים",
@@ -79,7 +69,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 16,
-      "remaining": 8,
+      "remaining": 6,
       "assignee": "Ariel Ozer"
     },
     {
