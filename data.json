@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T17:54:13.309Z",
+  "lastUpdated": "2026-08-19T19:11:57.714Z",
   "totalTickets": 18,
   "tickets": [
     {
@@ -37,10 +37,10 @@
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "Pause",
       "effort": 2,
-      "remaining": 2,
-      "assignee": null
+      "remaining": 1,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3860",
@@ -87,10 +87,10 @@
       "parent": "MVS-3310",
       "parentName": "ביטול ניוד משימור",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 3.52,
       "remaining": 3.52,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3826",
