@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T07:57:49.381Z",
+  "lastUpdated": "2026-08-19T09:52:48.368Z",
   "totalTickets": 21,
   "tickets": [
     {
@@ -79,7 +79,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 16,
-      "remaining": 12.5,
+      "remaining": 8,
       "assignee": "Ariel Ozer"
     },
     {
@@ -169,7 +169,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 7.04,
-      "remaining": 3.57,
+      "remaining": 2.59,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -177,10 +177,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 6,
       "remaining": 6,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3293",
