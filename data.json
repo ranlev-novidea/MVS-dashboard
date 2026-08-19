@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-19T11:56:32.676Z",
-  "totalTickets": 19,
+  "lastUpdated": "2026-08-19T14:06:59.181Z",
+  "totalTickets": 18,
   "tickets": [
     {
       "key": "MVS-3978",
@@ -31,16 +31,6 @@
       "effort": 2.48,
       "remaining": 1.03,
       "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-3962",
-      "parent": "MVS-1468",
-      "parentName": "שחלוף",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-3889",
@@ -107,7 +97,7 @@
       "parent": "MVS-3310",
       "parentName": "ביטול ניוד משימור",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 7.04,
       "remaining": 7.04,
       "assignee": "Jonathan Ashkenazy"
@@ -169,7 +159,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 4,
-      "remaining": 3.75,
+      "remaining": 1.5,
       "assignee": "Shira Sapir Halili"
     },
     {
