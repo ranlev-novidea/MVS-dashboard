@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-19T05:16:51.606Z",
-  "totalTickets": 24,
+  "lastUpdated": "2026-08-19T07:57:49.381Z",
+  "totalTickets": 21,
   "tickets": [
     {
       "key": "MVS-3978",
@@ -43,16 +43,6 @@
       "assignee": "Haim Hatuka"
     },
     {
-      "key": "MVS-3926",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
       "key": "MVS-3889",
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
@@ -70,7 +60,7 @@
       "status": "Pause",
       "effort": 4.96,
       "remaining": 3.71,
-      "assignee": "Liat Gershgoren"
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3860",
@@ -143,16 +133,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-3799",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 5.52,
-      "remaining": 5.52,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-3728",
       "parent": "MVS-3003",
       "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
@@ -183,16 +163,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-3297",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 2,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-3296",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
@@ -217,10 +187,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4,
-      "remaining": 4,
-      "assignee": null
+      "remaining": 3.75,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-1473",
