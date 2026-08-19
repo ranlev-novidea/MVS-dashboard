@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-19T10:59:23.774Z",
-  "totalTickets": 20,
+  "lastUpdated": "2026-08-19T11:56:32.676Z",
+  "totalTickets": 19,
   "tickets": [
     {
       "key": "MVS-3978",
@@ -110,7 +110,7 @@
       "status": "Queue",
       "effort": 7.04,
       "remaining": 7.04,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3825",
@@ -151,16 +151,6 @@
       "effort": 5.52,
       "remaining": 1.02,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3296",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 7.04,
-      "remaining": 2.59,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3294",
