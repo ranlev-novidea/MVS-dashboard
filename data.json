@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T08:04:26.177Z",
+  "lastUpdated": "2026-08-20T10:06:03.386Z",
   "totalTickets": 19,
   "tickets": [
     {
@@ -19,7 +19,7 @@
       "priority": "4 - Low",
       "status": "Queue",
       "effort": 2.48,
-      "remaining": 2.48,
+      "remaining": 1.98,
       "assignee": "Haim Hatuka"
     },
     {
@@ -89,7 +89,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 6,
-      "remaining": 6,
+      "remaining": 3,
       "assignee": "Ariel Ozer"
     },
     {
@@ -120,7 +120,7 @@
       "status": "Queue",
       "effort": 7.04,
       "remaining": 7.04,
-      "assignee": "Idan Abutbul"
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3728",
@@ -179,7 +179,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 3.04,
-      "remaining": 3.04,
+      "remaining": 0.54,
       "assignee": "Haim Hatuka"
     },
     {
