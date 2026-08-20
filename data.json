@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-20T14:10:06.602Z",
-  "totalTickets": 21,
+  "lastUpdated": "2026-08-20T16:04:20.931Z",
+  "totalTickets": 19,
   "tickets": [
     {
       "key": "MVS-4015",
@@ -91,26 +91,6 @@
       "effort": 16,
       "remaining": 6,
       "assignee": "Boaz Bitran"
-    },
-    {
-      "key": "MVS-3829",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 3.52,
-      "remaining": 3.52,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3828",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 0.5,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3827",
