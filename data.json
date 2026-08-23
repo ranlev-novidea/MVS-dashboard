@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-23T10:22:14.126Z",
-  "totalTickets": 18,
+  "lastUpdated": "2026-08-23T11:19:24.746Z",
+  "totalTickets": 16,
   "tickets": [
     {
       "key": "MVS-4015",
@@ -89,18 +89,8 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 7.04,
-      "remaining": 4.51,
+      "remaining": 0.26,
       "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-3792",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3728",
@@ -157,19 +147,9 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 6,
-      "remaining": 6,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-3294",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
       "status": "In Development",
       "effort": 6,
-      "remaining": 0.5,
+      "remaining": 6,
       "assignee": "Idan Abutbul"
     },
     {
