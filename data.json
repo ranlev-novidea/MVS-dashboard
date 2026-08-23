@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T09:25:43.131Z",
+  "lastUpdated": "2026-08-23T10:22:14.126Z",
   "totalTickets": 18,
   "tickets": [
     {
@@ -21,6 +21,16 @@
       "effort": 2,
       "remaining": 2,
       "assignee": "Sebastian Yeshurun"
+    },
+    {
+      "key": "MVS-4005",
+      "parent": "MVS-1581",
+      "parentName": "ERD - תיקונים באובייקט מעסיק",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3978",
@@ -161,16 +171,6 @@
       "effort": 6,
       "remaining": 0.5,
       "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-1471",
-      "parent": "MVS-1500",
-      "parentName": "בקרת גביה/פרמיה ראשונה",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-424",
