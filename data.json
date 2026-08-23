@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-23T06:38:20.978Z",
-  "totalTickets": 20,
+  "lastUpdated": "2026-08-23T07:32:15.252Z",
+  "totalTickets": 19,
   "tickets": [
     {
       "key": "MVS-4015",
@@ -18,8 +18,8 @@
       "parentName": "תהליך טרום יעוץ",
       "priority": "2 - High",
       "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
+      "effort": 2,
+      "remaining": 2,
       "assignee": "Sebastian Yeshurun"
     },
     {
@@ -40,7 +40,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Idan Abutbul"
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-3965",
@@ -133,16 +133,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-3409",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 16,
-      "remaining": 16,
-      "assignee": null
-    },
-    {
       "key": "MVS-3408",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
@@ -187,7 +177,7 @@
       "parent": "MVS-1500",
       "parentName": "בקרת גביה/פרמיה ראשונה",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 3.04,
       "remaining": 3.04,
       "assignee": "Ariel Ozer"
