@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-23T07:32:15.252Z",
-  "totalTickets": 19,
+  "lastUpdated": "2026-08-23T08:28:03.906Z",
+  "totalTickets": 20,
   "tickets": [
     {
       "key": "MVS-4015",
-      "parent": null,
-      "parentName": null,
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
       "priority": "2 - High",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Moran Mochly Raz"
+      "assignee": null
     },
     {
       "key": "MVS-4014",
@@ -100,7 +100,7 @@
       "status": "Queue",
       "effort": 3.04,
       "remaining": 3.04,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3728",
@@ -133,6 +133,16 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-3409",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 16,
+      "remaining": 16,
+      "assignee": null
+    },
+    {
       "key": "MVS-3408",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
@@ -150,7 +160,7 @@
       "status": "Queue",
       "effort": 6,
       "remaining": 6,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3294",
