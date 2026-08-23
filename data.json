@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-23T08:28:03.906Z",
-  "totalTickets": 20,
+  "lastUpdated": "2026-08-23T09:25:43.131Z",
+  "totalTickets": 18,
   "tickets": [
     {
       "key": "MVS-4015",
@@ -51,16 +51,6 @@
       "effort": 2.48,
       "remaining": 1.03,
       "assignee": "Dorin Nicola"
-    },
-    {
-      "key": "MVS-3962",
-      "parent": "MVS-1468",
-      "parentName": "שחלוף",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-3889",
@@ -171,16 +161,6 @@
       "effort": 6,
       "remaining": 0.5,
       "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-1473",
-      "parent": "MVS-1468",
-      "parentName": "שחלוף",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 3.04,
-      "remaining": 0.54,
-      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-1471",
