@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-08-23T12:36:29.788Z",
+  "lastUpdated": "2026-08-23T13:31:18.799Z",
   "totalTickets": 15,
   "tickets": [
-    {
-      "key": "MVS-4032",
-      "parent": "MVS-1209",
-      "parentName": "הערות ממשתמשים",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Ariel Ozer"
-    },
     {
       "key": "MVS-4015",
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4014",
+      "parent": "MVS-258",
+      "parentName": "תהליך טרום יעוץ",
+      "priority": "2 - High",
+      "status": "Pause",
+      "effort": 2,
+      "remaining": 0.5,
+      "assignee": "Dorin Nicola"
     },
     {
       "key": "MVS-3978",
