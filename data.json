@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-23T11:19:24.746Z",
-  "totalTickets": 16,
+  "lastUpdated": "2026-08-23T12:36:29.788Z",
+  "totalTickets": 15,
   "tickets": [
+    {
+      "key": "MVS-4032",
+      "parent": "MVS-1209",
+      "parentName": "הערות ממשתמשים",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Ariel Ozer"
+    },
     {
       "key": "MVS-4015",
       "parent": "MVS-315",
@@ -11,26 +21,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4014",
-      "parent": "MVS-258",
-      "parentName": "תהליך טרום יעוץ",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": "Sebastian Yeshurun"
-    },
-    {
-      "key": "MVS-4005",
-      "parent": "MVS-1581",
-      "parentName": "ERD - תיקונים באובייקט מעסיק",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3978",
