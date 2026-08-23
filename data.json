@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-23T13:31:18.799Z",
-  "totalTickets": 15,
+  "lastUpdated": "2026-08-23T14:21:31.325Z",
+  "totalTickets": 14,
   "tickets": [
     {
       "key": "MVS-4015",
@@ -9,7 +9,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 2.48,
-      "remaining": 2.48,
+      "remaining": 1.48,
       "assignee": "Ariel Ozer"
     },
     {
@@ -71,16 +71,6 @@
       "effort": 16,
       "remaining": 6,
       "assignee": "Boaz Bitran"
-    },
-    {
-      "key": "MVS-3825",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 7.04,
-      "remaining": 0.26,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3728",
