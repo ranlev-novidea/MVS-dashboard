@@ -1,17 +1,7 @@
 {
-  "lastUpdated": "2026-08-23T14:21:31.325Z",
-  "totalTickets": 14,
+  "lastUpdated": "2026-08-23T15:20:42.925Z",
+  "totalTickets": 13,
   "tickets": [
-    {
-      "key": "MVS-4015",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 1.48,
-      "assignee": "Ariel Ozer"
-    },
     {
       "key": "MVS-4014",
       "parent": "MVS-258",
