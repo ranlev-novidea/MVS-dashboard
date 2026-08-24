@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T15:37:16.925Z",
+  "lastUpdated": "2026-08-24T16:35:28.221Z",
   "totalTickets": 15,
   "tickets": [
     {
@@ -21,16 +21,6 @@
       "effort": 2.48,
       "remaining": 1.98,
       "assignee": "Inna Miller Sherman"
-    },
-    {
-      "key": "MVS-3977",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3976",
@@ -73,6 +63,16 @@
       "assignee": "Boaz Bitran"
     },
     {
+      "key": "MVS-3827",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 3.52,
+      "remaining": 0.02,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-3792",
       "parent": "MVS-50",
       "parentName": "תשתית",
@@ -88,9 +88,9 @@
       "parentName": "שינוי סוג ומזהה מבוטח",
       "priority": "2 - High",
       "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3728",
