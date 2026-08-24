@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-24T08:52:04.762Z",
-  "totalTickets": 14,
+  "lastUpdated": "2026-08-24T09:45:13.334Z",
+  "totalTickets": 15,
   "tickets": [
     {
       "key": "MVS-4025",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 2.48,
       "assignee": "Ariel Ozer"
     },
     {
@@ -61,6 +61,16 @@
       "effort": 2,
       "remaining": 1,
       "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-3878",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 4.96,
+      "remaining": 3.71,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3837",
