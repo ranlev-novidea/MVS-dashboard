@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T21:27:18.817Z",
+  "lastUpdated": "2026-08-24T22:24:01.484Z",
   "totalTickets": 15,
   "tickets": [
     {
@@ -67,7 +67,7 @@
       "parent": "MVS-3310",
       "parentName": "ביטול ניוד משימור",
       "priority": "3 - Medium",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 3.52,
       "remaining": 0.02,
       "assignee": "Idan Abutbul"
