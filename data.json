@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-24T06:55:13.571Z",
-  "totalTickets": 14,
+  "lastUpdated": "2026-08-24T07:57:05.981Z",
+  "totalTickets": 15,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -21,6 +21,16 @@
       "effort": 2,
       "remaining": 0.5,
       "assignee": "Dorin Nicola"
+    },
+    {
+      "key": "MVS-4005",
+      "parent": "MVS-1581",
+      "parentName": "ERD - תיקונים באובייקט מעסיק",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 2,
+      "remaining": 0.25,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3978",
@@ -137,10 +147,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "4 - Low",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 3.04,
       "remaining": 3.04,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     }
   ]
 }
