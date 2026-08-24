@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T12:46:23.034Z",
+  "lastUpdated": "2026-08-24T13:50:13.872Z",
   "totalTickets": 14,
   "tickets": [
     {
@@ -9,7 +9,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 2.48,
-      "remaining": 1.23,
+      "remaining": 1.48,
       "assignee": "Shira Sapir Halili"
     },
     {
@@ -19,7 +19,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 2.48,
-      "remaining": 2.48,
+      "remaining": 2.23,
       "assignee": "Ariel Ozer"
     },
     {
