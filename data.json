@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-24T07:57:05.981Z",
-  "totalTickets": 15,
+  "lastUpdated": "2026-08-24T08:52:04.762Z",
+  "totalTickets": 14,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -11,16 +11,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4014",
-      "parent": "MVS-258",
-      "parentName": "תהליך טרום יעוץ",
-      "priority": "2 - High",
-      "status": "Pause",
-      "effort": 2,
-      "remaining": 0.5,
-      "assignee": "Dorin Nicola"
     },
     {
       "key": "MVS-4005",
