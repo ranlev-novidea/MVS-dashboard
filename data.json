@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-24T05:36:38.832Z",
-  "totalTickets": 13,
+  "lastUpdated": "2026-08-24T06:55:13.571Z",
+  "totalTickets": 14,
   "tickets": [
+    {
+      "key": "MVS-4025",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Ariel Ozer"
+    },
     {
       "key": "MVS-4014",
       "parent": "MVS-258",
