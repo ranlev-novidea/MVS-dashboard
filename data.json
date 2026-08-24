@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-24T11:26:24.230Z",
-  "totalTickets": 15,
+  "lastUpdated": "2026-08-24T12:46:23.034Z",
+  "totalTickets": 14,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -20,16 +20,6 @@
       "status": "In Development",
       "effort": 2.48,
       "remaining": 2.48,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4005",
-      "parent": "MVS-1581",
-      "parentName": "ERD - תיקונים באובייקט מעסיק",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 2,
-      "remaining": 0.25,
       "assignee": "Ariel Ozer"
     },
     {
@@ -57,10 +47,10 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3975",
