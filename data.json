@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-25T05:30:07.068Z",
-  "totalTickets": 14,
+  "lastUpdated": "2026-08-25T06:43:30.643Z",
+  "totalTickets": 15,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -140,6 +140,16 @@
       "status": "Pause",
       "effort": 6,
       "remaining": 1,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-424",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "4 - Low",
+      "status": "In Development",
+      "effort": 3.04,
+      "remaining": 0.04,
       "assignee": "Idan Abutbul"
     }
   ]
