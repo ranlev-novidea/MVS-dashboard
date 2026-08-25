@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-25T11:25:53.208Z",
-  "totalTickets": 17,
+  "lastUpdated": "2026-08-25T12:43:25.467Z",
+  "totalTickets": 15,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -83,33 +83,13 @@
       "assignee": "Idan Abutbul"
     },
     {
-      "key": "MVS-3745",
-      "parent": "MVS-2222",
-      "parentName": "שינוי סוג ומזהה מבוטח",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 1.52,
-      "remaining": 0.52,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-3742",
       "parent": "MVS-50",
       "parentName": "תשתית",
       "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-3740",
-      "parent": "MVS-2222",
-      "parentName": "שינוי סוג ומזהה מבוטח",
-      "priority": "2 - High",
       "status": "In Development",
-      "effort": 4,
-      "remaining": 3,
+      "effort": 3.04,
+      "remaining": 3.04,
       "assignee": "Ariel Ozer"
     },
     {
