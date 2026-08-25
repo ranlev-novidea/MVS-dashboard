@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-25T03:51:59.400Z",
-  "totalTickets": 15,
+  "lastUpdated": "2026-08-25T04:37:05.524Z",
+  "totalTickets": 14,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -70,16 +70,6 @@
       "status": "In Development",
       "effort": 3.52,
       "remaining": 0.02,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-3792",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "4 - Low",
-      "status": "Failed QA",
-      "effort": 3.04,
-      "remaining": 1.04,
       "assignee": "Idan Abutbul"
     },
     {
