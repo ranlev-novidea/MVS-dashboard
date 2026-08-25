@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-25T06:43:30.643Z",
-  "totalTickets": 15,
+  "lastUpdated": "2026-08-25T07:42:01.997Z",
+  "totalTickets": 14,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -21,16 +21,6 @@
       "effort": 2.48,
       "remaining": 1.98,
       "assignee": "Inna Miller Sherman"
-    },
-    {
-      "key": "MVS-3976",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3975",
@@ -77,7 +67,7 @@
       "parent": "MVS-2222",
       "parentName": "שינוי סוג ומזהה מבוטח",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 2.48,
       "remaining": 2.48,
       "assignee": "Ariel Ozer"
