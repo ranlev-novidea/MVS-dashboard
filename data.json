@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-25T14:42:59.260Z",
-  "totalTickets": 14,
+  "lastUpdated": "2026-08-25T15:40:13.390Z",
+  "totalTickets": 13,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -71,16 +71,6 @@
       "effort": 3.52,
       "remaining": 3.52,
       "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-3742",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 3.04,
-      "remaining": 1.54,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3728",
