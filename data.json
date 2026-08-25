@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T10:31:10.874Z",
+  "lastUpdated": "2026-08-25T11:25:53.208Z",
   "totalTickets": 17,
   "tickets": [
     {
@@ -43,6 +43,16 @@
       "assignee": null
     },
     {
+      "key": "MVS-3923",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-3889",
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
@@ -77,10 +87,10 @@
       "parent": "MVS-2222",
       "parentName": "שינוי סוג ומזהה מבוטח",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 1.52,
+      "remaining": 0.52,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3742",
@@ -160,16 +170,6 @@
       "status": "Pause",
       "effort": 6,
       "remaining": 1,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-424",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 3.04,
-      "remaining": 0.04,
       "assignee": "Idan Abutbul"
     }
   ]
