@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-25T12:43:25.467Z",
-  "totalTickets": 15,
+  "lastUpdated": "2026-08-25T13:49:16.186Z",
+  "totalTickets": 14,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -31,16 +31,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3960",
-      "parent": "MVS-3500",
-      "parentName": "פוליסה - לאחר פיצול",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
     },
     {
       "key": "MVS-3923",
