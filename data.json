@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-25T08:39:46.151Z",
-  "totalTickets": 14,
+  "lastUpdated": "2026-08-25T09:33:42.873Z",
+  "totalTickets": 17,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -33,6 +33,16 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-3960",
+      "parent": "MVS-3500",
+      "parentName": "פוליסה - לאחר פיצול",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
       "key": "MVS-3889",
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
@@ -57,10 +67,30 @@
       "parent": "MVS-3310",
       "parentName": "ביטול ניוד משימור",
       "priority": "3 - Medium",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 3.52,
-      "remaining": 0.02,
+      "remaining": 3.52,
       "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-3745",
+      "parent": "MVS-2222",
+      "parentName": "שינוי סוג ומזהה מבוטח",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3742",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
     },
     {
       "key": "MVS-3740",
@@ -68,8 +98,8 @@
       "parentName": "שינוי סוג ומזהה מבוטח",
       "priority": "2 - High",
       "status": "In Development",
-      "effort": 2.48,
-      "remaining": 2.48,
+      "effort": 4,
+      "remaining": 3,
       "assignee": "Ariel Ozer"
     },
     {
