@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T13:49:16.186Z",
+  "lastUpdated": "2026-08-25T14:42:59.260Z",
   "totalTickets": 14,
   "tickets": [
     {
@@ -79,7 +79,7 @@
       "priority": "4 - Low",
       "status": "In Development",
       "effort": 3.04,
-      "remaining": 3.04,
+      "remaining": 1.54,
       "assignee": "Ariel Ozer"
     },
     {
