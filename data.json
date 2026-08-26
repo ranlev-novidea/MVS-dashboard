@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-26T12:48:57.957Z",
-  "totalTickets": 13,
+  "lastUpdated": "2026-08-26T13:53:29.714Z",
+  "totalTickets": 12,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -87,19 +87,9 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-3440",
-      "parent": "MVS-1209",
-      "parentName": "הערות ממשתמשים",
-      "priority": "3 - Medium",
       "status": "In Development",
-      "effort": 0.96,
-      "remaining": 0.96,
+      "effort": 2.48,
+      "remaining": 19.04,
       "assignee": "Ariel Ozer"
     },
     {
