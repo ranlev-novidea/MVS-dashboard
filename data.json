@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-26T05:32:36.528Z",
-  "totalTickets": 13,
+  "lastUpdated": "2026-08-26T06:45:52.317Z",
+  "totalTickets": 19,
   "tickets": [
+    {
+      "key": "MVS-4054",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4053",
+      "parent": "MVS-2375",
+      "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 0.96,
+      "remaining": 0.96,
+      "assignee": "Ariel Ozer"
+    },
     {
       "key": "MVS-4025",
       "parent": "MVS-110",
@@ -93,6 +113,16 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-3623",
+      "parent": "MVS-356",
+      "parentName": "כשלונות מאירועים",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
       "key": "MVS-3596",
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
@@ -101,6 +131,36 @@
       "effort": 5.52,
       "remaining": 1.02,
       "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3581",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3548",
+      "parent": "MVS-1330",
+      "parentName": "חיסכון פרט",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-3440",
+      "parent": "MVS-1209",
+      "parentName": "הערות ממשתמשים",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0.96,
+      "remaining": 0.96,
+      "assignee": null
     },
     {
       "key": "MVS-3409",
