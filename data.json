@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T07:43:52.685Z",
+  "lastUpdated": "2026-08-26T08:40:58.427Z",
   "totalTickets": 19,
   "tickets": [
     {
@@ -40,7 +40,7 @@
       "status": "Pause",
       "effort": 2.48,
       "remaining": 1.98,
-      "assignee": "Inna Miller Sherman"
+      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-3975",
