@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-26T10:33:41.044Z",
-  "totalTickets": 16,
+  "lastUpdated": "2026-08-26T11:28:39.340Z",
+  "totalTickets": 15,
   "tickets": [
     {
       "key": "MVS-4054",
@@ -10,16 +10,6 @@
       "status": "In Development",
       "effort": 3.04,
       "remaining": 3.04,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4053",
-      "parent": "MVS-2375",
-      "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 0.96,
-      "remaining": 0.96,
       "assignee": "Ariel Ozer"
     },
     {
