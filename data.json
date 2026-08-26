@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-26T09:39:33.890Z",
-  "totalTickets": 17,
+  "lastUpdated": "2026-08-26T10:33:41.044Z",
+  "totalTickets": 16,
   "tickets": [
     {
       "key": "MVS-4054",
@@ -8,8 +8,8 @@
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
       "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
+      "effort": 3.04,
+      "remaining": 3.04,
       "assignee": "Ariel Ozer"
     },
     {
@@ -121,16 +121,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-3548",
-      "parent": "MVS-1330",
-      "parentName": "חיסכון פרט",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3440",
