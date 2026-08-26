@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-26T08:40:58.427Z",
-  "totalTickets": 19,
+  "lastUpdated": "2026-08-26T09:39:33.890Z",
+  "totalTickets": 17,
   "tickets": [
     {
       "key": "MVS-4054",
@@ -53,24 +53,14 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-3923",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
+      "key": "MVS-3960",
+      "parent": "MVS-3500",
+      "parentName": "פוליסה - לאחר פיצול",
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-3889",
-      "parent": "MVS-3250",
-      "parentName": "קשרי העסקה",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 2,
-      "remaining": 1,
-      "assignee": "Idan Abutbul"
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3837",
@@ -81,16 +71,6 @@
       "effort": 16,
       "remaining": 6,
       "assignee": "Boaz Bitran"
-    },
-    {
-      "key": "MVS-3827",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 3.52,
-      "remaining": 3.52,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3728",
@@ -187,7 +167,7 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "4 - Low",
-      "status": "Pause",
+      "status": "In Development",
       "effort": 6,
       "remaining": 1,
       "assignee": "Idan Abutbul"
