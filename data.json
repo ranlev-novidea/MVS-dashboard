@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-27T13:52:43.287Z",
-  "totalTickets": 10,
+  "lastUpdated": "2026-08-27T23:36:57.976Z",
+  "totalTickets": 6,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -13,16 +13,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-3978",
-      "parent": "MVS-1468",
-      "parentName": "שחלוף",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 1.98,
-      "assignee": "Haim Hatuka"
-    },
-    {
       "key": "MVS-3975",
       "parent": "MVS-50",
       "parentName": "תשתית",
@@ -31,16 +21,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3728",
-      "parent": "MVS-3003",
-      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 8,
-      "remaining": 8,
-      "assignee": null
     },
     {
       "key": "MVS-3684",
@@ -53,16 +33,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-3623",
-      "parent": "MVS-356",
-      "parentName": "כשלונות מאירועים",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
       "key": "MVS-3596",
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
@@ -73,34 +43,24 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-3409",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 16,
-      "remaining": 16,
-      "assignee": null
-    },
-    {
-      "key": "MVS-3408",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": null
-    },
-    {
       "key": "MVS-3407",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "4 - Low",
       "status": "In Development",
       "effort": 6,
-      "remaining": 1,
+      "remaining": 6,
       "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-3296",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 7.04,
+      "remaining": 7.04,
+      "assignee": "Jonathan Ashkenazy"
     }
   ]
 }
