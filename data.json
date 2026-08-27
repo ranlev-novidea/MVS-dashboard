@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-27T02:56:15.830Z",
-  "totalTickets": 12,
+  "lastUpdated": "2026-08-27T13:52:43.287Z",
+  "totalTickets": 10,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -17,7 +17,7 @@
       "parent": "MVS-1468",
       "parentName": "שחלוף",
       "priority": "4 - Low",
-      "status": "Pause",
+      "status": "In Development",
       "effort": 2.48,
       "remaining": 1.98,
       "assignee": "Haim Hatuka"
@@ -31,16 +31,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3837",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "2 - High",
-      "status": "Pause",
-      "effort": 16,
-      "remaining": 6,
-      "assignee": "Boaz Bitran"
     },
     {
       "key": "MVS-3728",
@@ -81,16 +71,6 @@
       "effort": 5.52,
       "remaining": 1.02,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3581",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 17.29,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3409",
