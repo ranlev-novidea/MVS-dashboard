@@ -1,56 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T07:53:44.322Z",
-  "totalTickets": 5,
-  "tickets": [
-    {
-      "key": "MVS-4025",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 1.48,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3975",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3684",
-      "parent": "MVS-1725",
-      "parentName": "הכנת כלים לאדמין",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 18.47,
-      "remaining": 12.73,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3596",
-      "parent": "MVS-3250",
-      "parentName": "קשרי העסקה",
-      "priority": "2 - High",
-      "status": "Pause",
-      "effort": 5.52,
-      "remaining": 1.02,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3296",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 7.04,
-      "remaining": 7.04,
-      "assignee": "Jonathan Ashkenazy"
-    }
-  ]
+  "lastUpdated": "2026-08-30T13:33:54.280Z",
+  "totalTickets": 0,
+  "tickets": []
 }
