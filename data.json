@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-30T01:04:22.583Z",
-  "totalTickets": 6,
+  "lastUpdated": "2026-08-30T07:53:44.322Z",
+  "totalTickets": 5,
   "tickets": [
     {
       "key": "MVS-4025",
@@ -41,16 +41,6 @@
       "effort": 5.52,
       "remaining": 1.02,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3407",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 6,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3296",
