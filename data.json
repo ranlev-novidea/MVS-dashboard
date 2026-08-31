@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-31T17:53:33.434Z",
-  "totalTickets": 35,
+  "lastUpdated": "2026-08-31T22:29:24.649Z",
+  "totalTickets": 34,
   "tickets": [
     {
       "key": "MVS-4071",
@@ -91,16 +91,6 @@
       "effort": 14,
       "remaining": 14,
       "assignee": null
-    },
-    {
-      "key": "MVS-4037",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4036",
@@ -277,7 +267,7 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "4 - Low",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 6,
       "remaining": 6,
       "assignee": "Idan Abutbul"
