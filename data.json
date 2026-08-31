@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-31T10:34:05.287Z",
-  "totalTickets": 37,
+  "lastUpdated": "2026-08-31T17:53:33.434Z",
+  "totalTickets": 35,
   "tickets": [
     {
       "key": "MVS-4071",
@@ -93,16 +93,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4039",
-      "parent": "MVS-757",
-      "parentName": "IFN - תיוק קבצים",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 4.96,
-      "remaining": 4.96,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-4037",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
@@ -133,16 +123,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4034",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 7.04,
-      "remaining": 7.04,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
       "key": "MVS-4026",
       "parent": "MVS-1581",
       "parentName": "ERD - תיקונים באובייקט מעסיק",
@@ -157,7 +137,7 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "1 - Critical",
-      "status": "In Development",
+      "status": "Failed QA",
       "effort": 2.48,
       "remaining": 1.48,
       "assignee": "Shira Sapir Halili"
@@ -233,16 +213,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-3796",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 2,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-3728",
       "parent": "MVS-3003",
       "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
@@ -303,6 +273,16 @@
       "assignee": null
     },
     {
+      "key": "MVS-3407",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "4 - Low",
+      "status": "Failed QA",
+      "effort": 6,
+      "remaining": 6,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-3299",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
@@ -327,10 +307,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 10,
       "remaining": 10,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3278",
