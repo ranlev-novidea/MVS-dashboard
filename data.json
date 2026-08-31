@@ -1,5 +1,376 @@
 {
-  "lastUpdated": "2026-08-31T03:48:27.038Z",
-  "totalTickets": 0,
-  "tickets": []
+  "lastUpdated": "2026-08-31T10:34:05.287Z",
+  "totalTickets": 37,
+  "tickets": [
+    {
+      "key": "MVS-4071",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-4068",
+      "parent": "MVS-1565",
+      "parentName": "פגישות UI עם מבטח",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0.96,
+      "remaining": 0.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4066",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4065",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4062",
+      "parent": "MVS-3243",
+      "parentName": "עדכון סטטוס תפעול מעסיק וסטטוס מעסיק",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2.47,
+      "remaining": 2.48,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-4056",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 5.52,
+      "remaining": 5.52,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4047",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4044",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4040",
+      "parent": "MVS-1687",
+      "parentName": "מידור ישויות ומעסיקים",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 14,
+      "remaining": 14,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4039",
+      "parent": "MVS-757",
+      "parentName": "IFN - תיוק קבצים",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4037",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-4036",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4035",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 6,
+      "remaining": 6,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4034",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 7.04,
+      "remaining": 7.04,
+      "assignee": "Jonathan Ashkenazy"
+    },
+    {
+      "key": "MVS-4026",
+      "parent": "MVS-1581",
+      "parentName": "ERD - תיקונים באובייקט מעסיק",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0.96,
+      "remaining": 0.96,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-4025",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "1 - Critical",
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 1.48,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3980",
+      "parent": "MVS-758",
+      "parentName": "Create a MVS  File object with fields",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3979",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3975",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3961",
+      "parent": "MVS-1468",
+      "parentName": "שחלוף",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3837",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "2 - High",
+      "status": "Pause",
+      "effort": 16,
+      "remaining": 6,
+      "assignee": "Boaz Bitran"
+    },
+    {
+      "key": "MVS-3830",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3806",
+      "parent": "MVS-2222",
+      "parentName": "שינוי סוג ומזהה מבוטח",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3796",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 4,
+      "remaining": 2,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-3728",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3657",
+      "parent": "MVS-2210",
+      "parentName": "העברת עובדים ממעסיק למעסיק",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3618",
+      "parent": "MVS-606",
+      "parentName": "גביה",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3596",
+      "parent": "MVS-3250",
+      "parentName": "קשרי העסקה",
+      "priority": "2 - High",
+      "status": "Pause",
+      "effort": 5.52,
+      "remaining": 1.02,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3443",
+      "parent": "MVS-1565",
+      "parentName": "פגישות UI עם מבטח",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3408",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3299",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 6,
+      "remaining": 6,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3296",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 7.04,
+      "remaining": 7.04,
+      "assignee": "Simona Shifrin"
+    },
+    {
+      "key": "MVS-3295",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 10,
+      "remaining": 10,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3278",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-2875",
+      "parent": "MVS-1419",
+      "parentName": "טיקטים כלליים",
+      "priority": "4 - Low",
+      "status": "Pause",
+      "effort": 6,
+      "remaining": 5.25,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-2499",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-1469",
+      "parent": "MVS-1468",
+      "parentName": "שחלוף",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 3.52,
+      "remaining": 3.52,
+      "assignee": null
+    }
+  ]
 }
