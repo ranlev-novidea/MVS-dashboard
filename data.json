@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-01T07:18:00.125Z",
-  "totalTickets": 32,
+  "lastUpdated": "2026-09-01T13:06:50.151Z",
+  "totalTickets": 28,
   "tickets": [
     {
       "key": "MVS-4100",
@@ -13,16 +13,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4071",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-4068",
       "parent": "MVS-1565",
       "parentName": "פגישות UI עם מבטח",
@@ -33,14 +23,14 @@
       "assignee": null
     },
     {
-      "key": "MVS-4066",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
+      "key": "MVS-4067",
+      "parent": "MVS-757",
+      "parentName": "IFN - תיוק קבצים",
       "priority": "2 - High",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": "Ariel Ozer"
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Inna Miller Sherman"
     },
     {
       "key": "MVS-4065",
@@ -67,10 +57,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 5.52,
       "remaining": 5.52,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4047",
@@ -123,26 +113,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4026",
-      "parent": "MVS-1581",
-      "parentName": "ERD - תיקונים באובייקט מעסיק",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0.96,
-      "remaining": 0.96,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-3980",
-      "parent": "MVS-758",
-      "parentName": "Create a MVS  File object with fields",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
       "key": "MVS-3979",
       "parent": "MVS-50",
       "parentName": "תשתית",
@@ -186,11 +156,11 @@
       "key": "MVS-3830",
       "parent": "MVS-3310",
       "parentName": "ביטול ניוד משימור",
-      "priority": "3 - Medium",
-      "status": "Queue",
+      "priority": "2 - High",
+      "status": "In Development",
       "effort": 3.04,
       "remaining": 3.04,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3806",
@@ -227,10 +197,10 @@
       "parent": "MVS-606",
       "parentName": "גביה",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "Pause",
       "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": null
+      "remaining": 0.23,
+      "assignee": "Inna Miller Sherman"
     },
     {
       "key": "MVS-3596",
@@ -247,10 +217,10 @@
       "parent": "MVS-1565",
       "parentName": "פגישות UI עם מבטח",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": null
+      "remaining": 1.48,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3408",
@@ -271,16 +241,6 @@
       "effort": 6,
       "remaining": 6,
       "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-3299",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 6,
-      "remaining": 6,
-      "assignee": null
     },
     {
       "key": "MVS-3295",
