@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T03:00:27.672Z",
+  "lastUpdated": "2026-09-02T08:24:15.034Z",
   "totalTickets": 24,
   "tickets": [
     {
@@ -20,7 +20,7 @@
       "status": "Queue",
       "effort": 0.96,
       "remaining": 0.96,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4067",
@@ -57,20 +57,20 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 3.04,
       "remaining": 3.04,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4044",
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 2,
-      "remaining": 2,
-      "assignee": null
+      "remaining": 1.25,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4040",
@@ -87,10 +87,10 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4,
       "remaining": 4,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4035",
@@ -100,7 +100,7 @@
       "status": "Queue",
       "effort": 6,
       "remaining": 6,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3979",
@@ -117,7 +117,7 @@
       "parent": "MVS-50",
       "parentName": "תשתית",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 2.48,
       "remaining": 2.48,
       "assignee": "Shira Sapir Halili"
@@ -143,11 +143,21 @@
       "assignee": "Dana Ditlzwig"
     },
     {
+      "key": "MVS-3830",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 3.04,
+      "remaining": 1.04,
+      "assignee": "Ariel Ozer"
+    },
+    {
       "key": "MVS-3806",
       "parent": "MVS-2222",
       "parentName": "שינוי סוג ומזהה מבוטח",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.96,
       "remaining": 4.96,
       "assignee": null
@@ -173,16 +183,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-3618",
-      "parent": "MVS-606",
-      "parentName": "גביה",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 2.48,
-      "remaining": 0.23,
-      "assignee": "Inna Miller Sherman"
-    },
-    {
       "key": "MVS-3596",
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
@@ -203,13 +203,13 @@
       "assignee": null
     },
     {
-      "key": "MVS-3295",
+      "key": "MVS-3299",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
       "status": "In Development",
-      "effort": 10,
-      "remaining": 1.7,
+      "effort": 6,
+      "remaining": 6,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -230,7 +230,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Tania Fainerman"
     },
     {
       "key": "MVS-1469",
