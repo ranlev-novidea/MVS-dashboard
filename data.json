@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-02T08:24:15.034Z",
-  "totalTickets": 24,
+  "lastUpdated": "2026-09-02T13:14:48.183Z",
+  "totalTickets": 19,
   "tickets": [
     {
       "key": "MVS-4100",
@@ -11,16 +11,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4068",
-      "parent": "MVS-1565",
-      "parentName": "פגישות UI עם מבטח",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0.96,
-      "remaining": 0.96,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4067",
@@ -53,24 +43,14 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-4047",
+      "key": "MVS-4056",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-4044",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 2,
-      "remaining": 1.25,
-      "assignee": "Shira Sapir Halili"
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 5.52,
+      "remaining": 3.02,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4040",
@@ -83,21 +63,11 @@
       "assignee": null
     },
     {
-      "key": "MVS-4036",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 4,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-4035",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 6,
       "remaining": 6,
       "assignee": "Idan Abutbul"
@@ -153,16 +123,6 @@
       "assignee": "Ariel Ozer"
     },
     {
-      "key": "MVS-3806",
-      "parent": "MVS-2222",
-      "parentName": "שינוי סוג ומזהה מבוטח",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 4.96,
-      "remaining": 4.96,
-      "assignee": null
-    },
-    {
       "key": "MVS-3728",
       "parent": "MVS-3003",
       "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
@@ -201,16 +161,6 @@
       "effort": 2,
       "remaining": 2,
       "assignee": null
-    },
-    {
-      "key": "MVS-3299",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 6,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-2875",
