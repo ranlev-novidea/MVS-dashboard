@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-03T01:03:08.069Z",
+  "lastUpdated": "2026-09-03T06:52:00.677Z",
   "totalTickets": 19,
   "tickets": [
     {
       "key": "MVS-4100",
       "parent": "MVS-2222",
       "parentName": "שינוי סוג ומזהה מבוטח",
-      "priority": "4 - Low",
+      "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -26,7 +26,7 @@
       "key": "MVS-4065",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 2,
       "remaining": 2,
@@ -58,9 +58,9 @@
       "parentName": "מידור ישויות ומעסיקים",
       "priority": "3 - Medium",
       "status": "Queue",
-      "effort": 14,
-      "remaining": 14,
-      "assignee": null
+      "effort": 12.95,
+      "remaining": 12.97,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4035",
@@ -69,14 +69,14 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 6,
-      "remaining": 6,
+      "remaining": 3.75,
       "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3979",
       "parent": "MVS-50",
       "parentName": "תשתית",
-      "priority": "3 - Medium",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 2.48,
       "remaining": 2.48,
@@ -86,7 +86,7 @@
       "key": "MVS-3975",
       "parent": "MVS-50",
       "parentName": "תשתית",
-      "priority": "3 - Medium",
+      "priority": "4 - Low",
       "status": "In Development",
       "effort": 2.48,
       "remaining": 2.48,
