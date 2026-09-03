@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-03T15:57:57.668Z",
-  "totalTickets": 16,
+  "lastUpdated": "2026-09-03T19:13:21.831Z",
+  "totalTickets": 15,
   "tickets": [
     {
       "key": "MVS-4100",
@@ -27,7 +27,7 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 2,
       "remaining": 2,
       "assignee": "Idan Abutbul"
@@ -71,16 +71,6 @@
       "effort": 2.48,
       "remaining": 2.48,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3961",
-      "parent": "MVS-1468",
-      "parentName": "שחלוף",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 4,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3837",
