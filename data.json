@@ -1,17 +1,7 @@
 {
-  "lastUpdated": "2026-09-03T11:56:13.421Z",
-  "totalTickets": 17,
+  "lastUpdated": "2026-09-03T15:57:57.668Z",
+  "totalTickets": 16,
   "tickets": [
-    {
-      "key": "MVS-4126",
-      "parent": "MVS-4040",
-      "parentName": "פיצול פוליסה - מידור פוליסת יצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 0.96,
-      "remaining": 0.46,
-      "assignee": "Shira Sapir Halili"
-    },
     {
       "key": "MVS-4100",
       "parent": "MVS-2222",
@@ -67,10 +57,10 @@
       "parent": "MVS-50",
       "parentName": "תשתית",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "Pause",
       "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": null
+      "remaining": 1,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3975",
@@ -87,10 +77,10 @@
       "parent": "MVS-1468",
       "parentName": "שחלוף",
       "priority": "4 - Low",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4,
       "remaining": 4,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3837",
