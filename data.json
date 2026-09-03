@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-09-03T06:52:00.677Z",
-  "totalTickets": 19,
+  "lastUpdated": "2026-09-03T11:56:13.421Z",
+  "totalTickets": 17,
   "tickets": [
+    {
+      "key": "MVS-4126",
+      "parent": "MVS-4040",
+      "parentName": "פיצול פוליסה - מידור פוליסת יצרן",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 0.96,
+      "remaining": 0.46,
+      "assignee": "Shira Sapir Halili"
+    },
     {
       "key": "MVS-4100",
       "parent": "MVS-2222",
@@ -27,10 +37,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 2,
       "remaining": 2,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4062",
@@ -43,16 +53,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-4056",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 5.52,
-      "remaining": 3.02,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-4040",
       "parent": "MVS-1687",
       "parentName": "מידור ישויות ומעסיקים",
@@ -61,16 +61,6 @@
       "effort": 12.95,
       "remaining": 12.97,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-4035",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 3.75,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3979",
@@ -111,16 +101,6 @@
       "effort": 16,
       "remaining": 6,
       "assignee": "Dana Ditlzwig"
-    },
-    {
-      "key": "MVS-3830",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 3.04,
-      "remaining": 1.04,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3728",
