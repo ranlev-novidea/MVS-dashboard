@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-06T12:37:55.845Z",
-  "totalTickets": 16,
+  "lastUpdated": "2026-09-06T15:58:52.683Z",
+  "totalTickets": 14,
   "tickets": [
     {
       "key": "MVS-4136",
@@ -13,19 +13,9 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-4132",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
       "key": "MVS-4131",
-      "parent": null,
-      "parentName": null,
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
@@ -117,9 +107,9 @@
       "parent": "MVS-2210",
       "parentName": "העברת עובדים ממעסיק למעסיק",
       "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 2.48,
-      "remaining": 2.48,
+      "status": "Pause",
+      "effort": 6,
+      "remaining": 2.5,
       "assignee": "Ariel Ozer"
     },
     {
@@ -131,16 +121,6 @@
       "effort": 5.52,
       "remaining": 1.02,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3408",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 2,
-      "remaining": 1.75,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-2875",
