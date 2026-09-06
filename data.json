@@ -1,16 +1,56 @@
 {
-  "lastUpdated": "2026-09-06T03:03:15.784Z",
-  "totalTickets": 15,
+  "lastUpdated": "2026-09-06T08:22:34.336Z",
+  "totalTickets": 19,
   "tickets": [
     {
-      "key": "MVS-4100",
-      "parent": "MVS-2222",
-      "parentName": "שינוי סוג ומזהה מבוטח",
+      "key": "MVS-4137",
+      "parent": "MVS-4040",
+      "parentName": "פיצול פוליסה - מידור פוליסת יצרן",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-4136",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-4132",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
       "assignee": null
+    },
+    {
+      "key": "MVS-4131",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-4100",
+      "parent": "MVS-2222",
+      "parentName": "שינוי סוג ומזהה מבוטח",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4067",
@@ -37,19 +77,19 @@
       "parent": "MVS-3243",
       "parentName": "עדכון סטטוס תפעול מעסיק וסטטוס מעסיק",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "Pause",
       "effort": 2.47,
       "remaining": 2.48,
-      "assignee": "Shira Sapir Halili"
+      "assignee": "Moran Mochly Raz"
     },
     {
       "key": "MVS-4040",
       "parent": "MVS-1687",
       "parentName": "מידור ישויות ומעסיקים",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 12.95,
-      "remaining": 12.97,
+      "status": "In Development",
+      "effort": 8,
+      "remaining": 8,
       "assignee": "Shira Sapir Halili"
     },
     {
@@ -119,8 +159,8 @@
       "priority": "4 - Low",
       "status": "Queue",
       "effort": 2,
-      "remaining": 2,
-      "assignee": null
+      "remaining": 1.75,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-2875",
@@ -147,10 +187,10 @@
       "parent": "MVS-1468",
       "parentName": "שחלוף",
       "priority": "4 - Low",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 3.52,
       "remaining": 3.52,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     }
   ]
 }
