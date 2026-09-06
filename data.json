@@ -1,17 +1,7 @@
 {
-  "lastUpdated": "2026-09-06T08:22:34.336Z",
-  "totalTickets": 19,
+  "lastUpdated": "2026-09-06T12:37:55.845Z",
+  "totalTickets": 16,
   "tickets": [
-    {
-      "key": "MVS-4137",
-      "parent": "MVS-4040",
-      "parentName": "פיצול פוליסה - מידור פוליסת יצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 4,
-      "assignee": "Shira Sapir Halili"
-    },
     {
       "key": "MVS-4136",
       "parent": "MVS-50",
@@ -41,16 +31,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-4100",
-      "parent": "MVS-2222",
-      "parentName": "שינוי סוג ומזהה מבוטח",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 4,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4067",
@@ -99,8 +79,8 @@
       "priority": "2 - High",
       "status": "Pause",
       "effort": 2.48,
-      "remaining": 1,
-      "assignee": "Ariel Ozer"
+      "remaining": 0.5,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-3975",
@@ -140,7 +120,7 @@
       "status": "Queue",
       "effort": 2.48,
       "remaining": 2.48,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3596",
@@ -157,7 +137,7 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "4 - Low",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 2,
       "remaining": 1.75,
       "assignee": "Idan Abutbul"
@@ -181,16 +161,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Tania Fainerman"
-    },
-    {
-      "key": "MVS-1469",
-      "parent": "MVS-1468",
-      "parentName": "שחלוף",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 3.52,
-      "remaining": 3.52,
-      "assignee": "Idan Abutbul"
     }
   ]
 }
