@@ -1,13 +1,23 @@
 {
-  "lastUpdated": "2026-09-07T08:56:18.265Z",
-  "totalTickets": 20,
+  "lastUpdated": "2026-09-07T14:51:54.118Z",
+  "totalTickets": 19,
   "tickets": [
+    {
+      "key": "MVS-4152",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Moran Mochly Raz"
+    },
     {
       "key": "MVS-4136",
       "parent": "MVS-50",
       "parentName": "תשתית",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "Pause",
       "effort": 0,
       "remaining": 0,
       "assignee": "Ariel Ozer"
@@ -23,24 +33,24 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-4100",
+      "parent": "MVS-2222",
+      "parentName": "שינוי סוג ומזהה מבוטח",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 4,
+      "remaining": 1.25,
+      "assignee": "Ariel Ozer"
+    },
+    {
       "key": "MVS-4091",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4090",
-      "parent": "MVS-3243",
-      "parentName": "עדכון סטטוס תפעול מעסיק וסטטוס מעסיק",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 6,
+      "remaining": 4.75,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4089",
@@ -53,27 +63,7 @@
       "assignee": null
     },
     {
-      "key": "MVS-4082",
-      "parent": "MVS-1581",
-      "parentName": "ERD - תיקונים באובייקט מעסיק",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
       "key": "MVS-4078",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4073",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "3 - Medium",
@@ -109,7 +99,7 @@
       "priority": "3 - Medium",
       "status": "Pause",
       "effort": 2.47,
-      "remaining": 2.48,
+      "remaining": 1.98,
       "assignee": "Moran Mochly Raz"
     },
     {
@@ -121,16 +111,6 @@
       "effort": 8,
       "remaining": 8,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3979",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "2 - High",
-      "status": "Pause",
-      "effort": 2.48,
-      "remaining": 0.5,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3975",
@@ -183,6 +163,16 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-3408",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "4 - Low",
+      "status": "Failed QA",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-2875",
       "parent": "MVS-1419",
       "parentName": "טיקטים כלליים",
@@ -197,7 +187,7 @@
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
       "assignee": "Tania Fainerman"
