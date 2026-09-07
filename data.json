@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-07T03:00:58.605Z",
-  "totalTickets": 14,
+  "lastUpdated": "2026-09-07T08:56:18.265Z",
+  "totalTickets": 20,
   "tickets": [
     {
       "key": "MVS-4136",
@@ -10,7 +10,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Shira Sapir Halili"
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4131",
@@ -21,6 +21,66 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-4091",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4090",
+      "parent": "MVS-3243",
+      "parentName": "עדכון סטטוס תפעול מעסיק וסטטוס מעסיק",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4089",
+      "parent": "MVS-1581",
+      "parentName": "ERD - תיקונים באובייקט מעסיק",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4082",
+      "parent": "MVS-1581",
+      "parentName": "ERD - תיקונים באובייקט מעסיק",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4078",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4073",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
     },
     {
       "key": "MVS-4067",
@@ -70,7 +130,7 @@
       "status": "Pause",
       "effort": 2.48,
       "remaining": 0.5,
-      "assignee": "Shira Sapir Halili"
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3975",
@@ -97,20 +157,20 @@
       "parent": "MVS-3003",
       "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
       "priority": "4 - Low",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 8,
-      "remaining": 8,
-      "assignee": null
+      "remaining": 7.25,
+      "assignee": "Idan Abutbul"
     },
     {
-      "key": "MVS-3657",
-      "parent": "MVS-2210",
-      "parentName": "העברת עובדים ממעסיק למעסיק",
-      "priority": "4 - Low",
-      "status": "Pause",
-      "effort": 6,
-      "remaining": 2.5,
-      "assignee": "Ariel Ozer"
+      "key": "MVS-3623",
+      "parent": "MVS-356",
+      "parentName": "כשלונות מאירועים",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
     },
     {
       "key": "MVS-3596",
