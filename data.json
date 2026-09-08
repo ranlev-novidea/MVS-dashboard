@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-08T10:37:41.122Z",
-  "totalTickets": 17,
+  "lastUpdated": "2026-09-08T14:54:00.791Z",
+  "totalTickets": 15,
   "tickets": [
     {
       "key": "MVS-4152",
@@ -33,16 +33,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-4100",
-      "parent": "MVS-2222",
-      "parentName": "שינוי סוג ומזהה מבוטח",
-      "priority": "3 - Medium",
-      "status": "Failed QA",
-      "effort": 4,
-      "remaining": 1.25,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-4091",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
@@ -51,26 +41,6 @@
       "effort": 6,
       "remaining": 3.75,
       "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4089",
-      "parent": "MVS-1581",
-      "parentName": "ERD - תיקונים באובייקט מעסיק",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4078",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 6,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4067",
@@ -91,6 +61,16 @@
       "effort": 2.47,
       "remaining": 1.98,
       "assignee": "Moran Mochly Raz"
+    },
+    {
+      "key": "MVS-4056",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Pause",
+      "effort": 5.52,
+      "remaining": 0.25,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4040",
@@ -127,10 +107,10 @@
       "parent": "MVS-356",
       "parentName": "כשלונות מאירועים",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3596",
