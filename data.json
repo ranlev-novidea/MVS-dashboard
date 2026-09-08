@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-08T14:54:00.791Z",
-  "totalTickets": 15,
+  "lastUpdated": "2026-09-08T18:19:40.916Z",
+  "totalTickets": 14,
   "tickets": [
     {
       "key": "MVS-4152",
@@ -39,7 +39,7 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 6,
-      "remaining": 3.75,
+      "remaining": 2.75,
       "assignee": "Ariel Ozer"
     },
     {
@@ -101,16 +101,6 @@
       "effort": 16,
       "remaining": 6,
       "assignee": "Dana Ditlzwig"
-    },
-    {
-      "key": "MVS-3623",
-      "parent": "MVS-356",
-      "parentName": "כשלונות מאירועים",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3596",
