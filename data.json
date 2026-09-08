@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-08T05:37:15.934Z",
-  "totalTickets": 19,
+  "lastUpdated": "2026-09-08T10:37:41.122Z",
+  "totalTickets": 17,
   "tickets": [
     {
       "key": "MVS-4152",
@@ -49,7 +49,7 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 6,
-      "remaining": 4.75,
+      "remaining": 3.75,
       "assignee": "Ariel Ozer"
     },
     {
@@ -57,20 +57,20 @@
       "parent": "MVS-1581",
       "parentName": "ERD - תיקונים באובייקט מעסיק",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4078",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 6,
+      "remaining": 6,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4067",
@@ -81,16 +81,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Inna Miller Sherman"
-    },
-    {
-      "key": "MVS-4065",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Pause",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4062",
@@ -133,16 +123,6 @@
       "assignee": "Dana Ditlzwig"
     },
     {
-      "key": "MVS-3728",
-      "parent": "MVS-3003",
-      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 8,
-      "remaining": 0.5,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-3623",
       "parent": "MVS-356",
       "parentName": "כשלונות מאירועים",
@@ -167,7 +147,7 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "4 - Low",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 2,
       "remaining": 2,
       "assignee": "Idan Abutbul"
