@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T17:34:33.469Z",
+  "lastUpdated": "2026-09-09T20:27:30.316Z",
   "totalTickets": 21,
   "tickets": [
     {
@@ -167,7 +167,7 @@
       "parent": "MVS-3003",
       "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
       "priority": "4 - Low",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 8,
       "remaining": 8,
       "assignee": "Idan Abutbul"
