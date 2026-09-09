@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-09-09T03:12:58.912Z",
-  "totalTickets": 14,
+  "lastUpdated": "2026-09-09T08:39:07.287Z",
+  "totalTickets": 21,
   "tickets": [
+    {
+      "key": "MVS-4168",
+      "parent": "MVS-4040",
+      "parentName": "פיצול פוליסה - מידור פוליסת יצרן",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 6,
+      "remaining": 6,
+      "assignee": "Shira Sapir Halili"
+    },
     {
       "key": "MVS-4152",
       "parent": "MVS-110",
@@ -23,6 +33,16 @@
       "assignee": "Ariel Ozer"
     },
     {
+      "key": "MVS-4135",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
       "key": "MVS-4131",
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
@@ -30,7 +50,27 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Shira Sapir Halili"
+      "assignee": "Jonathan Ashkenazy"
+    },
+    {
+      "key": "MVS-4128",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4124",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
     },
     {
       "key": "MVS-4091",
@@ -41,6 +81,16 @@
       "effort": 6,
       "remaining": 2.75,
       "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4089",
+      "parent": "MVS-1581",
+      "parentName": "ERD - תיקונים באובייקט מעסיק",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 0.48,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4067",
@@ -70,7 +120,7 @@
       "status": "Pause",
       "effort": 5.52,
       "remaining": 0.25,
-      "assignee": "Shira Sapir Halili"
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4040",
@@ -78,8 +128,8 @@
       "parentName": "מידור ישויות ומעסיקים",
       "priority": "3 - Medium",
       "status": "In Development",
-      "effort": 8,
-      "remaining": 8,
+      "effort": 2,
+      "remaining": 2,
       "assignee": "Shira Sapir Halili"
     },
     {
@@ -93,6 +143,16 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-3838",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
       "key": "MVS-3837",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
@@ -101,6 +161,16 @@
       "effort": 16,
       "remaining": 6,
       "assignee": "Dana Ditlzwig"
+    },
+    {
+      "key": "MVS-3794",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
     },
     {
       "key": "MVS-3596",
