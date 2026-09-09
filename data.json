@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-09T13:25:25.130Z",
-  "totalTickets": 19,
+  "lastUpdated": "2026-09-09T17:34:33.469Z",
+  "totalTickets": 21,
   "tickets": [
     {
       "key": "MVS-4168",
@@ -9,7 +9,7 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 6,
-      "remaining": 5.25,
+      "remaining": 4.75,
       "assignee": "Shira Sapir Halili"
     },
     {
@@ -58,8 +58,8 @@
       "parentName": "בקרה מול יצרן",
       "priority": "3 - Medium",
       "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
+      "effort": 6,
+      "remaining": 4,
       "assignee": "Ariel Ozer"
     },
     {
@@ -163,6 +163,16 @@
       "assignee": "Idan Abutbul"
     },
     {
+      "key": "MVS-3728",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "4 - Low",
+      "status": "Failed QA",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-3596",
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
@@ -171,6 +181,16 @@
       "effort": 5.52,
       "remaining": 1.02,
       "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3408",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "4 - Low",
+      "status": "In Development",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-2875",
