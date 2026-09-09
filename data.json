@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-09T08:39:07.287Z",
-  "totalTickets": 21,
+  "lastUpdated": "2026-09-09T13:25:25.130Z",
+  "totalTickets": 19,
   "tickets": [
     {
       "key": "MVS-4168",
@@ -9,7 +9,7 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 6,
-      "remaining": 6,
+      "remaining": 5.25,
       "assignee": "Shira Sapir Halili"
     },
     {
@@ -47,7 +47,7 @@
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
       "assignee": "Jonathan Ashkenazy"
@@ -57,10 +57,10 @@
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4124",
@@ -73,23 +73,13 @@
       "assignee": null
     },
     {
-      "key": "MVS-4091",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 2.75,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-4089",
       "parent": "MVS-1581",
       "parentName": "ERD - תיקונים באובייקט מעסיק",
       "priority": "3 - Medium",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 2.48,
-      "remaining": 0.48,
+      "remaining": 2.48,
       "assignee": "Idan Abutbul"
     },
     {
@@ -119,7 +109,7 @@
       "priority": "2 - High",
       "status": "Pause",
       "effort": 5.52,
-      "remaining": 0.25,
+      "remaining": 5.52,
       "assignee": "Ariel Ozer"
     },
     {
@@ -139,7 +129,7 @@
       "priority": "4 - Low",
       "status": "In Development",
       "effort": 2.48,
-      "remaining": 2.48,
+      "remaining": 2.23,
       "assignee": "Shira Sapir Halili"
     },
     {
@@ -150,7 +140,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3837",
@@ -170,7 +160,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3596",
@@ -181,16 +171,6 @@
       "effort": 5.52,
       "remaining": 1.02,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3408",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-2875",
