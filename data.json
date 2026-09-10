@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-10T05:37:07.446Z",
-  "totalTickets": 21,
+  "lastUpdated": "2026-09-10T10:40:11.628Z",
+  "totalTickets": 20,
   "tickets": [
     {
       "key": "MVS-4168",
@@ -140,7 +140,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Idan Abutbul"
+      "assignee": null
     },
     {
       "key": "MVS-3837",
@@ -160,17 +160,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-3728",
-      "parent": "MVS-3003",
-      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 8,
-      "remaining": 8,
-      "assignee": "Idan Abutbul"
+      "assignee": null
     },
     {
       "key": "MVS-3596",
