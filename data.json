@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T17:45:00.164Z",
+  "lastUpdated": "2026-09-14T21:30:58.426Z",
   "totalTickets": 49,
   "tickets": [
     {
@@ -407,10 +407,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "1 - Critical",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 2,
       "remaining": 2,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3704",
@@ -449,7 +449,7 @@
       "priority": "1 - Critical",
       "status": "In Development",
       "effort": 6,
-      "remaining": 6,
+      "remaining": 1.25,
       "assignee": "Idan Abutbul"
     },
     {
@@ -460,7 +460,7 @@
       "status": "Queue",
       "effort": 3.04,
       "remaining": 3.04,
-      "assignee": "Idan Abutbul"
+      "assignee": null
     },
     {
       "key": "MVS-3231",
