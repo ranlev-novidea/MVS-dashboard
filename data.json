@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-15T11:07:47.199Z",
-  "totalTickets": 47,
+  "lastUpdated": "2026-09-15T16:19:17.607Z",
+  "totalTickets": 43,
   "tickets": [
     {
       "key": "MVS-4188",
@@ -29,7 +29,7 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 6,
-      "remaining": 4.75,
+      "remaining": 1,
       "assignee": "Shira Sapir Halili"
     },
     {
@@ -47,7 +47,7 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "1 - Critical",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4,
       "remaining": 4,
       "assignee": "Idan Abutbul"
@@ -263,16 +263,6 @@
       "assignee": "Idan Abutbul"
     },
     {
-      "key": "MVS-4081",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 8,
-      "remaining": 8,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
       "key": "MVS-4080",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
@@ -313,16 +303,6 @@
       "assignee": "Moran Mochly Raz"
     },
     {
-      "key": "MVS-4056",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "1 - Critical",
-      "status": "Pause",
-      "effort": 5.52,
-      "remaining": 5.52,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-4040",
       "parent": "MVS-1687",
       "parentName": "מידור ישויות ומעסיקים",
@@ -361,16 +341,6 @@
       "effort": 3.04,
       "remaining": 3.04,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3852",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 4.96,
-      "remaining": 4.96,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3838",
@@ -421,16 +391,6 @@
       "effort": 16,
       "remaining": 16,
       "assignee": null
-    },
-    {
-      "key": "MVS-3322",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 1.25,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3303",
