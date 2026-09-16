@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-16T01:06:42.701Z",
-  "totalTickets": 42,
+  "lastUpdated": "2026-09-16T07:15:51.299Z",
+  "totalTickets": 41,
   "tickets": [
     {
       "key": "MVS-4188",
@@ -10,7 +10,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Moran Mochly Raz"
+      "assignee": "Inna Miller Sherman"
     },
     {
       "key": "MVS-4183",
@@ -323,24 +323,14 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-3968",
-      "parent": "MVS-1100",
-      "parentName": "ניהול פוליסות",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
       "key": "MVS-3838",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "1 - Critical",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 1.52,
       "remaining": 1.52,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3837",
@@ -390,7 +380,7 @@
       "status": "Queue",
       "effort": 3.04,
       "remaining": 3.04,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3231",
