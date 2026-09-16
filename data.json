@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-16T07:15:51.299Z",
-  "totalTickets": 41,
+  "lastUpdated": "2026-09-16T13:10:21.272Z",
+  "totalTickets": 39,
   "tickets": [
     {
       "key": "MVS-4188",
@@ -47,20 +47,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "1 - Critical",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 6,
       "remaining": 6,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4156",
-      "parent": "MVS-1500",
-      "parentName": "בקרת גביה/פרמיה ראשונה",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4152",
@@ -78,19 +68,19 @@
       "parentName": "שינוי סוג ומזהה מבוטח",
       "priority": "3 - Medium",
       "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "effort": 1.52,
+      "remaining": 1.52,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4149",
       "parent": "MVS-2520",
       "parentName": "ביטול מינוי סוכן",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 3.52,
+      "remaining": 3.52,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4148",
@@ -98,9 +88,9 @@
       "parentName": "ביטול מינוי סוכן",
       "priority": "3 - Medium",
       "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "effort": 1.52,
+      "remaining": 1.27,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4145",
@@ -157,10 +147,10 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 4,
+      "remaining": 3,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4130",
@@ -293,6 +283,16 @@
       "assignee": "Moran Mochly Raz"
     },
     {
+      "key": "MVS-4056",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "1 - Critical",
+      "status": "Failed QA",
+      "effort": 5.52,
+      "remaining": 5.52,
+      "assignee": "Ariel Ozer"
+    },
+    {
       "key": "MVS-4040",
       "parent": "MVS-1687",
       "parentName": "מידור ישויות ומעסיקים",
@@ -321,16 +321,6 @@
       "effort": 2.48,
       "remaining": 2.23,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3838",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 1.52,
-      "remaining": 1.52,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3837",
@@ -377,20 +367,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "1 - Critical",
-      "status": "Queue",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-3231",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "1 - Critical",
       "status": "In Development",
       "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Jonathan Ashkenazy"
+      "remaining": 0.04,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-2875",
