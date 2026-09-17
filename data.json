@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T00:06:11.067Z",
+  "lastUpdated": "2026-09-17T05:45:54.868Z",
   "totalTickets": 34,
   "tickets": [
     {
@@ -120,7 +120,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Shira Sapir Halili"
+      "assignee": null
     },
     {
       "key": "MVS-4134",
