@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-17T11:00:21.085Z",
-  "totalTickets": 34,
+  "lastUpdated": "2026-09-17T16:17:17.984Z",
+  "totalTickets": 40,
   "tickets": [
     {
       "key": "MVS-4205",
@@ -33,6 +33,86 @@
       "assignee": null
     },
     {
+      "key": "MVS-4177",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4176",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4175",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 6,
+      "remaining": 6,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4174",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4173",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4172",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4171",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4170",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
       "key": "MVS-4168",
       "parent": "MVS-4040",
       "parentName": "פיצול פוליסה - מידור פוליסת יצרן",
@@ -50,7 +130,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4152",
@@ -157,29 +237,19 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 0.96,
-      "remaining": 0.96,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4120",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "Pause",
+      "effort": 3.04,
+      "remaining": 2.04,
+      "assignee": "Inbal Adler"
     },
     {
       "key": "MVS-4108",
       "parent": "MVS-2375",
       "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
+      "status": "In Development",
+      "effort": 3.04,
+      "remaining": 3.04,
       "assignee": "Idan Abutbul"
     },
     {
@@ -191,16 +261,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4101",
-      "parent": "MVS-1725",
-      "parentName": "הכנת כלים לאדמין",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4095",
@@ -229,7 +289,7 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 4,
-      "remaining": 4,
+      "remaining": 2.5,
       "assignee": "Ariel Ozer"
     },
     {
