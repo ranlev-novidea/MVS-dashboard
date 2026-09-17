@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-09-17T05:45:54.868Z",
+  "lastUpdated": "2026-09-17T11:00:21.085Z",
   "totalTickets": 34,
   "tickets": [
+    {
+      "key": "MVS-4205",
+      "parent": "MVS-1180",
+      "parentName": "הקמת תשתית למודול הרשאות",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4188",
       "parent": "MVS-3500",
@@ -10,7 +20,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Inna Miller Sherman"
+      "assignee": null
     },
     {
       "key": "MVS-4183",
@@ -59,18 +69,8 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 7.03,
-      "remaining": 6.78,
+      "remaining": 6.03,
       "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-4148",
-      "parent": "MVS-2520",
-      "parentName": "ביטול מינוי סוכן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 1.52,
-      "remaining": 1.27,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4145",
@@ -157,10 +157,10 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 0.96,
+      "remaining": 0.96,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4120",
@@ -180,7 +180,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4103",
@@ -198,18 +198,18 @@
       "parentName": "הכנת כלים לאדמין",
       "priority": "3 - Medium",
       "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4095",
       "parent": "MVS-2375",
       "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
+      "status": "Pause",
+      "effort": 1.52,
+      "remaining": 0.77,
       "assignee": "Idan Abutbul"
     },
     {
@@ -227,19 +227,19 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4075",
       "parent": "MVS-606",
       "parentName": "גביה",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
+      "status": "In Development",
+      "effort": 3.52,
+      "remaining": 0.52,
       "assignee": "Idan Abutbul"
     },
     {
@@ -250,7 +250,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Inna Miller Sherman"
+      "assignee": null
     },
     {
       "key": "MVS-4062",
