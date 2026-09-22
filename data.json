@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-22T03:26:10.557Z",
-  "totalTickets": 40,
+  "lastUpdated": "2026-09-22T09:01:54.316Z",
+  "totalTickets": 39,
   "tickets": [
     {
       "key": "MVS-4205",
@@ -70,17 +70,17 @@
       "status": "Queue",
       "effort": 4,
       "remaining": 4,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4173",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4,
       "remaining": 4,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4172",
@@ -248,8 +248,8 @@
       "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
       "priority": "3 - Medium",
       "status": "In Development",
-      "effort": 3.04,
-      "remaining": 3.04,
+      "effort": 4,
+      "remaining": 4,
       "assignee": "Idan Abutbul"
     },
     {
@@ -261,16 +261,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4095",
-      "parent": "MVS-2375",
-      "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 1.52,
-      "remaining": 0.77,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4089",
@@ -287,9 +277,9 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 4,
-      "remaining": 2.5,
+      "remaining": 1,
       "assignee": "Ariel Ozer"
     },
     {
@@ -297,10 +287,10 @@
       "parent": "MVS-606",
       "parentName": "גביה",
       "priority": "3 - Medium",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 3.52,
       "remaining": 0.52,
-      "assignee": "Idan Abutbul"
+      "assignee": "Inbal Adler"
     },
     {
       "key": "MVS-4067",
