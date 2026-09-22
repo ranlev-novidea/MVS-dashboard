@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-22T09:01:54.316Z",
-  "totalTickets": 39,
+  "lastUpdated": "2026-09-22T14:20:45.388Z",
+  "totalTickets": 33,
   "tickets": [
     {
       "key": "MVS-4205",
@@ -46,7 +46,7 @@
       "key": "MVS-4176",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -66,68 +66,38 @@
       "key": "MVS-4174",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "Queue",
+      "priority": "2 - High",
+      "status": "In Development",
       "effort": 4,
-      "remaining": 4,
+      "remaining": 1.25,
       "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4173",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "In Development",
+      "priority": "2 - High",
+      "status": "Pause",
       "effort": 4,
       "remaining": 4,
       "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4172",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 8,
-      "remaining": 8,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4171",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": null
     },
     {
       "key": "MVS-4170",
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4,
       "remaining": 4,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4168",
-      "parent": "MVS-4040",
-      "parentName": "פיצול פוליסה - מידור פוליסת יצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 1,
-      "assignee": "Shira Sapir Halili"
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4164",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
       "assignee": "Idan Abutbul"
@@ -141,16 +111,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Moran Mochly Raz"
-    },
-    {
-      "key": "MVS-4149",
-      "parent": "MVS-2520",
-      "parentName": "ביטול מינוי סוכן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 7.03,
-      "remaining": 6.03,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4145",
@@ -203,16 +163,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4134",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 3,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
       "key": "MVS-4130",
       "parent": "MVS-50",
       "parentName": "תשתית",
@@ -240,17 +190,7 @@
       "status": "Pause",
       "effort": 3.04,
       "remaining": 2.04,
-      "assignee": "Inbal Adler"
-    },
-    {
-      "key": "MVS-4108",
-      "parent": "MVS-2375",
-      "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 4,
-      "assignee": "Idan Abutbul"
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4103",
@@ -290,7 +230,7 @@
       "status": "Pause",
       "effort": 3.52,
       "remaining": 0.52,
-      "assignee": "Inbal Adler"
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4067",
