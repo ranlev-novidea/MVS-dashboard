@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T14:20:45.388Z",
+  "lastUpdated": "2026-09-22T18:30:25.839Z",
   "totalTickets": 33,
   "tickets": [
     {
@@ -97,7 +97,7 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 0,
       "remaining": 0,
       "assignee": "Idan Abutbul"
