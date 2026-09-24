@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-24T07:13:30.563Z",
-  "totalTickets": 26,
+  "lastUpdated": "2026-09-24T13:14:06.852Z",
+  "totalTickets": 30,
   "tickets": [
     {
       "key": "MVS-4205",
@@ -13,6 +13,26 @@
       "assignee": null
     },
     {
+      "key": "MVS-4192",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-4191",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-4188",
       "parent": "MVS-3500",
       "parentName": "פוליסה - לאחר פיצול",
@@ -21,6 +41,26 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
+    },
+    {
+      "key": "MVS-4186",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-4184",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 16,
+      "remaining": 15.25,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4183",
@@ -39,7 +79,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 8,
-      "remaining": 6,
+      "remaining": 3.92,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -67,10 +107,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 3.52,
+      "remaining": 2.02,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4141",
@@ -153,16 +193,6 @@
       "assignee": "Idan Abutbul"
     },
     {
-      "key": "MVS-4080",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 4,
-      "remaining": 1,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-4075",
       "parent": "MVS-606",
       "parentName": "גביה",
@@ -170,7 +200,7 @@
       "status": "Pause",
       "effort": 3.52,
       "remaining": 3.52,
-      "assignee": "Idan Abutbul"
+      "assignee": "Inbal Adler"
     },
     {
       "key": "MVS-4067",
@@ -251,6 +281,16 @@
       "effort": 16,
       "remaining": 16,
       "assignee": null
+    },
+    {
+      "key": "MVS-2994",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4.48,
+      "remaining": 4.48,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-2875",
