@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-24T01:05:58.496Z",
-  "totalTickets": 27,
+  "lastUpdated": "2026-09-24T07:13:30.563Z",
+  "totalTickets": 26,
   "tickets": [
     {
       "key": "MVS-4205",
@@ -30,16 +30,6 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4177",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 4.96,
-      "remaining": 4.96,
       "assignee": null
     },
     {
