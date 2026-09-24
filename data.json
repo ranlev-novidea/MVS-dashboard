@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T13:14:06.852Z",
+  "lastUpdated": "2026-09-24T18:12:58.296Z",
   "totalTickets": 30,
   "tickets": [
     {
@@ -49,7 +49,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 4.96,
-      "remaining": 4.96,
+      "remaining": 4.46,
       "assignee": "Idan Abutbul"
     },
     {
@@ -83,6 +83,16 @@
       "assignee": "Jonathan Ashkenazy"
     },
     {
+      "key": "MVS-4171",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 3.04,
+      "remaining": 0.04,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-4152",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
@@ -101,16 +111,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4143",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 3.52,
-      "remaining": 2.02,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4141",
