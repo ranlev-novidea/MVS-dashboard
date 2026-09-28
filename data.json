@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-09-28T03:48:12.395Z",
-  "totalTickets": 27,
+  "lastUpdated": "2026-09-28T10:36:00.519Z",
+  "totalTickets": 28,
   "tickets": [
+    {
+      "key": "MVS-4243",
+      "parent": null,
+      "parentName": null,
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4205",
       "parent": "MVS-1180",
@@ -53,14 +63,14 @@
       "assignee": null
     },
     {
-      "key": "MVS-4176",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "key": "MVS-4175",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
       "priority": "2 - High",
-      "status": "In Development",
-      "effort": 8,
-      "remaining": 3.92,
-      "assignee": "Jonathan Ashkenazy"
+      "status": "Failed QA",
+      "effort": 6,
+      "remaining": 2,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4152",
@@ -257,7 +267,7 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.48,
       "remaining": 4.48,
       "assignee": "Idan Abutbul"
