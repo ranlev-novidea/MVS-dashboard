@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-09-29T04:22:52.389Z",
-  "totalTickets": 27,
+  "lastUpdated": "2026-09-29T11:06:54.693Z",
+  "totalTickets": 29,
   "tickets": [
+    {
+      "key": "MVS-4264",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4259",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4243",
       "parent": null,
@@ -39,7 +59,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 16,
-      "remaining": 6.75,
+      "remaining": 6.25,
       "assignee": "Ariel Ozer"
     },
     {
@@ -53,14 +73,24 @@
       "assignee": null
     },
     {
-      "key": "MVS-4175",
+      "key": "MVS-4177",
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
       "priority": "2 - High",
       "status": "Failed QA",
-      "effort": 6,
-      "remaining": 2,
-      "assignee": "Ariel Ozer"
+      "effort": 4.96,
+      "remaining": 3,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-4176",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 12,
+      "remaining": 12,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4152",
@@ -251,16 +281,6 @@
       "effort": 16,
       "remaining": 16,
       "assignee": null
-    },
-    {
-      "key": "MVS-2994",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4.48,
-      "remaining": 0.73,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-2875",
