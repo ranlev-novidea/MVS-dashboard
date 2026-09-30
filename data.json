@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-30T08:01:11.659Z",
-  "totalTickets": 30,
+  "lastUpdated": "2026-09-30T15:38:34.918Z",
+  "totalTickets": 33,
   "tickets": [
     {
       "key": "MVS-4265",
@@ -21,6 +21,26 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
+    },
+    {
+      "key": "MVS-4261",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 0.48,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4260",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 1.52,
+      "remaining": 0.02,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4259",
@@ -53,6 +73,16 @@
       "assignee": null
     },
     {
+      "key": "MVS-4191",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 3.04,
+      "remaining": 0.04,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-4188",
       "parent": "MVS-3500",
       "parentName": "פוליסה - לאחר פיצול",
@@ -63,14 +93,14 @@
       "assignee": null
     },
     {
-      "key": "MVS-4184",
+      "key": "MVS-4186",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "In Development",
-      "effort": 16,
-      "remaining": 6.25,
-      "assignee": "Ariel Ozer"
+      "status": "Failed QA",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4183",
