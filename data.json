@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T14:11:26.828Z",
+  "lastUpdated": "2026-10-01T20:06:49.629Z",
   "totalTickets": 27,
   "tickets": [
     {
@@ -118,8 +118,8 @@
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
       "status": "In Development",
-      "effort": 4,
-      "remaining": 4,
+      "effort": 6,
+      "remaining": 2.5,
       "assignee": "Ariel Ozer"
     },
     {
