@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-01T06:50:49.920Z",
-  "totalTickets": 31,
+  "lastUpdated": "2026-10-01T14:11:26.828Z",
+  "totalTickets": 27,
   "tickets": [
     {
       "key": "MVS-4265",
@@ -43,26 +43,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4192",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 4,
-      "remaining": 4,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4191",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 3.04,
-      "remaining": 0.04,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-4188",
       "parent": "MVS-3500",
       "parentName": "פוליסה - לאחר פיצול",
@@ -71,16 +51,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4186",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 4.96,
-      "remaining": 4.96,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4183",
@@ -100,16 +70,6 @@
       "status": "Pause",
       "effort": 4.96,
       "remaining": 1,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4176",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 12,
-      "remaining": 12,
       "assignee": "Idan Abutbul"
     },
     {
@@ -157,10 +117,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4130",
@@ -240,7 +200,7 @@
       "status": "Pause",
       "effort": 2.47,
       "remaining": 1.98,
-      "assignee": "Moran Mochly Raz"
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4023",
