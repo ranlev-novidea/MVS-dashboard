@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-04T04:25:32.061Z",
-  "totalTickets": 27,
+  "lastUpdated": "2026-10-04T10:54:00.935Z",
+  "totalTickets": 25,
   "tickets": [
     {
       "key": "MVS-4265",
@@ -10,17 +10,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4264",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4243",
@@ -48,9 +38,9 @@
       "parentName": "פוליסה - לאחר פיצול",
       "priority": "3 - Medium",
       "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "effort": 3.52,
+      "remaining": 3.52,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4183",
@@ -58,9 +48,9 @@
       "parentName": "תשתית",
       "priority": "3 - Medium",
       "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "effort": 4,
+      "remaining": 4,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4177",
@@ -87,10 +77,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 1.23,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4141",
@@ -110,16 +100,6 @@
       "status": "Pause",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4135",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 2.5,
       "assignee": "Ariel Ozer"
     },
     {
@@ -169,7 +149,7 @@
       "priority": "3 - Medium",
       "status": "Pause",
       "effort": 4.47,
-      "remaining": 0.48,
+      "remaining": 4.47,
       "assignee": "Idan Abutbul"
     },
     {
@@ -190,7 +170,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4062",
