@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-04T15:39:42.379Z",
-  "totalTickets": 21,
+  "lastUpdated": "2026-10-04T19:12:00.705Z",
+  "totalTickets": 18,
   "tickets": [
     {
       "key": "MVS-4265",
@@ -11,16 +11,6 @@
       "effort": 4.96,
       "remaining": 2.71,
       "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4243",
-      "parent": null,
-      "parentName": null,
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
     },
     {
       "key": "MVS-4205",
@@ -37,7 +27,7 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 4,
       "remaining": 4,
       "assignee": "Idan Abutbul"
@@ -101,26 +91,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-4103",
-      "parent": "MVS-757",
-      "parentName": "IFN - תיוק קבצים",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4089",
-      "parent": "MVS-1581",
-      "parentName": "ERD - תיקונים באובייקט מעסיק",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 4.47,
-      "remaining": 4.47,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4075",
