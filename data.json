@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-04T19:12:00.705Z",
-  "totalTickets": 18,
+  "lastUpdated": "2026-10-04T22:45:34.514Z",
+  "totalTickets": 19,
   "tickets": [
     {
       "key": "MVS-4265",
@@ -10,6 +10,16 @@
       "status": "Pause",
       "effort": 4.96,
       "remaining": 2.71,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-4243",
+      "parent": null,
+      "parentName": null,
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
       "assignee": "Idan Abutbul"
     },
     {
