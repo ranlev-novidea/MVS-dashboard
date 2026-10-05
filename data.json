@@ -1,19 +1,9 @@
 {
-  "lastUpdated": "2026-10-05T08:23:18.595Z",
-  "totalTickets": 18,
+  "lastUpdated": "2026-10-05T17:55:07.205Z",
+  "totalTickets": 14,
   "tickets": [
     {
-      "key": "MVS-4265",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 4.96,
-      "remaining": 2.71,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4243",
+      "key": "MVS-4285",
       "parent": null,
       "parentName": null,
       "priority": "2 - High",
@@ -23,24 +13,24 @@
       "assignee": "Idan Abutbul"
     },
     {
+      "key": "MVS-4283",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
       "key": "MVS-4205",
       "parent": "MVS-1180",
       "parentName": "הקמת תשתית למודול הרשאות",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4192",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 4,
-      "assignee": "Idan Abutbul"
+      "status": "Pause",
+      "effort": 4.96,
+      "remaining": 3.21,
+      "assignee": "Moran Mochly Raz"
     },
     {
       "key": "MVS-4152",
@@ -51,16 +41,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Moran Mochly Raz"
-    },
-    {
-      "key": "MVS-4141",
-      "parent": "MVS-2222",
-      "parentName": "שינוי סוג ומזהה מבוטח",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4136",
@@ -83,16 +63,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4125",
-      "parent": "MVS-1687",
-      "parentName": "מידור ישויות ומעסיקים",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
       "key": "MVS-4075",
       "parent": "MVS-606",
       "parentName": "גביה",
@@ -111,16 +81,6 @@
       "effort": 2.47,
       "remaining": 1.73,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-4023",
-      "parent": "MVS-1581",
-      "parentName": "ERD - תיקונים באובייקט מעסיק",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3975",
