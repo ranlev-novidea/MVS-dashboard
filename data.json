@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-05T01:37:06.774Z",
-  "totalTickets": 19,
+  "lastUpdated": "2026-10-05T08:23:18.595Z",
+  "totalTickets": 18,
   "tickets": [
     {
       "key": "MVS-4265",
@@ -30,7 +30,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4192",
@@ -40,16 +40,6 @@
       "status": "In Development",
       "effort": 4,
       "remaining": 4,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4177",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "2 - High",
-      "status": "Pause",
-      "effort": 4.96,
-      "remaining": 1,
       "assignee": "Idan Abutbul"
     },
     {
@@ -70,7 +60,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4136",
@@ -127,10 +117,10 @@
       "parent": "MVS-1581",
       "parentName": "ERD - תיקונים באובייקט מעסיק",
       "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-3975",
