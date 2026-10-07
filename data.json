@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-10-07T09:50:51.300Z",
-  "totalTickets": 22,
+  "lastUpdated": "2026-10-07T17:16:21.404Z",
+  "totalTickets": 28,
   "tickets": [
+    {
+      "key": "MVS-4305",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4304",
+      "parent": "MVS-1458",
+      "parentName": "הסבות",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4302",
+      "parent": "MVS-2053",
+      "parentName": "ניהול מיילים",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4301",
+      "parent": "MVS-1581",
+      "parentName": "ERD - תיקונים באובייקט מעסיק",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4284",
       "parent": "MVS-355",
@@ -27,10 +67,10 @@
       "parent": "MVS-355",
       "parentName": "ניתוב משימות",
       "priority": "1 - Critical",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 8,
       "remaining": 8,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4262",
@@ -77,10 +117,10 @@
       "parent": "MVS-355",
       "parentName": "ניתוב משימות",
       "priority": "1 - Critical",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.48,
       "remaining": 4.48,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4245",
@@ -89,7 +129,7 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 3.04,
-      "remaining": 1.79,
+      "remaining": 0.54,
       "assignee": "Ariel Ozer"
     },
     {
@@ -113,6 +153,16 @@
       "assignee": "Moran Mochly Raz"
     },
     {
+      "key": "MVS-4149",
+      "parent": "MVS-2520",
+      "parentName": "ביטול מינוי סוכן",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 7.03,
+      "remaining": 2.78,
+      "assignee": "Jonathan Ashkenazy"
+    },
+    {
       "key": "MVS-4136",
       "parent": "MVS-50",
       "parentName": "תשתית",
@@ -121,6 +171,16 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
+    },
+    {
+      "key": "MVS-4131",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 11.03,
+      "remaining": 0.55,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4130",
