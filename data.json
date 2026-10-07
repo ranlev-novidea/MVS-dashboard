@@ -1,16 +1,96 @@
 {
-  "lastUpdated": "2026-10-07T02:06:21.315Z",
-  "totalTickets": 13,
+  "lastUpdated": "2026-10-07T09:50:51.300Z",
+  "totalTickets": 22,
   "tickets": [
     {
-      "key": "MVS-4283",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
+      "key": "MVS-4284",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4270",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4269",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4262",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 12,
+      "remaining": 12,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4252",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 12,
+      "remaining": 12,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4250",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4248",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4246",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 4.48,
+      "remaining": 4.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4245",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "3 - Medium",
       "status": "In Development",
       "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Idan Abutbul"
+      "remaining": 1.79,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4205",
@@ -60,7 +140,7 @@
       "status": "Pause",
       "effort": 3.52,
       "remaining": 3.52,
-      "assignee": "Inbal Adler"
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4062",
@@ -131,6 +211,16 @@
       "effort": 6,
       "remaining": 5.25,
       "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-1818",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": null
     }
   ]
 }
