@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-10-08T02:32:03.524Z",
-  "totalTickets": 28,
+  "lastUpdated": "2026-10-08T10:02:00.112Z",
+  "totalTickets": 35,
   "tickets": [
+    {
+      "key": "MVS-4311",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4310",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4309",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4306",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4305",
       "parent": "MVS-50",
@@ -36,6 +76,46 @@
       "key": "MVS-4301",
       "parent": "MVS-1581",
       "parentName": "ERD - תיקונים באובייקט מעסיק",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4300",
+      "parent": "MVS-1500",
+      "parentName": "בקרת גביה/פרמיה ראשונה",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4299",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4298",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4296",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
@@ -119,17 +199,7 @@
       "priority": "1 - Critical",
       "status": "In Development",
       "effort": 4.48,
-      "remaining": 4.48,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4245",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 3.04,
-      "remaining": 0.54,
+      "remaining": 1.22,
       "assignee": "Ariel Ozer"
     },
     {
@@ -157,7 +227,7 @@
       "parent": "MVS-2520",
       "parentName": "ביטול מינוי סוכן",
       "priority": "2 - High",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 7.03,
       "remaining": 2.78,
       "assignee": "Jonathan Ashkenazy"
@@ -277,10 +347,10 @@
       "parent": "MVS-355",
       "parentName": "ניתוב משימות",
       "priority": "1 - Critical",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 2,
       "remaining": 2,
-      "assignee": null
+      "assignee": "Shira Sapir Halili"
     }
   ]
 }
