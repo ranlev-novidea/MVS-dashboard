@@ -1,7 +1,37 @@
 {
-  "lastUpdated": "2026-10-08T10:02:00.112Z",
-  "totalTickets": 35,
+  "lastUpdated": "2026-10-08T17:43:18.144Z",
+  "totalTickets": 37,
   "tickets": [
+    {
+      "key": "MVS-4326",
+      "parent": "MVS-4286",
+      "parentName": "דמו- פניות למוקד שירות לקוחות",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 10,
+      "remaining": 10,
+      "assignee": "Haim Hatuka"
+    },
+    {
+      "key": "MVS-4325",
+      "parent": "MVS-4286",
+      "parentName": "דמו- פניות למוקד שירות לקוחות",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": "Haim Hatuka"
+    },
+    {
+      "key": "MVS-4324",
+      "parent": "MVS-4286",
+      "parentName": "דמו- פניות למוקד שירות לקוחות",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 9.52,
+      "remaining": 9.52,
+      "assignee": "Haim Hatuka"
+    },
     {
       "key": "MVS-4311",
       "parent": "MVS-355",
@@ -14,8 +44,8 @@
     },
     {
       "key": "MVS-4310",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
       "status": "Queue",
       "effort": 0,
@@ -24,8 +54,8 @@
     },
     {
       "key": "MVS-4309",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
       "status": "Queue",
       "effort": 0,
@@ -123,6 +153,16 @@
       "assignee": null
     },
     {
+      "key": "MVS-4293",
+      "parent": "MVS-4286",
+      "parentName": "דמו- פניות למוקד שירות לקוחות",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 7.52,
+      "remaining": 7.52,
+      "assignee": "Haim Hatuka"
+    },
+    {
       "key": "MVS-4284",
       "parent": "MVS-355",
       "parentName": "ניתוב משימות",
@@ -137,10 +177,10 @@
       "parent": "MVS-355",
       "parentName": "ניתוב משימות",
       "priority": "1 - Critical",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.96,
       "remaining": 4.96,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4269",
@@ -149,7 +189,7 @@
       "priority": "1 - Critical",
       "status": "In Development",
       "effort": 8,
-      "remaining": 8,
+      "remaining": 3.25,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -193,16 +233,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4246",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 4.48,
-      "remaining": 1.22,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-4205",
       "parent": "MVS-1180",
       "parentName": "הקמת תשתית למודול הרשאות",
@@ -229,7 +259,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 7.03,
-      "remaining": 2.78,
+      "remaining": 1.78,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -243,16 +273,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4131",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 11.03,
-      "remaining": 0.55,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
       "key": "MVS-4130",
       "parent": "MVS-50",
       "parentName": "תשתית",
@@ -261,6 +281,16 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
+    },
+    {
+      "key": "MVS-4101",
+      "parent": "MVS-1725",
+      "parentName": "הכנת כלים לאדמין",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 6,
+      "remaining": 4.25,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4075",
@@ -340,16 +370,6 @@
       "status": "Pause",
       "effort": 6,
       "remaining": 5.25,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-1818",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 2,
-      "remaining": 2,
       "assignee": "Shira Sapir Halili"
     }
   ]
