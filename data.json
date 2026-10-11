@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T17:21:57.555Z",
+  "lastUpdated": "2026-10-11T21:30:43.936Z",
   "totalTickets": 34,
   "tickets": [
     {
@@ -107,7 +107,7 @@
       "parent": "MVS-757",
       "parentName": "IFN - תיוק קבצים",
       "priority": "3 - Medium",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 0,
       "remaining": 0,
       "assignee": "Idan Abutbul"
@@ -127,10 +127,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4298",
