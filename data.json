@@ -1,16 +1,26 @@
 {
-  "lastUpdated": "2026-10-11T11:13:20.801Z",
-  "totalTickets": 36,
+  "lastUpdated": "2026-10-11T17:21:57.555Z",
+  "totalTickets": 34,
   "tickets": [
+    {
+      "key": "MVS-4332",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4326",
       "parent": "MVS-4286",
       "parentName": "דמו- פניות למוקד שירות לקוחות",
-      "priority": "3 - Medium",
+      "priority": "4 - Low",
       "status": "Queue",
       "effort": 10,
       "remaining": 10,
-      "assignee": "Haim Hatuka"
+      "assignee": "Ran Lev"
     },
     {
       "key": "MVS-4325",
@@ -97,30 +107,10 @@
       "parent": "MVS-757",
       "parentName": "IFN - תיוק קבצים",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4302",
-      "parent": "MVS-2053",
-      "parentName": "ניהול מיילים",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4301",
-      "parent": "MVS-1581",
-      "parentName": "ERD - תיקונים באובייקט מעסיק",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4300",
@@ -163,6 +153,16 @@
       "assignee": null
     },
     {
+      "key": "MVS-4293",
+      "parent": "MVS-4286",
+      "parentName": "דמו- פניות למוקד שירות לקוחות",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 7.52,
+      "remaining": 7.52,
+      "assignee": "Haim Hatuka"
+    },
+    {
       "key": "MVS-4284",
       "parent": "MVS-355",
       "parentName": "ניתוב משימות",
@@ -189,7 +189,7 @@
       "priority": "1 - Critical",
       "status": "In Development",
       "effort": 12,
-      "remaining": 12,
+      "remaining": 5.75,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -197,9 +197,9 @@
       "parent": "MVS-355",
       "parentName": "ניתוב משימות",
       "priority": "1 - Critical",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 12,
-      "remaining": 12,
+      "remaining": 10.25,
       "assignee": "Ariel Ozer"
     },
     {
@@ -211,16 +211,6 @@
       "effort": 8,
       "remaining": 8,
       "assignee": null
-    },
-    {
-      "key": "MVS-4248",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 4.96,
-      "remaining": 4.96,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4205",
@@ -241,16 +231,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Moran Mochly Raz"
-    },
-    {
-      "key": "MVS-4149",
-      "parent": "MVS-2520",
-      "parentName": "ביטול מינוי סוכן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 7.03,
-      "remaining": 1.78,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4137",
