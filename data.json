@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T21:30:43.936Z",
+  "lastUpdated": "2026-10-12T01:00:05.265Z",
   "totalTickets": 34,
   "tickets": [
     {
@@ -127,10 +127,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "In Development",
+      "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Idan Abutbul"
+      "assignee": null
     },
     {
       "key": "MVS-4298",
