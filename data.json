@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T01:00:05.265Z",
+  "lastUpdated": "2026-10-12T07:14:55.286Z",
   "totalTickets": 34,
   "tickets": [
     {
@@ -101,16 +101,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4303",
-      "parent": "MVS-757",
-      "parentName": "IFN - תיוק קבצים",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4300",
@@ -231,6 +221,16 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Moran Mochly Raz"
+    },
+    {
+      "key": "MVS-4141",
+      "parent": "MVS-2222",
+      "parentName": "שינוי סוג ומזהה מבוטח",
+      "priority": "4 - Low",
+      "status": "Failed QA",
+      "effort": 3.04,
+      "remaining": 0.04,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4137",
