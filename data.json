@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-12T07:14:55.286Z",
-  "totalTickets": 34,
+  "lastUpdated": "2026-10-12T17:23:51.063Z",
+  "totalTickets": 31,
   "tickets": [
     {
       "key": "MVS-4332",
@@ -20,7 +20,7 @@
       "status": "Queue",
       "effort": 10,
       "remaining": 10,
-      "assignee": "Ran Lev"
+      "assignee": "Moran Mochly Raz"
     },
     {
       "key": "MVS-4325",
@@ -37,9 +37,9 @@
       "parent": "MVS-4286",
       "parentName": "דמו- פניות למוקד שירות לקוחות",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 9.52,
-      "remaining": 9.52,
+      "remaining": 8.77,
       "assignee": "Haim Hatuka"
     },
     {
@@ -143,33 +143,13 @@
       "assignee": null
     },
     {
-      "key": "MVS-4293",
-      "parent": "MVS-4286",
-      "parentName": "דמו- פניות למוקד שירות לקוחות",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 7.52,
-      "remaining": 7.52,
-      "assignee": "Haim Hatuka"
-    },
-    {
-      "key": "MVS-4284",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
-      "priority": "1 - Critical",
-      "status": "Queue",
-      "effort": 4,
-      "remaining": 4,
-      "assignee": null
-    },
-    {
       "key": "MVS-4269",
       "parent": "MVS-355",
       "parentName": "ניתוב משימות",
       "priority": "1 - Critical",
       "status": "In Development",
       "effort": 8,
-      "remaining": 3.25,
+      "remaining": 5.33,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -179,18 +159,8 @@
       "priority": "1 - Critical",
       "status": "In Development",
       "effort": 12,
-      "remaining": 5.75,
+      "remaining": 2.87,
       "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-4252",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 12,
-      "remaining": 10.25,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4250",
