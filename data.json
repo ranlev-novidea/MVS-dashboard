@@ -1,12 +1,62 @@
 {
-  "lastUpdated": "2026-10-13T07:23:04.702Z",
-  "totalTickets": 31,
+  "lastUpdated": "2026-10-13T15:35:46.384Z",
+  "totalTickets": 34,
   "tickets": [
+    {
+      "key": "MVS-4364",
+      "parent": "MVS-226",
+      "parentName": "ממשק תוצרים",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-4363",
+      "parent": "MVS-226",
+      "parentName": "ממשק תוצרים",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Dorin Nicola"
+    },
+    {
+      "key": "MVS-4358",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "1 - Critical",
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Ariel Ozer"
+    },
     {
       "key": "MVS-4332",
       "parent": null,
       "parentName": null,
       "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4330",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4328",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -20,7 +70,7 @@
       "status": "Queue",
       "effort": 10,
       "remaining": 10,
-      "assignee": "Moran Mochly Raz"
+      "assignee": "Ran Lev"
     },
     {
       "key": "MVS-4325",
@@ -46,11 +96,11 @@
       "key": "MVS-4311",
       "parent": "MVS-355",
       "parentName": "ניתוב משימות",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 0.96,
+      "remaining": 0.96,
+      "assignee": "Simona Shifrin"
     },
     {
       "key": "MVS-4310",
@@ -67,30 +117,30 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4306",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4305",
       "parent": "MVS-50",
       "parentName": "תשתית",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Liat Gershgoren"
     },
     {
       "key": "MVS-4304",
@@ -113,26 +163,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4299",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4298",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
       "key": "MVS-4296",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
@@ -143,33 +173,53 @@
       "assignee": null
     },
     {
+      "key": "MVS-4284",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Failed QA",
+      "effort": 4,
+      "remaining": 0.75,
+      "assignee": "Ariel Ozer"
+    },
+    {
       "key": "MVS-4269",
       "parent": "MVS-355",
       "parentName": "ניתוב משימות",
       "priority": "1 - Critical",
-      "status": "In Development",
+      "status": "Failed QA",
       "effort": 8,
       "remaining": 5.33,
       "assignee": "Jonathan Ashkenazy"
     },
     {
-      "key": "MVS-4262",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 12,
-      "remaining": 2.87,
-      "assignee": "Jonathan Ashkenazy"
+      "key": "MVS-4255",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
     },
     {
-      "key": "MVS-4250",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
-      "priority": "1 - Critical",
+      "key": "MVS-4254",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
       "status": "Queue",
-      "effort": 8,
-      "remaining": 8,
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4253",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 6.48,
+      "remaining": 6.48,
       "assignee": null
     },
     {
@@ -183,16 +233,6 @@
       "assignee": "Moran Mochly Raz"
     },
     {
-      "key": "MVS-4152",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "1 - Critical",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Moran Mochly Raz"
-    },
-    {
       "key": "MVS-4141",
       "parent": "MVS-2222",
       "parentName": "שינוי סוג ומזהה מבוטח",
@@ -201,16 +241,6 @@
       "effort": 3.04,
       "remaining": 0.04,
       "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4137",
-      "parent": "MVS-4040",
-      "parentName": "פיצול פוליסה - מידור פוליסת יצרן",
-      "priority": "3 - Medium",
-      "status": "Failed QA",
-      "effort": 4,
-      "remaining": 1,
-      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4136",
@@ -249,7 +279,7 @@
       "priority": "3 - Medium",
       "status": "Pause",
       "effort": 2.47,
-      "remaining": 1.73,
+      "remaining": 1.48,
       "assignee": "Shira Sapir Halili"
     },
     {
