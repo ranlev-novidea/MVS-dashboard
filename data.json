@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-13T15:35:46.384Z",
-  "totalTickets": 34,
+  "lastUpdated": "2026-10-13T20:59:33.785Z",
+  "totalTickets": 35,
   "tickets": [
     {
       "key": "MVS-4364",
@@ -128,8 +128,8 @@
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
       "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
+      "effort": 6,
+      "remaining": 6,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -190,6 +190,16 @@
       "status": "Failed QA",
       "effort": 8,
       "remaining": 5.33,
+      "assignee": "Jonathan Ashkenazy"
+    },
+    {
+      "key": "MVS-4262",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Failed QA",
+      "effort": 12,
+      "remaining": 2.87,
       "assignee": "Jonathan Ashkenazy"
     },
     {
