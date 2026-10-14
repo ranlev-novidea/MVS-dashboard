@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-14T11:14:28.518Z",
+  "lastUpdated": "2026-10-14T16:35:54.939Z",
   "totalTickets": 37,
   "tickets": [
+    {
+      "key": "MVS-4378",
+      "parent": "MVS-1854",
+      "parentName": "החזרת צעד מסוכן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Liat Gershgoren"
+    },
+    {
+      "key": "MVS-4377",
+      "parent": "MVS-1980",
+      "parentName": "חוקת גביה",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4372",
       "parent": "MVS-110",
@@ -31,16 +51,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4367",
-      "parent": "MVS-4270",
-      "parentName": "יצירה של תור חדש לאוכלוסיה",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 4,
-      "remaining": 4,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4363",
@@ -77,10 +87,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 0.96,
+      "remaining": 0.96,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4328",
@@ -97,10 +107,10 @@
       "parent": "MVS-4286",
       "parentName": "דמו- פניות למוקד שירות לקוחות",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 8,
       "remaining": 8,
-      "assignee": "Tania Fainerman"
+      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-4326",
@@ -111,36 +121,6 @@
       "effort": 10,
       "remaining": 10,
       "assignee": "Ran Lev"
-    },
-    {
-      "key": "MVS-4325",
-      "parent": "MVS-4286",
-      "parentName": "דמו- פניות למוקד שירות לקוחות",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 4,
-      "assignee": "Haim Hatuka"
-    },
-    {
-      "key": "MVS-4324",
-      "parent": "MVS-4286",
-      "parentName": "דמו- פניות למוקד שירות לקוחות",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 9.52,
-      "remaining": 8.77,
-      "assignee": "Haim Hatuka"
-    },
-    {
-      "key": "MVS-4311",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 0.96,
-      "remaining": 0.96,
-      "assignee": "Simona Shifrin"
     },
     {
       "key": "MVS-4310",
@@ -223,6 +203,16 @@
       "assignee": null
     },
     {
+      "key": "MVS-4262",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Failed QA",
+      "effort": 12,
+      "remaining": 2.87,
+      "assignee": "Jonathan Ashkenazy"
+    },
+    {
       "key": "MVS-4255",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
@@ -249,8 +239,18 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 6.48,
-      "remaining": 6.48,
+      "remaining": 1.73,
       "assignee": "Jonathan Ashkenazy"
+    },
+    {
+      "key": "MVS-4252",
+      "parent": "MVS-355",
+      "parentName": "ניתוב משימות",
+      "priority": "1 - Critical",
+      "status": "Failed QA",
+      "effort": 12,
+      "remaining": 7.5,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4205",
@@ -263,16 +263,6 @@
       "assignee": "Moran Mochly Raz"
     },
     {
-      "key": "MVS-4141",
-      "parent": "MVS-2222",
-      "parentName": "שינוי סוג ומזהה מבוטח",
-      "priority": "4 - Low",
-      "status": "Failed QA",
-      "effort": 3.04,
-      "remaining": 0.04,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-4136",
       "parent": "MVS-50",
       "parentName": "תשתית",
@@ -280,6 +270,16 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4131",
+      "parent": "MVS-315",
+      "parentName": "בקרה מול יצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 11.03,
+      "remaining": 11.03,
       "assignee": null
     },
     {
