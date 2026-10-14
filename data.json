@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-14T16:35:54.939Z",
-  "totalTickets": 37,
+  "lastUpdated": "2026-10-14T20:27:55.980Z",
+  "totalTickets": 36,
   "tickets": [
     {
       "key": "MVS-4378",
@@ -10,7 +10,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Liat Gershgoren"
+      "assignee": null
     },
     {
       "key": "MVS-4377",
@@ -81,16 +81,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4330",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 0.96,
-      "remaining": 0.96,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4328",
