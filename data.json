@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-15T08:52:36.888Z",
-  "totalTickets": 36,
+  "lastUpdated": "2026-10-15T13:57:52.249Z",
+  "totalTickets": 37,
   "tickets": [
+    {
+      "key": "MVS-4395",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4394",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4384",
       "parent": null,
@@ -203,16 +223,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4262",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 12,
-      "remaining": 2.87,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-4255",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
@@ -227,10 +237,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4,
       "remaining": 4,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4253",
