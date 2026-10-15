@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-15T03:19:21.667Z",
+  "lastUpdated": "2026-10-15T08:52:36.888Z",
   "totalTickets": 36,
   "tickets": [
+    {
+      "key": "MVS-4384",
+      "parent": null,
+      "parentName": null,
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4378",
       "parent": "MVS-1854",
@@ -110,7 +120,7 @@
       "status": "Queue",
       "effort": 10,
       "remaining": 10,
-      "assignee": "Ran Lev"
+      "assignee": "Moran Mochly Raz"
     },
     {
       "key": "MVS-4310",
@@ -197,10 +207,10 @@
       "parent": "MVS-355",
       "parentName": "ניתוב משימות",
       "priority": "1 - Critical",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 12,
       "remaining": 2.87,
-      "assignee": "Jonathan Ashkenazy"
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4255",
@@ -231,16 +241,6 @@
       "effort": 6.48,
       "remaining": 1.73,
       "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-4252",
-      "parent": "MVS-355",
-      "parentName": "ניתוב משימות",
-      "priority": "1 - Critical",
-      "status": "Failed QA",
-      "effort": 12,
-      "remaining": 7.5,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4205",
