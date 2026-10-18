@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-10-18T14:18:59.000Z",
-  "totalTickets": 36,
+  "lastUpdated": "2026-10-18T17:50:24.983Z",
+  "totalTickets": 34,
   "tickets": [
     {
       "key": "MVS-4401",
       "parent": "MVS-1100",
       "parentName": "ניהול פוליסות",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "Pause",
       "effort": 0,
       "remaining": 0,
       "assignee": "Sebastian Yeshurun"
@@ -53,21 +53,11 @@
       "assignee": null
     },
     {
-      "key": "MVS-4384",
-      "parent": null,
-      "parentName": null,
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-4378",
       "parent": "MVS-1854",
       "parentName": "החזרת צעד מסוכן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
       "assignee": "Idan Abutbul"
@@ -271,16 +261,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4131",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 11.03,
-      "remaining": 11.03,
-      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4130",
