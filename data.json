@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-18T05:27:15.145Z",
-  "totalTickets": 37,
+  "lastUpdated": "2026-10-18T10:26:26.962Z",
+  "totalTickets": 38,
   "tickets": [
+    {
+      "key": "MVS-4397",
+      "parent": "MVS-243",
+      "parentName": "ממשק טיוטה",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4395",
       "parent": null,
@@ -113,14 +123,14 @@
       "assignee": null
     },
     {
-      "key": "MVS-4328",
+      "key": "MVS-4330",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "Failed QA",
+      "effort": 0.96,
+      "remaining": 0.25,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4327",
@@ -147,10 +157,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4309",
@@ -280,7 +290,7 @@
       "status": "Queue",
       "effort": 11.03,
       "remaining": 11.03,
-      "assignee": null
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4130",
