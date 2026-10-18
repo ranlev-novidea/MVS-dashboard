@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-18T10:26:26.962Z",
-  "totalTickets": 38,
+  "lastUpdated": "2026-10-18T14:18:59.000Z",
+  "totalTickets": 36,
   "tickets": [
+    {
+      "key": "MVS-4401",
+      "parent": "MVS-1100",
+      "parentName": "ניהול פוליסות",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Sebastian Yeshurun"
+    },
     {
       "key": "MVS-4397",
       "parent": "MVS-243",
@@ -33,6 +43,16 @@
       "assignee": null
     },
     {
+      "key": "MVS-4387",
+      "parent": "MVS-1500",
+      "parentName": "בקרת גביה/פרמיה ראשונה",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
       "key": "MVS-4384",
       "parent": null,
       "parentName": null,
@@ -40,7 +60,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4378",
@@ -50,7 +70,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4377",
@@ -130,37 +150,17 @@
       "status": "Failed QA",
       "effort": 0.96,
       "remaining": 0.25,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4327",
-      "parent": "MVS-4286",
-      "parentName": "דמו- פניות למוקד שירות לקוחות",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 8,
-      "remaining": 8,
-      "assignee": "Haim Hatuka"
-    },
-    {
-      "key": "MVS-4326",
-      "parent": "MVS-4286",
-      "parentName": "דמו- פניות למוקד שירות לקוחות",
-      "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 10,
-      "remaining": 10,
-      "assignee": "Moran Mochly Raz"
+      "assignee": "Simona Shifrin"
     },
     {
       "key": "MVS-4310",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
+      "status": "Pause",
+      "effort": 3.04,
+      "remaining": 0.79,
+      "assignee": "Inna Miller Sherman"
     },
     {
       "key": "MVS-4309",
@@ -237,19 +237,9 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4254",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
       "status": "In Development",
-      "effort": 4,
-      "remaining": 4,
+      "effort": 13.52,
+      "remaining": 12.52,
       "assignee": "Ariel Ozer"
     },
     {
@@ -287,7 +277,7 @@
       "parent": "MVS-315",
       "parentName": "בקרה מול יצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 11.03,
       "remaining": 11.03,
       "assignee": "Shira Sapir Halili"
@@ -301,16 +291,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4075",
-      "parent": "MVS-606",
-      "parentName": "גביה",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 3.52,
-      "remaining": 3.52,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4062",
