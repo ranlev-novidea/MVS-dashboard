@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-19T05:44:48.278Z",
-  "totalTickets": 34,
+  "lastUpdated": "2026-10-19T12:12:34.629Z",
+  "totalTickets": 40,
   "tickets": [
+    {
+      "key": "MVS-4406",
+      "parent": null,
+      "parentName": null,
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4401",
       "parent": "MVS-1100",
@@ -10,7 +20,7 @@
       "status": "Pause",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Sebastian Yeshurun"
+      "assignee": "Dorin Nicola"
     },
     {
       "key": "MVS-4397",
@@ -46,6 +56,16 @@
       "key": "MVS-4387",
       "parent": "MVS-1500",
       "parentName": "בקרת גביה/פרמיה ראשונה",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4377",
+      "parent": "MVS-1980",
+      "parentName": "חוקת גביה",
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
@@ -53,20 +73,20 @@
       "assignee": null
     },
     {
-      "key": "MVS-4378",
-      "parent": "MVS-1854",
-      "parentName": "החזרת צעד מסוכן",
-      "priority": "2 - High",
-      "status": "In Development",
+      "key": "MVS-4374",
+      "parent": null,
+      "parentName": null,
+      "priority": "1 - Critical",
+      "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Idan Abutbul"
+      "assignee": null
     },
     {
-      "key": "MVS-4377",
-      "parent": "MVS-1980",
-      "parentName": "חוקת גביה",
-      "priority": "3 - Medium",
+      "key": "MVS-4373",
+      "parent": null,
+      "parentName": null,
+      "priority": "1 - Critical",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -116,10 +136,40 @@
       "key": "MVS-4361",
       "parent": "MVS-2375",
       "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
-      "priority": "3 - Medium",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4356",
+      "parent": "MVS-2210",
+      "parentName": "העברת עובדים ממעסיק למעסיק",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4341",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4340",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
       "assignee": null
     },
     {
@@ -133,14 +183,44 @@
       "assignee": null
     },
     {
-      "key": "MVS-4330",
+      "key": "MVS-4322",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 0.96,
-      "remaining": 0.25,
-      "assignee": "Simona Shifrin"
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4321",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 11.04,
+      "remaining": 11.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4320",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4319",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4310",
@@ -151,16 +231,6 @@
       "effort": 3.04,
       "remaining": 0.79,
       "assignee": "Inna Miller Sherman"
-    },
-    {
-      "key": "MVS-4309",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4308",
@@ -229,18 +299,8 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 13.52,
-      "remaining": 10.27,
+      "remaining": 9.27,
       "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4253",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 6.48,
-      "remaining": 1.73,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4205",
@@ -327,10 +387,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "4 - Low",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 16,
       "remaining": 16,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-2875",
