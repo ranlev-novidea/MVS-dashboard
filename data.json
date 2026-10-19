@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-19T12:12:34.629Z",
-  "totalTickets": 40,
+  "lastUpdated": "2026-10-19T19:01:42.649Z",
+  "totalTickets": 46,
   "tickets": [
     {
       "key": "MVS-4406",
@@ -113,16 +113,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4370",
-      "parent": "MVS-1854",
-      "parentName": "החזרת צעד מסוכן",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
       "key": "MVS-4363",
       "parent": "MVS-226",
       "parentName": "ממשק תוצרים",
@@ -150,6 +140,26 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4343",
+      "parent": "MVS-1330",
+      "parentName": "חיסכון פרט",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4342",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 5.52,
+      "remaining": 5.52,
       "assignee": null
     },
     {
@@ -183,14 +193,34 @@
       "assignee": null
     },
     {
+      "key": "MVS-4328",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 4,
+      "remaining": 0.5,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-4323",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4,
+      "remaining": 4,
+      "assignee": null
+    },
+    {
       "key": "MVS-4322",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.96,
       "remaining": 4.96,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4321",
@@ -207,10 +237,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.96,
-      "remaining": 4.96,
-      "assignee": null
+      "remaining": 2.78,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4319",
@@ -221,6 +251,36 @@
       "effort": 8,
       "remaining": 8,
       "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-4317",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 5.52,
+      "remaining": 5.52,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4316",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 4.48,
+      "remaining": 4.48,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4315",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": null
     },
     {
       "key": "MVS-4310",
@@ -297,10 +357,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 13.52,
       "remaining": 9.27,
-      "assignee": "Ariel Ozer"
+      "assignee": "Liat Gershgoren"
     },
     {
       "key": "MVS-4205",
@@ -387,10 +447,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "4 - Low",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 16,
-      "remaining": 16,
-      "assignee": "Jonathan Ashkenazy"
+      "remaining": 14.55,
+      "assignee": "Inna Miller Sherman"
     },
     {
       "key": "MVS-2875",
