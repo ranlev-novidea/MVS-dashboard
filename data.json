@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-20T09:08:11.463Z",
-  "totalTickets": 51,
+  "lastUpdated": "2026-10-20T14:41:01.200Z",
+  "totalTickets": 50,
   "tickets": [
     {
       "key": "MVS-4416",
@@ -41,16 +41,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4401",
-      "parent": "MVS-1100",
-      "parentName": "ניהול פוליסות",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Dorin Nicola"
     },
     {
       "key": "MVS-4397",
@@ -233,16 +223,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4328",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "Pause",
-      "effort": 4,
-      "remaining": 4,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-4323",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
@@ -269,7 +249,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 11.04,
-      "remaining": 11.04,
+      "remaining": 5.12,
       "assignee": "Shira Sapir Halili"
     },
     {
@@ -297,10 +277,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 5.52,
-      "remaining": 5.52,
-      "assignee": null
+      "remaining": 3.02,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4316",
@@ -391,6 +371,16 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
+    },
+    {
+      "key": "MVS-4259",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 1.52,
+      "remaining": 0.52,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4255",
