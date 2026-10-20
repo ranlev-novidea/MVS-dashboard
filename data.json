@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-20T14:41:01.200Z",
-  "totalTickets": 50,
+  "lastUpdated": "2026-10-20T18:55:06.083Z",
+  "totalTickets": 47,
   "tickets": [
     {
       "key": "MVS-4416",
@@ -233,16 +233,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4322",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4.96,
-      "remaining": 4.96,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
       "key": "MVS-4321",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
@@ -253,16 +243,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-4320",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4.96,
-      "remaining": 2.78,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
       "key": "MVS-4319",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
@@ -270,16 +250,6 @@
       "status": "In Development",
       "effort": 8,
       "remaining": 5.25,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4317",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 5.52,
-      "remaining": 3.02,
       "assignee": "Idan Abutbul"
     },
     {
@@ -489,7 +459,7 @@
       "priority": "4 - Low",
       "status": "Pause",
       "effort": 16,
-      "remaining": 14.55,
+      "remaining": 13.05,
       "assignee": "Inna Miller Sherman"
     },
     {
