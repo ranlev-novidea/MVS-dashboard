@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-21T07:05:11.792Z",
-  "totalTickets": 47,
+  "lastUpdated": "2026-10-21T13:27:07.135Z",
+  "totalTickets": 46,
   "tickets": [
     {
-      "key": "MVS-4416",
-      "parent": "MVS-1854",
-      "parentName": "החזרת צעד מסוכן",
-      "priority": "2 - High",
+      "key": "MVS-4431",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "1 - Critical",
       "status": "Queue",
-      "effort": 2.48,
-      "remaining": 2.48,
+      "effort": 0,
+      "remaining": 0,
       "assignee": null
     },
     {
@@ -140,7 +140,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Dorin Nicola"
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4361",
@@ -176,7 +176,7 @@
       "key": "MVS-4342",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 5.52,
       "remaining": 5.52,
@@ -197,10 +197,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4,
       "remaining": 4,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4332",
@@ -217,20 +217,20 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4323",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4,
       "remaining": 4,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4321",
@@ -239,7 +239,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 11.04,
-      "remaining": 5.12,
+      "remaining": 3.12,
       "assignee": "Shira Sapir Halili"
     },
     {
@@ -358,9 +358,9 @@
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
       "status": "Pause",
-      "effort": 13.52,
-      "remaining": 9.27,
-      "assignee": "Ariel Ozer"
+      "effort": 16,
+      "remaining": 5.8,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4205",
@@ -451,16 +451,6 @@
       "effort": 5.52,
       "remaining": 1.02,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3409",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 16,
-      "remaining": 13.05,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-2875",
