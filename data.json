@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T01:17:59.876Z",
+  "lastUpdated": "2026-10-21T07:05:11.792Z",
   "totalTickets": 47,
   "tickets": [
     {
@@ -216,7 +216,7 @@
       "key": "MVS-4329",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -226,7 +226,7 @@
       "key": "MVS-4323",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 4,
       "remaining": 4,
@@ -256,7 +256,7 @@
       "key": "MVS-4316",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 4.48,
       "remaining": 4.48,
@@ -266,7 +266,7 @@
       "key": "MVS-4315",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 2.48,
       "remaining": 2.48,
@@ -457,10 +457,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "4 - Low",
-      "status": "Pause",
+      "status": "In Development",
       "effort": 16,
       "remaining": 13.05,
-      "assignee": "Inna Miller Sherman"
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-2875",
