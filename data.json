@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T01:14:02.427Z",
+  "lastUpdated": "2026-10-22T07:07:16.447Z",
   "totalTickets": 45,
   "tickets": [
     {
@@ -11,6 +11,16 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
+    },
+    {
+      "key": "MVS-4415",
+      "parent": "MVS-757",
+      "parentName": "IFN - תיוק קבצים",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4414",
@@ -233,16 +243,6 @@
       "assignee": "Idan Abutbul"
     },
     {
-      "key": "MVS-4319",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 8,
-      "remaining": 0.5,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-4316",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
@@ -250,7 +250,7 @@
       "status": "Queue",
       "effort": 4.48,
       "remaining": 4.48,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4315",
@@ -260,7 +260,7 @@
       "status": "Queue",
       "effort": 2.48,
       "remaining": 2.48,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4310",
