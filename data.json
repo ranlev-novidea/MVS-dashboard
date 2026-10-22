@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-22T07:07:16.447Z",
-  "totalTickets": 45,
+  "lastUpdated": "2026-10-22T13:28:16.745Z",
+  "totalTickets": 47,
   "tickets": [
+    {
+      "key": "MVS-4439",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Simona Shifrin"
+    },
+    {
+      "key": "MVS-4435",
+      "parent": "MVS-3250",
+      "parentName": "קשרי העסקה",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4431",
       "parent": "MVS-50",
@@ -13,14 +33,24 @@
       "assignee": null
     },
     {
+      "key": "MVS-4426",
+      "parent": "MVS-4255",
+      "parentName": "טיפול בריג'קט ממייל - יצירת רשומת ריג'קט מרשומה באובייקט הביניים MailYatzranToNovidea",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 1.48,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
       "key": "MVS-4415",
       "parent": "MVS-757",
       "parentName": "IFN - תיוק קבצים",
       "priority": "2 - High",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Shira Sapir Halili"
+      "assignee": "Dorin Nicola"
     },
     {
       "key": "MVS-4414",
@@ -187,10 +217,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 5.52,
       "remaining": 5.52,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4341",
@@ -201,16 +231,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4340",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 0.63,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4332",
@@ -229,27 +249,27 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 16,
-      "remaining": 14.75,
+      "remaining": 10.5,
       "assignee": "Ariel Ozer"
     },
     {
-      "key": "MVS-4323",
+      "key": "MVS-4321",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 1.75,
-      "assignee": "Idan Abutbul"
+      "status": "Failed QA",
+      "effort": 11.04,
+      "remaining": 0.37,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4316",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.48,
-      "remaining": 4.48,
+      "remaining": 0.96,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -257,9 +277,9 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 2.48,
-      "remaining": 2.48,
+      "remaining": 1.43,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -349,7 +369,7 @@
       "priority": "2 - High",
       "status": "Pause",
       "effort": 16,
-      "remaining": 5.8,
+      "remaining": 5.05,
       "assignee": "Shira Sapir Halili"
     },
     {
