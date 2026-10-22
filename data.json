@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-22T13:28:16.745Z",
-  "totalTickets": 47,
+  "lastUpdated": "2026-10-22T18:18:11.879Z",
+  "totalTickets": 48,
   "tickets": [
     {
       "key": "MVS-4439",
@@ -31,16 +31,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4426",
-      "parent": "MVS-4255",
-      "parentName": "טיפול בריג'קט ממייל - יצירת רשומת ריג'קט מרשומה באובייקט הביניים MailYatzranToNovidea",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 1.48,
-      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4415",
@@ -263,13 +253,33 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-4319",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-4317",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 5.52,
+      "remaining": 5.52,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-4316",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
       "status": "In Development",
       "effort": 4.48,
-      "remaining": 0.96,
+      "remaining": 4.48,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -279,7 +289,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 2.48,
-      "remaining": 1.43,
+      "remaining": 3.8,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -369,8 +379,8 @@
       "priority": "2 - High",
       "status": "Pause",
       "effort": 16,
-      "remaining": 5.05,
-      "assignee": "Shira Sapir Halili"
+      "remaining": 4.55,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4205",
