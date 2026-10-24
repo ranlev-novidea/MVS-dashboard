@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T17:50:36.004Z",
+  "lastUpdated": "2026-10-24T20:16:12.140Z",
   "totalTickets": 48,
   "tickets": [
     {
@@ -257,7 +257,7 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 8,
       "remaining": 8,
       "assignee": "Idan Abutbul"
@@ -267,7 +267,7 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
-      "status": "Failed QA",
+      "status": "In Development",
       "effort": 5.52,
       "remaining": 5.52,
       "assignee": "Idan Abutbul"
