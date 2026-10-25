@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T14:49:31.296Z",
+  "lastUpdated": "2026-10-25T18:08:53.232Z",
   "totalTickets": 65,
   "tickets": [
     {
@@ -51,16 +51,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4441",
-      "parent": "MVS-4255",
-      "parentName": "טיפול בריג'קט ממייל - יצירת רשומת ריג'קט מרשומה באובייקט הביניים MailYatzranToNovidea",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 6,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4439",
@@ -311,6 +301,16 @@
       "effort": 8,
       "remaining": 8,
       "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-4316",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 4.48,
+      "remaining": 4.48,
+      "assignee": "Inbal Adler"
     },
     {
       "key": "MVS-4308",
