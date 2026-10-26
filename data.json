@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-26T09:44:26.356Z",
-  "totalTickets": 64,
+  "lastUpdated": "2026-10-26T16:30:55.417Z",
+  "totalTickets": 63,
   "tickets": [
     {
       "key": "MVS-4453",
@@ -279,7 +279,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 4,
-      "remaining": 4,
+      "remaining": 10,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -291,16 +291,6 @@
       "effort": 8,
       "remaining": 8,
       "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4316",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 4.48,
-      "remaining": 4.48,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4308",
