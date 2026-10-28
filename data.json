@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-28T04:07:38.184Z",
-  "totalTickets": 62,
+  "lastUpdated": "2026-10-28T10:59:04.577Z",
+  "totalTickets": 65,
   "tickets": [
+    {
+      "key": "MVS-4472",
+      "parent": "MVS-1565",
+      "parentName": "פגישות UI עם מבטח",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4453",
       "parent": "MVS-135",
@@ -57,10 +67,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Simona Shifrin"
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 0.98,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4435",
@@ -228,19 +238,29 @@
       "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
       "priority": "2 - High",
       "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "effort": 6,
+      "remaining": 6,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4356",
       "parent": "MVS-2210",
       "parentName": "העברת עובדים ממעסיק למעסיק",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4345",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 0.96,
+      "remaining": 0.96,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4343",
@@ -257,10 +277,10 @@
       "parent": "MVS-3310",
       "parentName": "ביטול ניוד משימור",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4332",
@@ -441,6 +461,16 @@
       "effort": 4.96,
       "remaining": 3.21,
       "assignee": "Moran Mochly Raz"
+    },
+    {
+      "key": "MVS-4159",
+      "parent": "MVS-1100",
+      "parentName": "ניהול פוליסות",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
     },
     {
       "key": "MVS-4136",
