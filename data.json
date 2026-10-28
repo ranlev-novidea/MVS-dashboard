@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-28T10:59:04.577Z",
-  "totalTickets": 65,
+  "lastUpdated": "2026-10-28T17:05:53.629Z",
+  "totalTickets": 62,
   "tickets": [
     {
       "key": "MVS-4472",
@@ -57,26 +57,6 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4439",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 0.98,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4435",
-      "parent": "MVS-3250",
-      "parentName": "קשרי העסקה",
-      "priority": "2 - High",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -147,10 +127,10 @@
       "parent": "MVS-243",
       "parentName": "ממשק טיוטה",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4395",
@@ -249,7 +229,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 8,
-      "remaining": 8,
+      "remaining": 2.5,
       "assignee": "Ariel Ozer"
     },
     {
@@ -258,8 +238,8 @@
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "3 - Medium",
       "status": "In Development",
-      "effort": 0.96,
-      "remaining": 0.96,
+      "effort": 4.96,
+      "remaining": 4.96,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -278,8 +258,8 @@
       "parentName": "ביטול ניוד משימור",
       "priority": "2 - High",
       "status": "In Development",
-      "effort": 3.04,
-      "remaining": 3.04,
+      "effort": 6,
+      "remaining": 6,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -299,18 +279,8 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 4,
-      "remaining": 10,
+      "remaining": 4.77,
       "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-4308",
-      "parent": "MVS-315",
-      "parentName": "בקרה מול יצרן",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
     },
     {
       "key": "MVS-4306",
@@ -377,10 +347,10 @@
       "parent": "MVS-2375",
       "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 0.96,
+      "remaining": 0.96,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4231",
@@ -390,7 +360,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4222",
