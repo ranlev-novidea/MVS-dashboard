@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T17:05:53.629Z",
+  "lastUpdated": "2026-10-28T22:12:29.968Z",
   "totalTickets": 62,
   "tickets": [
     {
@@ -239,7 +239,7 @@
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 4.96,
-      "remaining": 4.96,
+      "remaining": 3.48,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -259,7 +259,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 6,
-      "remaining": 6,
+      "remaining": 1.72,
       "assignee": "Jonathan Ashkenazy"
     },
     {
@@ -279,7 +279,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 4,
-      "remaining": 4.77,
+      "remaining": 8.78,
       "assignee": "Jonathan Ashkenazy"
     },
     {
