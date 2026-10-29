@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-29T09:22:35.461Z",
-  "totalTickets": 61,
+  "lastUpdated": "2026-10-29T16:36:31.954Z",
+  "totalTickets": 50,
   "tickets": [
+    {
+      "key": "MVS-4497",
+      "parent": "MVS-1468",
+      "parentName": "שחלוף",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4487",
       "parent": "MVS-4344",
@@ -17,36 +27,6 @@
       "parent": "MVS-1565",
       "parentName": "פגישות UI עם מבטח",
       "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4453",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4452",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4451",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -77,10 +57,10 @@
       "parent": "MVS-50",
       "parentName": "תשתית",
       "priority": "1 - Critical",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "Pause",
+      "effort": 1.52,
+      "remaining": 1.02,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4418",
@@ -131,16 +111,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4397",
-      "parent": "MVS-243",
-      "parentName": "ממשק טיוטה",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4395",
@@ -203,56 +173,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-4361",
-      "parent": "MVS-2375",
-      "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 4,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4356",
-      "parent": "MVS-2210",
-      "parentName": "העברת עובדים ממעסיק למעסיק",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 8,
-      "remaining": 2.25,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4345",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 4.96,
-      "remaining": 3.48,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-4343",
-      "parent": "MVS-1330",
-      "parentName": "חיסכון פרט",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4341",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 1.72,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
       "key": "MVS-4332",
       "parent": "MVS-4425",
       "parentName": "דמו- תביעות",
@@ -261,16 +181,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4323",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 8.78,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4306",
@@ -329,28 +239,8 @@
       "priority": "2 - High",
       "status": "Queue",
       "effort": 1.52,
-      "remaining": 0.52,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4232",
-      "parent": "MVS-2375",
-      "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 0.96,
-      "remaining": 0.96,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4231",
-      "parent": "MVS-79",
-      "parentName": "Task Interface ממשק משימות",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
+      "remaining": 1.52,
+      "assignee": null
     },
     {
       "key": "MVS-4222",
@@ -427,10 +317,10 @@
       "parent": "MVS-1100",
       "parentName": "ניהול פוליסות",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 8,
+      "remaining": 6,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4136",
@@ -470,7 +360,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Emmanuel Mtambo"
+      "assignee": null
     },
     {
       "key": "MVS-4107",
