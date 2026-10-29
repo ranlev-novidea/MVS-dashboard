@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-29T02:06:38.570Z",
-  "totalTickets": 62,
+  "lastUpdated": "2026-10-29T09:22:35.461Z",
+  "totalTickets": 61,
   "tickets": [
+    {
+      "key": "MVS-4487",
+      "parent": "MVS-4344",
+      "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Shira Sapir Halili"
+    },
     {
       "key": "MVS-4472",
       "parent": "MVS-1565",
@@ -50,7 +60,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Ran Lev"
+      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-4445",
@@ -128,8 +138,8 @@
       "parentName": "ממשק טיוטה",
       "priority": "3 - Medium",
       "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
+      "effort": 2,
+      "remaining": 2,
       "assignee": "Idan Abutbul"
     },
     {
@@ -160,33 +170,13 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Liat Gershgoren"
     },
     {
       "key": "MVS-4377",
       "parent": "MVS-1980",
       "parentName": "חוקת גביה",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4374",
-      "parent": "MVS-3003",
-      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
-      "priority": "1 - Critical",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4373",
-      "parent": "MVS-3003",
-      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
-      "priority": "1 - Critical",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -217,9 +207,9 @@
       "parent": "MVS-2375",
       "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 6,
-      "remaining": 6,
+      "remaining": 4,
       "assignee": "Ariel Ozer"
     },
     {
@@ -229,7 +219,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 8,
-      "remaining": 2.5,
+      "remaining": 2.25,
       "assignee": "Ariel Ozer"
     },
     {
@@ -347,7 +337,7 @@
       "parent": "MVS-2375",
       "parentName": "דיווח פטירה+טיפול בקשרי העסקה של מבוטח שנפטר",
       "priority": "3 - Medium",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 0.96,
       "remaining": 0.96,
       "assignee": "Idan Abutbul"
