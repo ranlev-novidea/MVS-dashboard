@@ -1,16 +1,36 @@
 {
-  "lastUpdated": "2026-11-01T01:51:48.317Z",
-  "totalTickets": 50,
+  "lastUpdated": "2026-11-01T08:44:04.838Z",
+  "totalTickets": 55,
   "tickets": [
+    {
+      "key": "MVS-4505",
+      "parent": "MVS-3850",
+      "parentName": "פוליסת יצרן",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4504",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4497",
       "parent": "MVS-1468",
       "parentName": "שחלוף",
       "priority": "1 - Critical",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 2,
+      "remaining": 2,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4487",
@@ -51,6 +71,16 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
+    },
+    {
+      "key": "MVS-4441",
+      "parent": "MVS-4255",
+      "parentName": "טיפול בריג'קט ממייל - יצירת רשומת ריג'קט מרשומה באובייקט הביניים MailYatzranToNovidea",
+      "priority": "3 - Medium",
+      "status": "Pause",
+      "effort": 6,
+      "remaining": 6,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4431",
@@ -173,6 +203,16 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-4343",
+      "parent": "MVS-1330",
+      "parentName": "חיסכון פרט",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 3.04,
+      "remaining": 1.04,
+      "assignee": "Ariel Ozer"
+    },
+    {
       "key": "MVS-4332",
       "parent": "MVS-4425",
       "parentName": "דמו- תביעות",
@@ -181,6 +221,16 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
+    },
+    {
+      "key": "MVS-4319",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Failed QA",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4306",
