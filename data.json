@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-01T15:46:25.709Z",
-  "totalTickets": 52,
+  "lastUpdated": "2026-11-01T20:12:06.050Z",
+  "totalTickets": 50,
   "tickets": [
     {
       "key": "MVS-4512",
@@ -93,16 +93,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-4414",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 2,
-      "remaining": 2,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
       "key": "MVS-4413",
       "parent": "MVS-1419",
       "parentName": "טיקטים כלליים",
@@ -111,16 +101,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4406",
-      "parent": "MVS-79",
-      "parentName": "Task Interface ממשק משימות",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 0.96,
-      "remaining": 0.96,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4395",
