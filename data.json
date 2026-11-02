@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-11-02T07:15:03.355Z",
-  "totalTickets": 50,
+  "lastUpdated": "2026-11-02T17:50:10.793Z",
+  "totalTickets": 46,
   "tickets": [
     {
-      "key": "MVS-4512",
-      "parent": "MVS-1093",
-      "parentName": "Mivtach - Product",
-      "priority": "3 - Medium",
+      "key": "MVS-4519",
+      "parent": "MVSS-396",
+      "parentName": "Triage - UAT , Testing , Producsia Etc'",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Sebastian Yeshurun"
+      "assignee": null
     },
     {
-      "key": "MVS-4510",
+      "key": "MVS-4518",
       "parent": "MVS-4344",
       "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
       "priority": "3 - Medium",
@@ -21,6 +21,16 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-4512",
+      "parent": "MVS-1093",
+      "parentName": "Mivtach - Product",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
     },
     {
       "key": "MVS-4472",
@@ -31,16 +41,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4450",
-      "parent": "MVS-4286",
-      "parentName": "דמו- פניות למוקד שירות לקוחות",
-      "priority": "1 - Critical",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-4445",
@@ -123,16 +123,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4387",
-      "parent": "MVS-1500",
-      "parentName": "בקרת גביה/פרמיה ראשונה",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Liat Gershgoren"
-    },
-    {
       "key": "MVS-4377",
       "parent": "MVS-1980",
       "parentName": "חוקת גביה",
@@ -163,16 +153,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-4341",
-      "parent": "MVS-3310",
-      "parentName": "ביטול ניוד משימור",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 6,
-      "remaining": 6,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
       "key": "MVS-4332",
       "parent": "MVS-4425",
       "parentName": "דמו- תביעות",
@@ -187,10 +167,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 6,
-      "remaining": 6,
-      "assignee": null
+      "remaining": 5,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4305",
@@ -206,26 +186,6 @@
       "key": "MVS-4304",
       "parent": "MVS-1458",
       "parentName": "הסבות",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4300",
-      "parent": "MVS-1500",
-      "parentName": "בקרת גביה/פרמיה ראשונה",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4296",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
@@ -317,9 +277,9 @@
       "parent": "MVS-1100",
       "parentName": "ניהול פוליסות",
       "priority": "3 - Medium",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 8,
-      "remaining": 6,
+      "remaining": 1.5,
       "assignee": "Ariel Ozer"
     },
     {
@@ -437,10 +397,10 @@
       "parent": "MVS-2053",
       "parentName": "ניהול מיילים",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3837",
