@@ -1,7 +1,37 @@
 {
-  "lastUpdated": "2026-11-03T07:34:55.688Z",
-  "totalTickets": 49,
+  "lastUpdated": "2026-11-03T15:49:53.648Z",
+  "totalTickets": 50,
   "tickets": [
+    {
+      "key": "MVS-4538",
+      "parent": "MVS-1100",
+      "parentName": "ניהול פוליסות",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4537",
+      "parent": "MVS-3850",
+      "parentName": "פוליסת יצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Sebastian Yeshurun"
+    },
+    {
+      "key": "MVS-4536",
+      "parent": "MVS-3850",
+      "parentName": "פוליסת יצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Sebastian Yeshurun"
+    },
     {
       "key": "MVS-4531",
       "parent": "MVS-4344",
@@ -17,20 +47,20 @@
       "parent": "MVS-4344",
       "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 12,
+      "remaining": 9.5,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4529",
       "parent": "MVS-4344",
       "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 10,
+      "remaining": 10,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4519",
@@ -197,10 +227,10 @@
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 6,
-      "remaining": 5,
-      "assignee": "Ariel Ozer"
+      "remaining": 2,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4305",
@@ -301,16 +331,6 @@
       "effort": 4.96,
       "remaining": 3.21,
       "assignee": "Moran Mochly Raz"
-    },
-    {
-      "key": "MVS-4159",
-      "parent": "MVS-1100",
-      "parentName": "ניהול פוליסות",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 8,
-      "remaining": 1.5,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4136",
@@ -421,16 +441,6 @@
       "effort": 2.48,
       "remaining": 2.23,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-3892",
-      "parent": "MVS-2053",
-      "parentName": "ניהול מיילים",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3837",
