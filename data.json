@@ -1,7 +1,37 @@
 {
-  "lastUpdated": "2026-11-03T00:32:35.476Z",
-  "totalTickets": 46,
+  "lastUpdated": "2026-11-03T07:34:55.688Z",
+  "totalTickets": 49,
   "tickets": [
+    {
+      "key": "MVS-4531",
+      "parent": "MVS-4344",
+      "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4530",
+      "parent": "MVS-4344",
+      "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4529",
+      "parent": "MVS-4344",
+      "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4519",
       "parent": "MVSS-396",
