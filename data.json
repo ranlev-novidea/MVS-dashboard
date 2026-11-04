@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T01:54:21.122Z",
+  "lastUpdated": "2026-11-04T08:38:52.542Z",
   "totalTickets": 50,
   "tickets": [
     {
@@ -40,7 +40,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4530",
