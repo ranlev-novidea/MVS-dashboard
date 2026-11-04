@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-11-04T08:38:52.542Z",
-  "totalTickets": 50,
+  "lastUpdated": "2026-11-04T16:51:07.760Z",
+  "totalTickets": 49,
   "tickets": [
+    {
+      "key": "MVS-4544",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4543",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Shira Sapir Halili"
+    },
     {
       "key": "MVS-4538",
       "parent": "MVS-1100",
@@ -33,34 +53,14 @@
       "assignee": "Sebastian Yeshurun"
     },
     {
-      "key": "MVS-4531",
-      "parent": "MVS-4344",
-      "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Ariel Ozer"
-    },
-    {
       "key": "MVS-4530",
       "parent": "MVS-4344",
       "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
       "priority": "3 - Medium",
       "status": "In Development",
       "effort": 12,
-      "remaining": 8.75,
+      "remaining": 2.87,
       "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-4529",
-      "parent": "MVS-4344",
-      "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 10,
-      "remaining": 10,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4519",
@@ -71,16 +71,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4518",
-      "parent": "MVS-4344",
-      "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4512",
