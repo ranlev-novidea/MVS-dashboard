@@ -1,7 +1,57 @@
 {
-  "lastUpdated": "2026-11-05T03:10:30.720Z",
-  "totalTickets": 49,
+  "lastUpdated": "2026-11-05T11:52:29.560Z",
+  "totalTickets": 54,
   "tickets": [
+    {
+      "key": "MVS-4565",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4564",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4560",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4558",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4556",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4544",
       "parent": "MVS-3003",
@@ -37,20 +87,10 @@
       "parent": "MVS-3850",
       "parentName": "פוליסת יצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "Pause",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Sebastian Yeshurun"
-    },
-    {
-      "key": "MVS-4536",
-      "parent": "MVS-3850",
-      "parentName": "פוליסת יצרן",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Sebastian Yeshurun"
+      "assignee": "Dorin Nicola"
     },
     {
       "key": "MVS-4530",
@@ -71,6 +111,16 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
+    },
+    {
+      "key": "MVS-4518",
+      "parent": "MVS-4344",
+      "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4512",
