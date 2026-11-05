@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-05T11:52:29.560Z",
+  "lastUpdated": "2026-11-05T19:30:55.259Z",
   "totalTickets": 54,
   "tickets": [
+    {
+      "key": "MVS-4567",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4565",
       "parent": "MVS-135",
@@ -30,7 +40,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Simona Shifrin"
     },
     {
       "key": "MVS-4558",
@@ -40,7 +50,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Simona Shifrin"
     },
     {
       "key": "MVS-4556",
@@ -50,7 +60,7 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Simona Shifrin"
     },
     {
       "key": "MVS-4544",
@@ -81,16 +91,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4537",
-      "parent": "MVS-3850",
-      "parentName": "פוליסת יצרן",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Dorin Nicola"
     },
     {
       "key": "MVS-4530",
