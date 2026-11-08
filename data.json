@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-08T11:42:03.704Z",
-  "totalTickets": 59,
+  "lastUpdated": "2026-11-08T17:37:58.495Z",
+  "totalTickets": 87,
   "tickets": [
+    {
+      "key": "MVS-4603",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4594",
       "parent": "MVS-50",
@@ -33,7 +43,67 @@
       "assignee": null
     },
     {
+      "key": "MVS-4589",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4588",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4587",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4586",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4585",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
       "key": "MVS-4584",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4583",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
@@ -47,6 +117,26 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "1 - Critical",
+      "status": "In Development",
+      "effort": 1.52,
+      "remaining": 0.77,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4581",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4580",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -63,27 +153,17 @@
       "assignee": null
     },
     {
-      "key": "MVS-4575",
+      "key": "MVS-4576",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "1 - Critical",
+      "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
       "assignee": null
     },
     {
-      "key": "MVS-4572",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "1 - Critical",
-      "status": "Queue",
-      "effort": 2.48,
-      "remaining": 2.48,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4571",
+      "key": "MVS-4575",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "1 - Critical",
@@ -91,6 +171,46 @@
       "effort": 2.48,
       "remaining": 2.48,
       "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4574",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4573",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4570",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4569",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
     },
     {
       "key": "MVS-4568",
@@ -106,7 +226,7 @@
       "key": "MVS-4567",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "1 - Critical",
+      "priority": "2 - High",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -190,6 +310,76 @@
       "status": "In Development",
       "effort": 0,
       "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4480",
+      "parent": "MVS-3850",
+      "parentName": "פוליסת יצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4479",
+      "parent": "MVS-3850",
+      "parentName": "פוליסת יצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-4478",
+      "parent": "MVS-3850",
+      "parentName": "פוליסת יצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4477",
+      "parent": "MVS-3850",
+      "parentName": "פוליסת יצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4476",
+      "parent": "MVS-3850",
+      "parentName": "פוליסת יצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 12,
+      "remaining": 12,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4475",
+      "parent": "MVS-3850",
+      "parentName": "פוליסת יצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4474",
+      "parent": "MVS-3850",
+      "parentName": "פוליסת יצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 12,
+      "remaining": 12,
       "assignee": null
     },
     {
@@ -563,6 +753,16 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-3618",
+      "parent": "MVS-606",
+      "parentName": "גביה",
+      "priority": "3 - Medium",
+      "status": "Pause",
+      "effort": 2.48,
+      "remaining": 0.23,
+      "assignee": "Inna Miller Sherman"
+    },
+    {
       "key": "MVS-3596",
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
@@ -571,6 +771,16 @@
       "effort": 5.52,
       "remaining": 1.02,
       "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-3497",
+      "parent": "MVS-1100",
+      "parentName": "ניהול פוליסות",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Dana Ditlzwig"
     },
     {
       "key": "MVS-3278",
@@ -591,6 +801,76 @@
       "effort": 6,
       "remaining": 5.25,
       "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-2754",
+      "parent": "MVS-2662",
+      "parentName": "ניהול ריבוי כתובות מייל ליצרנים ולמעסיקים",
+      "priority": "3 - Medium",
+      "status": "Pause",
+      "effort": 1.52,
+      "remaining": 1.27,
+      "assignee": "Natan Dolev"
+    },
+    {
+      "key": "MVS-2748",
+      "parent": "MVS-1687",
+      "parentName": "מידור ישויות ומעסיקים",
+      "priority": "2 - High",
+      "status": "Pause",
+      "effort": 2.48,
+      "remaining": 1.98,
+      "assignee": "Natan Dolev"
+    },
+    {
+      "key": "MVS-2373",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "2 - High",
+      "status": "Pause",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": "Dana Ditlzwig"
+    },
+    {
+      "key": "MVS-1899",
+      "parent": "MVS-1100",
+      "parentName": "ניהול פוליסות",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Dana Ditlzwig"
+    },
+    {
+      "key": "MVS-1734",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "Pause",
+      "effort": 6,
+      "remaining": 6,
+      "assignee": "Dana Ditlzwig"
+    },
+    {
+      "key": "MVS-1676",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "Pause",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Dana Ditlzwig"
+    },
+    {
+      "key": "MVS-1535",
+      "parent": "MVS-1100",
+      "parentName": "ניהול פוליסות",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Dana Ditlzwig"
     }
   ]
 }
