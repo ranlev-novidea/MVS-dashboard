@@ -1,9 +1,49 @@
 {
-  "lastUpdated": "2026-11-08T04:35:33.980Z",
-  "totalTickets": 54,
+  "lastUpdated": "2026-11-08T11:42:03.704Z",
+  "totalTickets": 59,
   "tickets": [
     {
-      "key": "MVS-4567",
+      "key": "MVS-4594",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4592",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4590",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4584",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4582",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "1 - Critical",
@@ -13,7 +53,17 @@
       "assignee": null
     },
     {
-      "key": "MVS-4565",
+      "key": "MVS-4578",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4575",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "1 - Critical",
@@ -21,6 +71,56 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
+    },
+    {
+      "key": "MVS-4572",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4571",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4568",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Simona Shifrin"
+    },
+    {
+      "key": "MVS-4567",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Idan Abutbul"
+    },
+    {
+      "key": "MVS-4565",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4564",
@@ -31,36 +131,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4560",
-      "parent": "MVS-3003",
-      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Simona Shifrin"
-    },
-    {
-      "key": "MVS-4558",
-      "parent": "MVS-3003",
-      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Simona Shifrin"
-    },
-    {
-      "key": "MVS-4556",
-      "parent": "MVS-3003",
-      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Simona Shifrin"
     },
     {
       "key": "MVS-4544",
@@ -93,14 +163,14 @@
       "assignee": null
     },
     {
-      "key": "MVS-4530",
+      "key": "MVS-4531",
       "parent": "MVS-4344",
       "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
       "priority": "3 - Medium",
-      "status": "In Development",
+      "status": "Failed QA",
       "effort": 12,
-      "remaining": 2.87,
-      "assignee": "Jonathan Ashkenazy"
+      "remaining": 8,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4519",
@@ -111,16 +181,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4518",
-      "parent": "MVS-4344",
-      "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
-      "priority": "3 - Medium",
-      "status": "Failed QA",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4512",
@@ -161,16 +221,6 @@
       "effort": 6,
       "remaining": 6,
       "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-4431",
-      "parent": "MVS-50",
-      "parentName": "תשתית",
-      "priority": "1 - Critical",
-      "status": "Pause",
-      "effort": 1.52,
-      "remaining": 1.02,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4418",
