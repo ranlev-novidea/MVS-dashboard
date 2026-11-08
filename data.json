@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-08T17:37:58.495Z",
-  "totalTickets": 87,
+  "lastUpdated": "2026-11-08T21:41:55.619Z",
+  "totalTickets": 86,
   "tickets": [
     {
       "key": "MVS-4603",
@@ -223,23 +223,13 @@
       "assignee": "Simona Shifrin"
     },
     {
-      "key": "MVS-4567",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-4565",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "1 - Critical",
       "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
+      "effort": 6,
+      "remaining": 2,
       "assignee": "Idan Abutbul"
     },
     {
