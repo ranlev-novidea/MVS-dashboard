@@ -1,9 +1,19 @@
 {
-  "lastUpdated": "2026-11-09T09:09:17.021Z",
-  "totalTickets": 92,
+  "lastUpdated": "2026-11-09T20:25:30.289Z",
+  "totalTickets": 89,
   "tickets": [
     {
-      "key": "MVS-4609",
+      "key": "MVS-4623",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4622",
       "parent": "MVS-3003",
       "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
       "priority": "3 - Medium",
@@ -13,7 +23,17 @@
       "assignee": null
     },
     {
-      "key": "MVS-4607",
+      "key": "MVS-4620",
+      "parent": "MVS-3250",
+      "parentName": "קשרי העסקה",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4619",
       "parent": null,
       "parentName": null,
       "priority": "3 - Medium",
@@ -37,10 +57,10 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4603",
@@ -91,26 +111,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4588",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "1 - Critical",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-4587",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 4.96,
-      "remaining": 4.96,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4586",
@@ -263,26 +263,6 @@
       "assignee": "Simona Shifrin"
     },
     {
-      "key": "MVS-4567",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4565",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 2,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-4564",
       "parent": "MVS-50",
       "parentName": "תשתית",
@@ -303,16 +283,6 @@
       "assignee": null
     },
     {
-      "key": "MVS-4543",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
       "key": "MVS-4538",
       "parent": "MVS-1100",
       "parentName": "ניהול פוליסות",
@@ -331,16 +301,6 @@
       "effort": 12,
       "remaining": 8,
       "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4530",
-      "parent": "MVS-4344",
-      "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
-      "priority": "3 - Medium",
-      "status": "Failed QA",
-      "effort": 12,
-      "remaining": 12,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4519",
@@ -370,7 +330,7 @@
       "status": "Queue",
       "effort": 4.96,
       "remaining": 4.96,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4479",
@@ -417,20 +377,20 @@
       "parent": "MVS-3850",
       "parentName": "פוליסת יצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.96,
-      "remaining": 4.96,
-      "assignee": null
+      "remaining": 1.71,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4474",
       "parent": "MVS-3850",
       "parentName": "פוליסת יצרן",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 12,
-      "remaining": 12,
-      "assignee": null
+      "remaining": 6.47,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4472",
@@ -538,6 +498,16 @@
       "parentName": "ממשק תוצרים",
       "priority": "3 - Medium",
       "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Shira Sapir Halili"
+    },
+    {
+      "key": "MVS-4344",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
       "effort": 0,
       "remaining": 0,
       "assignee": "Shira Sapir Halili"
