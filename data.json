@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-11-09T01:26:08.796Z",
-  "totalTickets": 86,
+  "lastUpdated": "2026-11-09T09:09:17.021Z",
+  "totalTickets": 92,
   "tickets": [
+    {
+      "key": "MVS-4609",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4607",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4606",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4605",
+      "parent": "MVS-110",
+      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4603",
       "parent": "MVS-135",
@@ -60,17 +100,17 @@
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4587",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "1 - Critical",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4586",
@@ -223,6 +263,16 @@
       "assignee": "Simona Shifrin"
     },
     {
+      "key": "MVS-4567",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Idan Abutbul"
+    },
+    {
       "key": "MVS-4565",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
@@ -257,7 +307,7 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "1 - Critical",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
       "assignee": "Shira Sapir Halili"
@@ -281,6 +331,16 @@
       "effort": 12,
       "remaining": 8,
       "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4530",
+      "parent": "MVS-4344",
+      "parentName": "השפעות השינוי - כיבוי תהליכים, עדכון לייבלים - רוחבי",
+      "priority": "3 - Medium",
+      "status": "Failed QA",
+      "effort": 12,
+      "remaining": 12,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4519",
