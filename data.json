@@ -1,16 +1,36 @@
 {
-  "lastUpdated": "2026-11-11T08:51:56.375Z",
-  "totalTickets": 79,
+  "lastUpdated": "2026-11-11T16:53:27.458Z",
+  "totalTickets": 75,
   "tickets": [
     {
-      "key": "MVS-4646",
-      "parent": "MVS-3850",
-      "parentName": "פוליסת יצרן",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "key": "MVS-4655",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Pause",
+      "effort": 2.48,
+      "remaining": 1.73,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4654",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "Pause",
+      "effort": 2.48,
+      "remaining": 1.73,
+      "assignee": "Ariel Ozer"
+    },
+    {
+      "key": "MVS-4653",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "Pause",
+      "effort": 2.48,
+      "remaining": 1.73,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4644",
@@ -21,16 +41,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4641",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 0.98,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4640",
@@ -91,26 +101,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4603",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "Pause",
-      "effort": 2,
-      "remaining": 1.5,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4590",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 4,
-      "remaining": 2.75,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4589",
@@ -207,17 +197,7 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "4 - Low",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4569",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
+      "status": "Pause",
       "effort": 2.48,
       "remaining": 2.48,
       "assignee": "Idan Abutbul"
@@ -257,10 +237,10 @@
       "parent": "MVSS-396",
       "parentName": "Triage - UAT , Testing , Producsia Etc'",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 3.04,
+      "remaining": 1.54,
+      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4512",
@@ -281,26 +261,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Inna Miller Sherman"
-    },
-    {
-      "key": "MVS-4476",
-      "parent": "MVS-3850",
-      "parentName": "פוליסת יצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 12,
-      "remaining": 9.83,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
-      "key": "MVS-4474",
-      "parent": "MVS-3850",
-      "parentName": "פוליסת יצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 12,
-      "remaining": 3.47,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4472",
