@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T20:13:47.540Z",
+  "lastUpdated": "2026-11-11T01:00:40.475Z",
   "totalTickets": 78,
   "tickets": [
     {
@@ -19,7 +19,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 2.48,
-      "remaining": 2.48,
+      "remaining": 1.48,
       "assignee": "Ariel Ozer"
     },
     {
@@ -109,7 +109,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 4,
-      "remaining": 4,
+      "remaining": 2.75,
       "assignee": "Ariel Ozer"
     },
     {
