@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-11T01:00:40.475Z",
-  "totalTickets": 78,
+  "lastUpdated": "2026-11-11T08:51:56.375Z",
+  "totalTickets": 79,
   "tickets": [
+    {
+      "key": "MVS-4646",
+      "parent": "MVS-3850",
+      "parentName": "פוליסת יצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4644",
       "parent": "MVS-50",
@@ -19,7 +29,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 2.48,
-      "remaining": 1.48,
+      "remaining": 0.98,
       "assignee": "Ariel Ozer"
     },
     {
@@ -37,10 +47,10 @@
       "parent": "MVS-3850",
       "parentName": "פוליסת יצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4623",
@@ -56,16 +66,6 @@
       "key": "MVS-4620",
       "parent": "MVS-3250",
       "parentName": "קשרי העסקה",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4619",
-      "parent": null,
-      "parentName": null,
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
@@ -97,10 +97,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Yehudit Kahaner"
+      "status": "Pause",
+      "effort": 2,
+      "remaining": 1.5,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4590",
@@ -217,10 +217,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "status": "In Development",
+      "effort": 2.48,
+      "remaining": 2.48,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4568",
@@ -290,6 +290,16 @@
       "status": "In Development",
       "effort": 12,
       "remaining": 9.83,
+      "assignee": "Jonathan Ashkenazy"
+    },
+    {
+      "key": "MVS-4474",
+      "parent": "MVS-3850",
+      "parentName": "פוליסת יצרן",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 12,
+      "remaining": 3.47,
       "assignee": "Jonathan Ashkenazy"
     },
     {
