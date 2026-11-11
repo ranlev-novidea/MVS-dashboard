@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T16:53:27.458Z",
+  "lastUpdated": "2026-11-11T23:17:58.390Z",
   "totalTickets": 75,
   "tickets": [
     {
@@ -187,10 +187,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4570",
@@ -199,7 +199,7 @@
       "priority": "4 - Low",
       "status": "Pause",
       "effort": 2.48,
-      "remaining": 2.48,
+      "remaining": 0.48,
       "assignee": "Idan Abutbul"
     },
     {
