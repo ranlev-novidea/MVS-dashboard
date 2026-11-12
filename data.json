@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-11T23:17:58.390Z",
-  "totalTickets": 75,
+  "lastUpdated": "2026-11-12T05:51:15.549Z",
+  "totalTickets": 77,
   "tickets": [
+    {
+      "key": "MVS-4659",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4655",
       "parent": "MVS-135",
@@ -46,6 +56,16 @@
       "key": "MVS-4640",
       "parent": "MVS-3850",
       "parentName": "פוליסת יצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4634",
+      "parent": "MVS-3310",
+      "parentName": "ביטול ניוד משימור",
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
@@ -188,8 +208,8 @@
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
       "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
+      "effort": 3.04,
+      "remaining": 2.04,
       "assignee": "Idan Abutbul"
     },
     {
