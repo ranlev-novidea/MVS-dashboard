@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-11-12T14:40:00.490Z",
+  "lastUpdated": "2026-11-12T21:43:46.091Z",
   "totalTickets": 81,
   "tickets": [
+    {
+      "key": "MVS-4691",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4690",
+      "parent": null,
+      "parentName": null,
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4681",
       "parent": null,
@@ -17,7 +37,7 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "2 - High",
-      "status": "In Development",
+      "status": "Failed QA",
       "effort": 2.48,
       "remaining": 2.48,
       "assignee": "Ariel Ozer"
@@ -33,16 +53,6 @@
       "assignee": "Jonathan Ashkenazy"
     },
     {
-      "key": "MVS-4677",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 0.96,
-      "remaining": 0.96,
-      "assignee": "Jonathan Ashkenazy"
-    },
-    {
       "key": "MVS-4676",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
@@ -51,26 +61,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4675",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Ariel Ozer"
-    },
-    {
-      "key": "MVS-4674",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Ariel Ozer"
     },
     {
       "key": "MVS-4673",
@@ -351,6 +341,16 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Inna Miller Sherman"
+    },
+    {
+      "key": "MVS-4472",
+      "parent": "MVS-1565",
+      "parentName": "פגישות UI עם מבטח",
+      "priority": "4 - Low",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-4445",
