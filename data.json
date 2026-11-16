@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-11-16T13:22:10.814Z",
-  "totalTickets": 75,
+  "lastUpdated": "2026-11-16T23:12:13.354Z",
+  "totalTickets": 74,
   "tickets": [
+    {
+      "key": "MVS-4739",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Yehudit Kahaner"
+    },
+    {
+      "key": "MVS-4736",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4729",
       "parent": "MVS-135",
@@ -51,16 +71,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4716",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 7.04,
-      "remaining": 7.04,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4715",
@@ -177,7 +187,7 @@
       "parent": "MVS-3850",
       "parentName": "פוליסת יצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "Pause",
       "effort": 0,
       "remaining": 0,
       "assignee": "Alon Segal"
@@ -267,20 +277,10 @@
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4570",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "4 - Low",
-      "status": "Pause",
-      "effort": 2.48,
-      "remaining": 0.48,
-      "assignee": "Idan Abutbul"
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4568",
@@ -471,16 +471,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Liat Gershgoren"
-    },
-    {
-      "key": "MVS-4304",
-      "parent": "MVS-1458",
-      "parentName": "הסבות",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4259",
