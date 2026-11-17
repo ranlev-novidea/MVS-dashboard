@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-17T16:41:17.407Z",
-  "totalTickets": 73,
+  "lastUpdated": "2026-11-17T23:44:08.205Z",
+  "totalTickets": 72,
   "tickets": [
     {
       "key": "MVS-4748",
@@ -391,16 +391,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4387",
-      "parent": "MVS-1500",
-      "parentName": "בקרת גביה/פרמיה ראשונה",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 6,
-      "remaining": 6,
-      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4377",
