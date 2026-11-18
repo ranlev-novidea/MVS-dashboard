@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-18T15:30:12.459Z",
-  "totalTickets": 67,
+  "lastUpdated": "2026-11-18T22:51:03.722Z",
+  "totalTickets": 68,
   "tickets": [
+    {
+      "key": "MVS-4768",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4763",
       "parent": null,
