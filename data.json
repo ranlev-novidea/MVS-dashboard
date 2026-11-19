@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-19T03:58:31.706Z",
-  "totalTickets": 68,
+  "lastUpdated": "2026-11-19T12:46:32.840Z",
+  "totalTickets": 69,
   "tickets": [
     {
-      "key": "MVS-4768",
-      "parent": null,
-      "parentName": null,
+      "key": "MVS-4779",
+      "parent": "MVS-1500",
+      "parentName": "בקרת גביה/פרמיה ראשונה",
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
@@ -13,10 +13,30 @@
       "assignee": null
     },
     {
-      "key": "MVS-4763",
-      "parent": null,
-      "parentName": null,
-      "priority": "1 - Critical",
+      "key": "MVS-4776",
+      "parent": "MVS-4631",
+      "parentName": "מיזמים",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4774",
+      "parent": "MVS-1500",
+      "parentName": "בקרת גביה/פרמיה ראשונה",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Simona Shifrin"
+    },
+    {
+      "key": "MVS-4770",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -111,16 +131,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4655",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 2.48,
-      "remaining": 1.73,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4654",
