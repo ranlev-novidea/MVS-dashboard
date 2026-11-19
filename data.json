@@ -1,7 +1,57 @@
 {
-  "lastUpdated": "2026-11-19T12:46:32.840Z",
-  "totalTickets": 69,
+  "lastUpdated": "2026-11-19T21:11:31.646Z",
+  "totalTickets": 74,
   "tickets": [
+    {
+      "key": "MVS-4784",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4783",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4782",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4781",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4780",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4779",
       "parent": "MVS-1500",
@@ -149,7 +199,7 @@
       "priority": "1 - Critical",
       "status": "Pause",
       "effort": 2.48,
-      "remaining": 1.73,
+      "remaining": 1.06,
       "assignee": "Inna Miller Sherman"
     },
     {
