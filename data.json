@@ -1,46 +1,36 @@
 {
-  "lastUpdated": "2026-11-22T02:49:35.117Z",
-  "totalTickets": 74,
+  "lastUpdated": "2026-11-22T10:44:30.170Z",
+  "totalTickets": 79,
   "tickets": [
     {
-      "key": "MVS-4784",
-      "parent": null,
-      "parentName": null,
-      "priority": "3 - Medium",
+      "key": "MVS-4789",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "1 - Critical",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
       "assignee": null
+    },
+    {
+      "key": "MVS-4784",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4783",
-      "parent": null,
-      "parentName": null,
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4782",
-      "parent": null,
-      "parentName": null,
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4781",
-      "parent": null,
-      "parentName": null,
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "2 - High",
+      "status": "In Development",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-4780",
@@ -131,16 +121,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Yehudit Kahaner"
-    },
-    {
-      "key": "MVS-4729",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4725",
@@ -273,24 +253,14 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-4606",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
       "key": "MVS-4589",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": null
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4581",
@@ -301,16 +271,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4574",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4568",
@@ -476,7 +436,7 @@
       "key": "MVS-4306",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
+      "priority": "3 - Medium",
       "status": "Pause",
       "effort": 6,
       "remaining": 2,
@@ -603,6 +563,16 @@
       "assignee": "Shira Sapir Halili"
     },
     {
+      "key": "MVS-3876",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": null
+    },
+    {
       "key": "MVS-3837",
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
@@ -611,6 +581,86 @@
       "effort": 16,
       "remaining": 6,
       "assignee": "Dana Ditlzwig"
+    },
+    {
+      "key": "MVS-3758",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0.96,
+      "remaining": 0.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3746",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 3.04,
+      "remaining": 3.04,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3735",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 5.52,
+      "remaining": 5.52,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3722",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0.96,
+      "remaining": 0.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3716",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0.96,
+      "remaining": 0.96,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3715",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 6,
+      "remaining": 6,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3711",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 8,
+      "remaining": 8,
+      "assignee": null
+    },
+    {
+      "key": "MVS-3710",
+      "parent": "MVS-3003",
+      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
     },
     {
       "key": "MVS-3704",
