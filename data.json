@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T18:13:53.987Z",
+  "lastUpdated": "2026-11-22T23:59:41.885Z",
   "totalTickets": 74,
   "tickets": [
     {
@@ -44,8 +44,8 @@
     },
     {
       "key": "MVS-4780",
-      "parent": null,
-      "parentName": null,
+      "parent": "MVS-1500",
+      "parentName": "בקרת גביה/פרמיה ראשונה",
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
