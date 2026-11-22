@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-22T10:44:30.170Z",
-  "totalTickets": 79,
+  "lastUpdated": "2026-11-22T18:13:53.987Z",
+  "totalTickets": 74,
   "tickets": [
     {
-      "key": "MVS-4789",
+      "key": "MVS-4803",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "1 - Critical",
@@ -13,24 +13,34 @@
       "assignee": null
     },
     {
-      "key": "MVS-4784",
+      "key": "MVS-4800",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4797",
       "parent": "MVS-2990",
       "parentName": "החזרת צעד מסוכן - אפיון חדש",
       "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Inna Miller Sherman"
+    },
+    {
+      "key": "MVS-4789",
+      "parent": "MVS-2990",
+      "parentName": "החזרת צעד מסוכן - אפיון חדש",
+      "priority": "1 - Critical",
       "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Idan Abutbul"
-    },
-    {
-      "key": "MVS-4783",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "2 - High",
-      "status": "In Development",
-      "effort": 3.04,
-      "remaining": 3.04,
-      "assignee": "Jonathan Ashkenazy"
+      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4780",
@@ -183,16 +193,6 @@
       "assignee": "Inna Miller Sherman"
     },
     {
-      "key": "MVS-4651",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "2 - High",
-      "status": "Failed QA",
-      "effort": 4,
-      "remaining": 2,
-      "assignee": "Idan Abutbul"
-    },
-    {
       "key": "MVS-4644",
       "parent": "MVS-50",
       "parentName": "תשתית",
@@ -253,26 +253,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-4589",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
-      "key": "MVS-4581",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
       "key": "MVS-4568",
       "parent": "MVS-135",
       "parentName": "טכני טיפול בריג'קט מיצרן",
@@ -297,20 +277,10 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Yehudit Kahaner"
-    },
-    {
-      "key": "MVS-4482",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Yehudit Kahaner"
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4479",
@@ -467,10 +437,10 @@
       "parent": "MVS-1358",
       "parentName": "פנסיה ותיקה - תהליך קבלת בעלות+מעקב לקבלת מענה למייל יוצא",
       "priority": "3 - Medium",
-      "status": "Queue",
+      "status": "Pause",
       "effort": 0,
       "remaining": 0,
-      "assignee": "Haim Hatuka"
+      "assignee": "Moran Mochly Raz"
     },
     {
       "key": "MVS-4221",
@@ -543,16 +513,6 @@
       "assignee": "Natan Dolev"
     },
     {
-      "key": "MVS-4094",
-      "parent": "MVS-757",
-      "parentName": "IFN - תיוק קבצים",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Haim Hatuka"
-    },
-    {
       "key": "MVS-3975",
       "parent": "MVS-50",
       "parentName": "תשתית",
@@ -571,16 +531,6 @@
       "effort": 8,
       "remaining": 8,
       "assignee": null
-    },
-    {
-      "key": "MVS-3837",
-      "parent": "MVS-110",
-      "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
-      "priority": "2 - High",
-      "status": "Pause",
-      "effort": 16,
-      "remaining": 6,
-      "assignee": "Dana Ditlzwig"
     },
     {
       "key": "MVS-3758",
