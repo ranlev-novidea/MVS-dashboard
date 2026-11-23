@@ -1,22 +1,12 @@
 {
-  "lastUpdated": "2026-11-23T07:19:45.560Z",
-  "totalTickets": 74,
+  "lastUpdated": "2026-11-23T19:51:39.531Z",
+  "totalTickets": 68,
   "tickets": [
     {
-      "key": "MVS-4803",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "1 - Critical",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4800",
-      "parent": "MVS-135",
-      "parentName": "טכני טיפול בריג'קט מיצרן",
-      "priority": "1 - Critical",
+      "key": "MVS-4810",
+      "parent": "MVS-2053",
+      "parentName": "ניהול מיילים",
+      "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -31,16 +21,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Inna Miller Sherman"
-    },
-    {
-      "key": "MVS-4789",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Shira Sapir Halili"
     },
     {
       "key": "MVS-4780",
@@ -81,16 +61,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Simona Shifrin"
-    },
-    {
-      "key": "MVS-4770",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
     },
     {
       "key": "MVS-4748",
@@ -297,7 +267,7 @@
       "parent": "MVS-1565",
       "parentName": "פגישות UI עם מבטח",
       "priority": "4 - Low",
-      "status": "Pause",
+      "status": "In Development",
       "effort": 0,
       "remaining": 0,
       "assignee": "Haim Hatuka"
@@ -383,16 +353,6 @@
       "assignee": "Shira Sapir Halili"
     },
     {
-      "key": "MVS-4344",
-      "parent": "MVS-3003",
-      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
-      "priority": "3 - Medium",
-      "status": "Failed QA",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Shira Sapir Halili"
-    },
-    {
       "key": "MVS-4332",
       "parent": "MVS-4425",
       "parentName": "דמו- תביעות",
@@ -431,16 +391,6 @@
       "effort": 1.52,
       "remaining": 1.52,
       "assignee": null
-    },
-    {
-      "key": "MVS-4222",
-      "parent": "MVS-1358",
-      "parentName": "פנסיה ותיקה - תהליך קבלת בעלות+מעקב לקבלת מענה למייל יוצא",
-      "priority": "3 - Medium",
-      "status": "Pause",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Moran Mochly Raz"
     },
     {
       "key": "MVS-4221",
@@ -513,6 +463,16 @@
       "assignee": "Natan Dolev"
     },
     {
+      "key": "MVS-4094",
+      "parent": "MVS-757",
+      "parentName": "IFN - תיוק קבצים",
+      "priority": "3 - Medium",
+      "status": "In Development",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Haim Hatuka"
+    },
+    {
       "key": "MVS-3975",
       "parent": "MVS-50",
       "parentName": "תשתית",
@@ -530,26 +490,6 @@
       "status": "Queue",
       "effort": 8,
       "remaining": 8,
-      "assignee": null
-    },
-    {
-      "key": "MVS-3758",
-      "parent": "MVS-3003",
-      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0.96,
-      "remaining": 0.96,
-      "assignee": null
-    },
-    {
-      "key": "MVS-3746",
-      "parent": "MVS-3003",
-      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 3.04,
-      "remaining": 3.04,
       "assignee": null
     },
     {
@@ -607,10 +547,10 @@
       "parent": "MVS-3003",
       "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 4.96,
-      "remaining": 4.96,
-      "assignee": null
+      "remaining": 3.53,
+      "assignee": "Jonathan Ashkenazy"
     },
     {
       "key": "MVS-3704",
