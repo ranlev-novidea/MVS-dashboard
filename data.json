@@ -1,7 +1,67 @@
 {
-  "lastUpdated": "2026-11-24T04:37:24.987Z",
-  "totalTickets": 68,
+  "lastUpdated": "2026-11-24T15:32:08.447Z",
+  "totalTickets": 71,
   "tickets": [
+    {
+      "key": "MVS-4830",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": "Inna Miller Sherman"
+    },
+    {
+      "key": "MVS-4825",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4824",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4818",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4815",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4814",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4810",
       "parent": "MVS-2053",
@@ -21,36 +81,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Inna Miller Sherman"
-    },
-    {
-      "key": "MVS-4780",
-      "parent": "MVS-1500",
-      "parentName": "בקרת גביה/פרמיה ראשונה",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4779",
-      "parent": "MVS-1500",
-      "parentName": "בקרת גביה/פרמיה ראשונה",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
-    },
-    {
-      "key": "MVS-4776",
-      "parent": "MVS-4631",
-      "parentName": "מיזמים",
-      "priority": "3 - Medium",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": null
     },
     {
       "key": "MVS-4774",
@@ -137,6 +167,16 @@
       "parent": "MVS-1718",
       "parentName": "מסע משתמש",
       "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4659",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
       "remaining": 0,
@@ -247,9 +287,9 @@
       "parent": "MVS-110",
       "parentName": " הקמת תהליך תפעול הצעה פיננסית ופנסיונית",
       "priority": "2 - High",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
+      "status": "Pause",
+      "effort": 4.96,
+      "remaining": 4.96,
       "assignee": "Idan Abutbul"
     },
     {
@@ -261,16 +301,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": "Inna Miller Sherman"
-    },
-    {
-      "key": "MVS-4472",
-      "parent": "MVS-1565",
-      "parentName": "פגישות UI עם מבטח",
-      "priority": "4 - Low",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Haim Hatuka"
     },
     {
       "key": "MVS-4445",
@@ -490,17 +520,7 @@
       "status": "Queue",
       "effort": 8,
       "remaining": 8,
-      "assignee": null
-    },
-    {
-      "key": "MVS-3735",
-      "parent": "MVS-3003",
-      "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 5.52,
-      "remaining": 5.52,
-      "assignee": null
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3722",
@@ -537,10 +557,10 @@
       "parent": "MVS-3003",
       "parentName": "טיפול בממשק תוצרים: עד פוליסה מאושרת במערכת ",
       "priority": "2 - High",
-      "status": "Queue",
+      "status": "In Development",
       "effort": 8,
-      "remaining": 8,
-      "assignee": null
+      "remaining": 6.75,
+      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-3710",
@@ -601,6 +621,16 @@
       "effort": 2.48,
       "remaining": 2.48,
       "assignee": "Dana Ditlzwig"
+    },
+    {
+      "key": "MVS-3278",
+      "parent": "MVS-50",
+      "parentName": "תשתית",
+      "priority": "4 - Low",
+      "status": "Queue",
+      "effort": 4.96,
+      "remaining": 4.96,
+      "assignee": null
     },
     {
       "key": "MVS-2875",
