@@ -1,7 +1,37 @@
 {
-  "lastUpdated": "2026-11-25T09:33:31.902Z",
-  "totalTickets": 76,
+  "lastUpdated": "2026-11-25T19:46:09.901Z",
+  "totalTickets": 78,
   "tickets": [
+    {
+      "key": "MVS-4839",
+      "parent": "MVS-135",
+      "parentName": "טכני טיפול בריג'קט מיצרן",
+      "priority": "2 - High",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4838",
+      "parent": null,
+      "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4837",
+      "parent": null,
+      "parentName": null,
+      "priority": "1 - Critical",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
     {
       "key": "MVS-4836",
       "parent": "MVS-135",
@@ -16,6 +46,16 @@
       "key": "MVS-4835",
       "parent": null,
       "parentName": null,
+      "priority": "3 - Medium",
+      "status": "Queue",
+      "effort": 0,
+      "remaining": 0,
+      "assignee": null
+    },
+    {
+      "key": "MVS-4833",
+      "parent": "MVS-1500",
+      "parentName": "בקרת גביה/פרמיה ראשונה",
       "priority": "3 - Medium",
       "status": "Queue",
       "effort": 0,
@@ -41,26 +81,6 @@
       "effort": 0,
       "remaining": 0,
       "assignee": null
-    },
-    {
-      "key": "MVS-4828",
-      "parent": "MVS-1500",
-      "parentName": "בקרת גביה/פרמיה ראשונה",
-      "priority": "2 - High",
-      "status": "Queue",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Yehudit Kahaner"
-    },
-    {
-      "key": "MVS-4827",
-      "parent": "MVS-2990",
-      "parentName": "החזרת צעד מסוכן - אפיון חדש",
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Idan Abutbul"
     },
     {
       "key": "MVS-4825",
