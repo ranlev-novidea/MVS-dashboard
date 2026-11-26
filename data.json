@@ -1,27 +1,7 @@
 {
-  "lastUpdated": "2026-11-26T11:55:06.373Z",
-  "totalTickets": 79,
+  "lastUpdated": "2026-11-26T20:57:21.819Z",
+  "totalTickets": 77,
   "tickets": [
-    {
-      "key": "MVS-4844",
-      "parent": null,
-      "parentName": null,
-      "priority": "1 - Critical",
-      "status": "In Development",
-      "effort": 0.96,
-      "remaining": 0.96,
-      "assignee": "Yehudit Kahaner"
-    },
-    {
-      "key": "MVS-4843",
-      "parent": "MVS-1500",
-      "parentName": "בקרת גביה/פרמיה ראשונה",
-      "priority": "3 - Medium",
-      "status": "In Development",
-      "effort": 0,
-      "remaining": 0,
-      "assignee": "Yehudit Kahaner"
-    },
     {
       "key": "MVS-4839",
       "parent": "MVS-135",
@@ -649,7 +629,7 @@
       "priority": "2 - High",
       "status": "In Development",
       "effort": 4.96,
-      "remaining": 2.28,
+      "remaining": 1.03,
       "assignee": "Idan Abutbul"
     },
     {
