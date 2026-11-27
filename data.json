@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T13:30:08.684Z",
+  "lastUpdated": "2026-11-27T22:29:37.406Z",
   "totalTickets": 77,
   "tickets": [
     {
@@ -704,8 +704,8 @@
     },
     {
       "key": "MVS-2754",
-      "parent": "MVS-2662",
-      "parentName": "ניהול ריבוי כתובות מייל ליצרנים ולמעסיקים",
+      "parent": "MVS-4851",
+      "parentName": "Custom Email Service (NCES) Implementation",
       "priority": "3 - Medium",
       "status": "Pause",
       "effort": 1.52,
